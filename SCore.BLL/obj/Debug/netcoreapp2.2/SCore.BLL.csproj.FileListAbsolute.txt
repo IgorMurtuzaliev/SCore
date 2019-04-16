@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\SCore\SCore.BLL\bin\Debug\netcoreapp2.2\SCore.BLL.deps.json
+C:\Users\User\source\repos\SCore\SCore.BLL\bin\Debug\netcoreapp2.2\SCore.BLL.dll
+C:\Users\User\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.AssemblyInfo.cs
+C:\Users\User\source\repos\SCore\SCore.BLL\bin\Debug\netcoreapp2.2\SCore.BLL.pdb
+C:\Users\User\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.dll
+C:\Users\User\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.pdb

@@ -21,12 +21,12 @@ namespace SCore.WEB.Controllers
         }
         public ActionResult Index()
         {
-            return View(orderService.);
+            return View(productService.GetAll());
         }
 
         public ActionResult Details(int id)
         {
-            Product product = _repo.Get(id);
+            Product product = productService.Get(id);
             if (product == null)
             {
                 return NotFound();
@@ -71,7 +71,7 @@ namespace SCore.WEB.Controllers
        // [Authorize(Roles = "Admin")]
         public ActionResult Delete(int id)
         {
-            Product product = _repo.Get(id);
+            Product product = productService.Get(id);
             return View(product);
         }
 
@@ -80,7 +80,7 @@ namespace SCore.WEB.Controllers
         //[ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            _repo.Delete(id);
+            productService.Delete(id);
             return RedirectToAction("Index");
         }
     }

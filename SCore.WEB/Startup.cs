@@ -13,6 +13,9 @@ using Microsoft.Extensions.DependencyInjection;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Services;
 using SCore.DAL.EF;
+using SCore.DAL.Interfaces;
+using SCore.DAL.Repositories;
+using SCore.Models;
 
 namespace SCore.WEB
 {
@@ -38,7 +41,9 @@ namespace SCore.WEB
             // добавляем контекст MobileContext в качестве сервиса в приложение
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connection));
-            services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IUnitOfWork, EFUnitOfWork>();
+            services.AddTransient<IRepository<Product>, ProductRepository >();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

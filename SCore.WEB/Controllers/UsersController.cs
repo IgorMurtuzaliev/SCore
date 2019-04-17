@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using SCore.BLL.Interfaces;
 using SCore.DAL.EF;
 using SCore.DAL.Repositories;
 using SCore.Models;
@@ -12,15 +13,20 @@ namespace SCore.WEB.Controllers
 {
     public class UsersController : Controller
     {
-        private UserRepository _repo;
+        private readonly IUserService userService;
+        public UsersController(IUserService _userService)
+        {
+            userService = _userService;
+
+        }
         public ActionResult Index()
         {
-            return View(_repo.GetAll());
+            return View(userService.GetAll());
         }
 
         public ActionResult Details(string id)
         {
-            User user = _repo.Get(id);
+            User user = userService.Get(id);
             return View(user);
         }
 
@@ -30,12 +36,12 @@ namespace SCore.WEB.Controllers
         }
 
         [HttpPost]
-        // [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(User user)
         {
             if (ModelState.IsValid)
             {
-                _repo.Create(user);
+                userService.Create(user);
                 return RedirectToAction("Index");
             }
 
@@ -44,7 +50,7 @@ namespace SCore.WEB.Controllers
 
         public ActionResult Edit(string id)
         {
-            User user = _repo.Get(id);
+            User user = userService.Get(id);
             if (user == null)
             {
                 return NotFound();
@@ -58,7 +64,7 @@ namespace SCore.WEB.Controllers
         {
             if (ModelState.IsValid)
             {
-                _repo.Edit(user);
+                userService.Edit(user);
                 return RedirectToAction("Index");
             }
             return View(user);
@@ -66,7 +72,7 @@ namespace SCore.WEB.Controllers
 
         public ActionResult Delete(string id)
         {
-            User user = _repo.Get(id);
+            User user = userService.Get(id);
             if (user == null)
             {
                 return NotFound();
@@ -78,18 +84,13 @@ namespace SCore.WEB.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-
-            _repo.Delete(id);
+            userService.Delete(id);
             return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
+            userService.Dispose(disposing);
         }
     }
 }

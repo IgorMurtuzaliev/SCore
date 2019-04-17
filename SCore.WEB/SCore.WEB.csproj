@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SCore.BLL\SCore.BLL.csproj" />
-    <ProjectReference Include="..\SCore.DAL\SCore.DAL.csproj" />
     <ProjectReference Include="..\SCore.Models\SCore.Models.csproj" />
   </ItemGroup>
 

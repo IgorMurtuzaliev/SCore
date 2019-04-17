@@ -28,6 +28,11 @@ namespace SCore.DAL.Repositories
                 db.Users.Remove(user);
         }
 
+        public void Delete(string id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Edit(User item)
         {
             db.Entry(item).State = EntityState.Modified;
@@ -50,7 +55,11 @@ namespace SCore.DAL.Repositories
 
         public IEnumerable<User> GetAll()
         {
-            return db.Users;
+            return db.Users.ToList();
+        }
+        public void Save()
+        {
+            db.SaveChanges();
         }
     }
 }

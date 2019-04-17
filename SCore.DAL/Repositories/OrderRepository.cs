@@ -28,6 +28,11 @@ namespace SCore.DAL.Repositories
                 db.Orders.Remove(order);
         }
 
+        public void Delete(string id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Edit(Order item)
         {
             db.Entry(item).State = EntityState.Modified;
@@ -43,9 +48,19 @@ namespace SCore.DAL.Repositories
             return db.Orders.Find(id);
         }
 
+        public Order Get(string id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Order> GetAll()
         {
-            return db.Orders;
+            return db.Orders.ToList();
+        }
+
+        public void Save()
+        {
+            db.SaveChanges();
         }
     }
 }

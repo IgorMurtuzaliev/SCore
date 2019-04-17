@@ -11,5 +11,6 @@ namespace SCore.DAL.Interfaces
         IRepository<Product> Products { get; }
         IRepository<Order> Orders { get; }
         void Save();
+        void Dispose(bool disposing);
     }
 }

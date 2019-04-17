@@ -12992,28 +12992,27 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
       "SCore.BLL >= 1.0.0",
-      "SCore.DAL >= 1.0.0",
       "SCore.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\ingwa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\SCore\\SCore.WEB\\SCore.WEB.csproj",
+      "projectUniqueName": "c:\\Users\\ingwa\\source\\repos\\SCore2\\SCore.WEB\\SCore.WEB.csproj",
       "projectName": "SCore.WEB",
-      "projectPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.WEB\\SCore.WEB.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.WEB\\obj\\",
+      "projectPath": "c:\\Users\\ingwa\\source\\repos\\SCore2\\SCore.WEB\\SCore.WEB.csproj",
+      "packagesPath": "C:\\Users\\ingwa\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\ingwa\\source\\repos\\SCore2\\SCore.WEB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ingwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13026,14 +13025,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\SCore\\SCore.BLL\\SCore.BLL.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.BLL\\SCore.BLL.csproj"
+            "c:\\Users\\ingwa\\source\\repos\\SCore2\\SCore.BLL\\SCore.BLL.csproj": {
+              "projectPath": "c:\\Users\\ingwa\\source\\repos\\SCore2\\SCore.BLL\\SCore.BLL.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\SCore\\SCore.DAL\\SCore.DAL.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.DAL\\SCore.DAL.csproj"
-            },
-            "C:\\Users\\User\\source\\repos\\SCore\\SCore.Models\\SCore.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.Models\\SCore.Models.csproj"
+            "c:\\Users\\ingwa\\source\\repos\\SCore2\\SCore.Models\\SCore.Models.csproj": {
+              "projectPath": "c:\\Users\\ingwa\\source\\repos\\SCore2\\SCore.Models\\SCore.Models.csproj"
             }
           }
         }

@@ -12,5 +12,8 @@ namespace SCore.DAL.Interfaces
         void Create(T item);
         void Edit(T item);
         void Delete(int id);
+        void Save();
+        void Delete(string id);
+        T Get(string id);
     }
 }

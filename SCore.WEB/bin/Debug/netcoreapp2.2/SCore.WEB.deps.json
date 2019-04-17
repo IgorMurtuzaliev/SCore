@@ -29,7 +29,8 @@
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
-          "SCore.DAL": "1.0.0"
+          "SCore.BLL": "1.0.0",
+          "SCore.Models": "1.0.0"
         },
         "runtime": {
           "SCore.WEB.dll": {}
@@ -469,6 +470,19 @@
           "System.Reflection.Extensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "SCore.BLL/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
+          "SCore.DAL": "1.0.0",
+          "SCore.Models": "1.0.0"
+        },
+        "runtime": {
+          "SCore.BLL.dll": {}
+        },
+        "compile": {
+          "SCore.BLL.dll": {}
         }
       },
       "SCore.DAL/1.0.0": {
@@ -3797,6 +3811,11 @@
       "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
+    },
+    "SCore.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SCore.DAL/1.0.0": {
       "type": "project",

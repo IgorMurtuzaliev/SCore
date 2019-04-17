@@ -1,12 +1,15 @@
-﻿using SCore.WEB.Models;
-using System;
+﻿using SCore.Models;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SCore.BLL.Interfaces
 {
     public interface IOrderService
     {
-        void CreateOrder(OrderViewModel orderVM);
+        void Create(Order order);
+        Order Get(int id);
+        void Delete(int id);
+        IEnumerable<Order> GetAll();
+        void Edit(Order product);
+        void Dispose();
     }
 }

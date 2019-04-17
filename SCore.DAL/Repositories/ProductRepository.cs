@@ -11,7 +11,7 @@ namespace SCore.DAL.Repositories
 {
     public class ProductRepository : IRepository<Product>
     {
-        private readonly ApplicationDbContext db;
+        private ApplicationDbContext db;
         public ProductRepository(ApplicationDbContext context)
         {
             this.db = context;
@@ -26,6 +26,11 @@ namespace SCore.DAL.Repositories
             Product product = db.Products.Find(id);
             if (product != null)
                 db.Products.Remove(product);
+        }
+
+        public void Delete(string id)
+        {
+            throw new NotImplementedException();
         }
 
         public void Edit(Product item)
@@ -43,10 +48,19 @@ namespace SCore.DAL.Repositories
             return db.Products.Find(id);
         }
 
-        public IEnumerable<Product> GetAll()
+        public Product Get(string id)
         {
-            return db.Products;
+            throw new NotImplementedException();
         }
 
+        public IEnumerable<Product> GetAll()
+        {
+            return db.Products.ToList();
+        }
+
+        public void Save()
+        {
+            db.SaveChanges();
+        }
     }
 }

@@ -5,28 +5,31 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using SCore.BLL.Interfaces;
 using SCore.DAL.EF;
 using SCore.Models;
-using SCore.WEB.Models;
+using SCore.Models.Models;
 
 namespace SCore.WEB.Controllers
 {
     public class OrdersController : Controller
     {
         private ApplicationDbContext db;
-       // [MyAction]
+        private readonly IOrderService orderService;
+        public OrdersController(IOrderService _orderService, ApplicationDbContext _db)
+        {
+            orderService = _orderService;
+            db = _db;
+        }
+        // [MyAction]
         public ActionResult Index()
         {
-            return View(db.Orders.Include(c => c.User).ToList());
+            return View(orderService.GetAll());
         }
         //[MyAction]
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
-            {
-                return BadRequest();
-            }
-            Order order = db.Orders.Find(id);
+            Order order = orderService.Get(id);
             if (order == null)
             {
                 return NotFound();
@@ -49,40 +52,17 @@ namespace SCore.WEB.Controllers
 
             if (ModelState.IsValid)
             {
-                var order = new Order
-                {
-                    UserId = orderVM.UserId,
-                    TimeOfOrder = DateTime.Now
-                };
-
-
-                var orderproduct = new ProductOrder
-                {
-                    ProductId = orderVM.ProductId,
-                    Amount = orderVM.Amount,
-                };
-
-                order.ProductOrders.Add(orderproduct);
-
-
-                db.Orders.Add(order);
-                db.SaveChanges();
-
-                //db.ProductOrders.Add(orderproduct);
-                //db.SaveChanges();
+                orderService.Create(orderVM);
 
                 return RedirectToAction("Index");
             }
             return View(orderVM);
         }
 
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
-            {
-                return BadRequest();
-            }
-            Order order = db.Orders.Find(id);
+            
+            Order order = orderService.Get(id);
             if (order == null)
             {
                 return NotFound();
@@ -97,21 +77,16 @@ namespace SCore.WEB.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(order).State = EntityState.Modified;
-                db.SaveChanges();
+                orderService.Edit(order);
                 return RedirectToAction("Index");
             }
             ViewBag.UserId = new SelectList(db.Users, "Id", "Name", order.UserId);
             return View(order);
         }
 
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                return BadRequest();
-            }
-            Order order = db.Orders.Find(id);
+            Order order = orderService.Get(id);
             if (order == null)
             {
                 return NotFound();
@@ -123,19 +98,13 @@ namespace SCore.WEB.Controllers
         // [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Order order = db.Orders.Find(id);
-            db.Orders.Remove(order);
-            db.SaveChanges();
+            orderService.Delete(id);
             return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
+            orderService.Dispose(disposing);
         }
     }
 }

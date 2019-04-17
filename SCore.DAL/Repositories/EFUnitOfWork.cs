@@ -1,4 +1,5 @@
-﻿using SCore.DAL.EF;
+﻿using Microsoft.EntityFrameworkCore;
+using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
 using System;
@@ -13,7 +14,11 @@ namespace SCore.DAL.Repositories
         private UserRepository userRepository;
         private OrderRepository orderRepository;
         private ProductRepository productRepository;
-      
+        private ProductOrderRepository productOrderRepository;
+        public EFUnitOfWork(ApplicationDbContext context)
+        {
+            db = context;
+        }
         public IRepository<User> Users
         {
             get
@@ -41,6 +46,15 @@ namespace SCore.DAL.Repositories
                 if (productRepository == null)
                     productRepository = new ProductRepository(db);
                 return productRepository;
+            }
+        }
+        public IRepository<ProductOrder> ProductsOrders
+        {
+            get
+            {
+                if (productOrderRepository == null)
+                    productOrderRepository = new ProductOrderRepository(db);
+                return productOrderRepository;
             }
         }
         public void Save()

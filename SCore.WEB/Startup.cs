@@ -38,12 +38,15 @@ namespace SCore.WEB
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             string connection = Configuration.GetConnectionString("DefaultConnection");
-            // добавляем контекст MobileContext в качестве сервиса в приложение
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connection));
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IUnitOfWork, EFUnitOfWork>();
             services.AddTransient<IRepository<Product>, ProductRepository >();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IRepository<User>, UserRepository>();
+            services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<IRepository<Order>, OrderRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

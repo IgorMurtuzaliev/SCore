@@ -26,12 +26,7 @@ namespace SCore.BLL.Services
             return db.Users.Get(id);
         }
 
-        public void Delete(int id)
-        {
-            db.Users.Delete(id);
-            db.Users.Save();
-        }
-
+     
         public IEnumerable<User> GetAll()
         {
             return db.Users.GetAll();

@@ -9,13 +9,14 @@ using System.Text;
 
 namespace SCore.DAL.Repositories
 {
-    class OrderRepository : IRepository<Order>
+   public class OrderRepository: IRepository<Order>
     {
         private ApplicationDbContext db;
         public OrderRepository(ApplicationDbContext context)
         {
             this.db = context;
         }
+
         public void Create(Order item)
         {
             db.Orders.Add(item);
@@ -62,5 +63,6 @@ namespace SCore.DAL.Repositories
         {
             db.SaveChanges();
         }
+
     }
 }

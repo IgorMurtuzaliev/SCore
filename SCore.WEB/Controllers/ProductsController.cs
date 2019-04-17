@@ -57,7 +57,7 @@ namespace SCore.WEB.Controllers
             Product product = productService.Get(id);
             return View(product);
         }
-
+        [HttpPost]
         public ActionResult Edit(Product product)
         {
             if (ModelState.IsValid)

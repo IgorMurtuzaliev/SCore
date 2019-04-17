@@ -36,7 +36,7 @@ namespace SCore.WEB.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+       // [ValidateAntiForgeryToken]
         public ActionResult Create(User user)
         {
             if (ModelState.IsValid)
@@ -59,7 +59,7 @@ namespace SCore.WEB.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult Edit(User user)
         {
             if (ModelState.IsValid)
@@ -81,16 +81,12 @@ namespace SCore.WEB.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
             userService.Delete(id);
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            userService.Dispose(disposing);
-        }
     }
 }

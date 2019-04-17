@@ -52,6 +52,18 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -109,6 +121,10 @@
         "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
@@ -180,6 +196,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -224,9 +244,6 @@
               "C:\\Users\\User\\source\\repos\\SCore\\SCore.BLL\\SCore.BLL.csproj": {
                 "projectPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.BLL\\SCore.BLL.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\SCore\\SCore.DAL\\SCore.DAL.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.DAL\\SCore.DAL.csproj"
-              },
               "C:\\Users\\User\\source\\repos\\SCore\\SCore.Models\\SCore.Models.csproj": {
                 "projectPath": "C:\\Users\\User\\source\\repos\\SCore\\SCore.Models\\SCore.Models.csproj"
               }
@@ -252,10 +269,22 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

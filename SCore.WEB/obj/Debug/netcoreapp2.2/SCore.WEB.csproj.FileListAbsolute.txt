@@ -96,3 +96,5 @@ c:\Users\ingwa\source\repos\SCore2\SCore.WEB\obj\Debug\netcoreapp2.2\SCore.WEB.R
 c:\Users\ingwa\source\repos\SCore2\SCore.WEB\obj\Debug\netcoreapp2.2\SCore.WEB.RazorTargetAssemblyInfo.cs
 c:\Users\ingwa\source\repos\SCore2\SCore.WEB\obj\Debug\netcoreapp2.2\SCore.WEB.Views.pdb
 c:\Users\ingwa\source\repos\SCore2\SCore.WEB\obj\Debug\netcoreapp2.2\SCore.WEB.csproj.CopyComplete
+C:\Users\User\source\repos\SCore\SCore.WEB\bin\Debug\netcoreapp2.2\SCore.BLL.dll
+C:\Users\User\source\repos\SCore\SCore.WEB\bin\Debug\netcoreapp2.2\SCore.BLL.pdb

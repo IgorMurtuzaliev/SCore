@@ -7,7 +7,7 @@ using System.Text;
 
 namespace SCore.DAL.EF
 {
-    public class ApplicationDbContext:IdentityDbContext<User>
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

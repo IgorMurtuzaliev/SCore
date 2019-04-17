@@ -14,7 +14,7 @@ namespace SCore.DAL.Repositories
         private ApplicationDbContext db;
         public UserRepository(ApplicationDbContext context)
         {
-            this.db = context;
+            db = context;
         }
         public void Create(User item)
         {
@@ -23,19 +23,20 @@ namespace SCore.DAL.Repositories
 
         public void Delete(int id)
         {
-            User user = db.Users.Find(id);
-            if (user != null)
-                db.Users.Remove(user);
+            throw new NotImplementedException();
         }
 
         public void Delete(string id)
         {
-            throw new NotImplementedException();
+             User user = db.Users.Find(id);
+            if (user != null)
+                db.Users.Remove(user);
         }
 
         public void Edit(User item)
         {
             db.Entry(item).State = EntityState.Modified;
+
         }
 
         public IEnumerable<User> Find(Func<User, bool> predicate)
@@ -61,5 +62,6 @@ namespace SCore.DAL.Repositories
         {
             db.SaveChanges();
         }
+
     }
 }

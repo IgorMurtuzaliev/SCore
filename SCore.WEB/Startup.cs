@@ -16,6 +16,7 @@ using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.DAL.Repositories;
 using SCore.Models;
+using SCore.Models.Entities;
 
 namespace SCore.WEB
 {
@@ -47,6 +48,8 @@ namespace SCore.WEB
             services.AddTransient<IRepository<User>, UserRepository>();
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IRepository<Order>, OrderRepository>();
+            services.AddIdentity<User, ApplicationRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

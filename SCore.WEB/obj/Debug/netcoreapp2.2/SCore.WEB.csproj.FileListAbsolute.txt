@@ -98,3 +98,5 @@ c:\Users\ingwa\source\repos\SCore2\SCore.WEB\obj\Debug\netcoreapp2.2\SCore.WEB.V
 c:\Users\ingwa\source\repos\SCore2\SCore.WEB\obj\Debug\netcoreapp2.2\SCore.WEB.csproj.CopyComplete
 C:\Users\User\source\repos\SCore\SCore.WEB\bin\Debug\netcoreapp2.2\SCore.BLL.dll
 C:\Users\User\source\repos\SCore\SCore.WEB\bin\Debug\netcoreapp2.2\SCore.BLL.pdb
+C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Account\LogIn.g.cshtml.cs

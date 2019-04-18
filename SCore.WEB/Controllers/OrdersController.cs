@@ -48,8 +48,6 @@ namespace SCore.WEB.Controllers
         // [ValidateAntiForgeryToken]
         public ActionResult Create(OrderViewModel orderVM)
         {
-            //[Bind(Include = "OrderId,TimeOfOrder,UserId")] 
-
             if (ModelState.IsValid)
             {
                 orderService.Create(orderVM);
@@ -61,7 +59,6 @@ namespace SCore.WEB.Controllers
 
         public ActionResult Edit(int id)
         {
-            
             Order order = orderService.Get(id);
             if (order == null)
             {
@@ -101,7 +98,6 @@ namespace SCore.WEB.Controllers
             orderService.Delete(id);
             return RedirectToAction("Index");
         }
-
         protected override void Dispose(bool disposing)
         {
             orderService.Dispose(disposing);

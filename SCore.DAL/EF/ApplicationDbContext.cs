@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SCore.Models;
+using SCore.Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;

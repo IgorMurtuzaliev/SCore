@@ -16,9 +16,6 @@ namespace SCore.Models.Models
         public string Email { get; set; }
 
         [Required]
-        public int Year { get; set; }
-
-        [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 

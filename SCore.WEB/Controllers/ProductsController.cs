@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.DAL.EF;
 using SCore.DAL.Repositories;
 using SCore.Models;
@@ -14,10 +15,11 @@ namespace SCore.WEB.Controllers
     public class ProductsController : Controller
     {
         private readonly IProductService productService;
-        public ProductsController(IProductService _productService)
+        private readonly ICartService cartService;
+        public ProductsController(IProductService _productService, ICartService _cartService)
         {
             productService = _productService;
-
+            cartService = _cartService;
         }
         public ActionResult Index()
         {
@@ -82,6 +84,11 @@ namespace SCore.WEB.Controllers
         {
             productService.Delete(id);
             return RedirectToAction("Index");
+        }
+        public ActionResult AddToCart(Cart cart, int? id)
+        {
+            cartService.AddToCart(cart, id);
+            return RedirectToAction("Index", "Cart");
         }
     }
 }

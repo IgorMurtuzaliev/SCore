@@ -21,7 +21,7 @@ namespace SCore.DAL.Repositories
             db.Users.Add(item);
         }
 
-        public void Delete(int id)
+        public void Delete(int? id)
         {
             throw new NotImplementedException();
         }
@@ -49,7 +49,7 @@ namespace SCore.DAL.Repositories
             return db.Users.Find(id);
         }
 
-        public User Get(int id)
+        public User Get(int? id)
         {
             throw new NotImplementedException();
         }

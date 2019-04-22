@@ -1,5 +1,8 @@
-﻿@model IEnumerable< SCore.Models.Product>
+﻿@model IEnumerable<SCore.Models.Product>
+@using SCore.BLL.Infrastructure
+@using SCore.WEB.ViewModels
 
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewBag.Title = "Index";
 }
@@ -26,26 +29,39 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Date)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProductId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ProductId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ProductId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
+                @Html.ActionLink("Add", "AddToCart", new { id = item.ProductId })
+                @*<form id="@item.ProductId." asp-action="AddToCart"
+                      asp-controller="Cart" method="post">
+                    <input type="hidden" asp-for="" />
+                    <input type="hidden" name="returnUrl"
+                           value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                    <span class="lead">
+                        <button type="submit" class="btn btn-success btn-sm pull-right">
+                            Add To Cart
+                        </button>
+                    </span>
+                </form>*@
+            </td>
+        </tr>
+    }
 
 </table>

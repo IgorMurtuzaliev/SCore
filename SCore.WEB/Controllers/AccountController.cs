@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Services;
 using SCore.Models.Models;
+using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 
 namespace SCore.WEB.Controllers
 {
@@ -33,15 +34,19 @@ namespace SCore.WEB.Controllers
         {
             if (ModelState.IsValid)
             {
-                await service.Create(model);
-                return RedirectToAction("Index", "Home");
+                IdentityResult result = await service.Create(model);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                    
+                }
             }
             return View(model);
         }
         [HttpGet]
-        public IActionResult LogIn(string returnUrl = null)
+        public IActionResult LogIn()
         {
-            return View(new LoginViewModel { ReturnUrl = returnUrl });
+            return View();
         }
 
         [HttpPost]
@@ -53,15 +58,7 @@ namespace SCore.WEB.Controllers
 
                 if (result.Succeeded)
                 {
-                    // проверяем, принадлежит ли URL приложению
-                    if (!string.IsNullOrEmpty(model.ReturnUrl) && Url.IsLocalUrl(model.ReturnUrl))
-                    {
-                        return Redirect(model.ReturnUrl);
-                    }
-                    else
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {

@@ -26,6 +26,10 @@ namespace SCore.WEB.Controllers
 
         public ActionResult Details(string id)
         {
+            if (id == null)
+            {
+                return BadRequest();
+            }
             User user = userService.Get(id);
             return View(user);
         }

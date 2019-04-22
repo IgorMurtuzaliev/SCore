@@ -21,7 +21,7 @@ namespace SCore.DAL.Repositories
             db.Products.Add(item);
         }
 
-        public void Delete(int id)
+        public void Delete(int? id)
         {
             Product product = db.Products.Find(id);
             if (product != null)
@@ -43,7 +43,7 @@ namespace SCore.DAL.Repositories
             return db.Products.Where(predicate).ToList();
         }
 
-        public Product Get(int id)
+        public Product Get(int? id)
         {
             return db.Products.Find(id);
         }

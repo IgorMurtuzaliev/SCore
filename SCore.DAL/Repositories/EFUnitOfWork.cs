@@ -2,6 +2,7 @@
 using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
+using SCore.Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,6 +16,7 @@ namespace SCore.DAL.Repositories
         private OrderRepository orderRepository;
         private ProductRepository productRepository;
         private ProductOrderRepository productOrderRepository;
+
         public EFUnitOfWork(ApplicationDbContext context)
         {
             db = context;

@@ -10,7 +10,9 @@ namespace SCore.BLL.Interfaces
 {
     public interface IAccountService
     {
-       Task<IdentityResult> Create(RegisterViewModel registerViewModel);
+       Task<IdentityResult> Create(RegisterViewModel registerViewModel, string url);
        Task<SignInResult> LogIn(LoginViewModel loginViewModel);
+       Task Logout();
+        Task<IdentityResult> ConfirmEmail(string userId, string code);
     }
 }

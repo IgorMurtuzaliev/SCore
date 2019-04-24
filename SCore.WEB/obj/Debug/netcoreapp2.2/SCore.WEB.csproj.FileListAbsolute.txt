@@ -101,3 +101,6 @@ C:\Users\User\source\repos\SCore\SCore.WEB\bin\Debug\netcoreapp2.2\SCore.BLL.pdb
 C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Account\LogIn.g.cshtml.cs
 C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.g.cshtml.cs
+C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Role\Create.g.cshtml.cs
+C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Role\Index.g.cshtml.cs
+C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Role\Edit.g.cshtml.cs

@@ -30,6 +30,6 @@ namespace SCore.Models
         [DataType(DataType.DateTime)]
         public DateTime Date { get; set; } = DateTime.Now;
         [XmlIgnore]
-        public ICollection<ProductOrder> ProductOrders { get; set; }
+        public virtual ICollection<ProductOrder> ProductOrders { get; set; }
     }
 }

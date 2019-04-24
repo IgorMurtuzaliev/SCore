@@ -1,0 +1,16 @@
+﻿
+@model SCore.WEB.ViewModels.RoleViewModelEdit
+
+<h2>РEdit role</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.ValidationSummary(true, "")
+        @Html.HiddenFor(model => model.Id)
+        <p>Название:  @Html.EditorFor(model => model.Name)</p>
+        <p><input type="submit" value="Edit" /></p>
+    </div>
+}

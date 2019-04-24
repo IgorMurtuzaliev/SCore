@@ -1,0 +1,14 @@
+﻿@model SCore.WEB.ViewModels.RoleViewModel
+
+<h2>Add new role</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.ValidationSummary(true, "")
+        <p>Название:  @Html.EditorFor(model => model.Name)</p>
+        <p><input type="submit" value="Add" /></p>
+    </div>
+}

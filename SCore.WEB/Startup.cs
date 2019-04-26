@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Castle.Core.Logging;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,7 +22,7 @@ using SCore.DAL.Interfaces;
 using SCore.DAL.Repositories;
 using SCore.Models;
 using SCore.Models.Entities;
-
+  
 namespace SCore.WEB
 {
     public class Startup
@@ -31,13 +33,10 @@ namespace SCore.WEB
         }
 
         public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<CookiePolicyOptions>(options =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
@@ -61,6 +60,12 @@ namespace SCore.WEB
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddHttpContextAccessor();
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddGoogle(googleOptions =>
+                {
+                    googleOptions.ClientId = "405558759348-k91mpnp7r8vmmqsvcgii0uek2affej8b.apps.googleusercontent.com";
+                    googleOptions.ClientSecret = "SXtEzIDr3XJjj0uHzGpNU7Hv";
+
+                })
                 .AddCookie(options =>
                 {
                     options.LoginPath = "/Account/LogIn";
@@ -69,10 +74,10 @@ namespace SCore.WEB
 
             services.AddMemoryCache();
             services.AddSession();
+            
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -81,9 +86,9 @@ namespace SCore.WEB
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            
             app.UseSession();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -95,6 +100,7 @@ namespace SCore.WEB
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+           
         }
     }
 }

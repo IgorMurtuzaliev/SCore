@@ -10,10 +10,6 @@ namespace SCore.WEB.Controllers
 {
     public class HomeController : Controller
     {
-
-        //private ApplicationDbContext db ;
-        //Exception ex = new Exception();
-        //[MyAction]
         public ActionResult Index()
         {
             

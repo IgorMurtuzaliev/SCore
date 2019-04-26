@@ -15,7 +15,6 @@ namespace SCore.BLL.Services
         {
             db = _db;
         }
-
         public void Create(OrderViewModel orderVM)
         {
             var order = new Order
@@ -39,8 +38,6 @@ namespace SCore.BLL.Services
         {
             return db.Orders.Get(id);
         }
-
-
         public IEnumerable<Order> GetAll()
         {
             return db.Orders.GetAll();

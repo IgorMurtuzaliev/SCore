@@ -12,8 +12,6 @@ namespace SCore.BLL.Services
 {
     public class CartService : ICartService
     {
-    
-
         IUnitOfWork db { get; set; }
         public CartService(IUnitOfWork _db)
         {
@@ -32,8 +30,7 @@ namespace SCore.BLL.Services
               cart.AddItem(product, 1);
             }
         }
-
-        public void RemoveFromCart(Cart cart, int? id)
+       public void RemoveFromCart(Cart cart, int? id)
         {
             Product product = db.Products.Get(id);
             if (id == null)

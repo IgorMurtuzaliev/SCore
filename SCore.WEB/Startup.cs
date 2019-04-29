@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Castle.Core.Logging;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,21 +14,28 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.BLL.Services;
 using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.DAL.Repositories;
 using SCore.Models;
 using SCore.Models.Entities;
-  
+
+
 namespace SCore.WEB
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostingEnvironment env)
         {
             Configuration = configuration;
+
+            Configuration = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json").Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -45,6 +51,9 @@ namespace SCore.WEB
                 options.UseSqlServer(connection));
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IUnitOfWork, EFUnitOfWork>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddTransient<IRepository<Product>, ProductRepository >();
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IRepository<User>, UserRepository>();
@@ -59,7 +68,7 @@ namespace SCore.WEB
                 .AddDefaultTokenProviders();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddHttpContextAccessor();
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            services.AddAuthentication(options=>options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddGoogle(googleOptions =>
                 {
                     googleOptions.ClientId = "405558759348-k91mpnp7r8vmmqsvcgii0uek2affej8b.apps.googleusercontent.com";
@@ -100,7 +109,14 @@ namespace SCore.WEB
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-           
+            loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
+            var logger = loggerFactory.CreateLogger("FileLogger");
+
+            app.Run(async (context) =>
+            {
+                logger.LogInformation("Processing request {0}", context.Request.Path);
+                await context.Response.WriteAsync("Hello World!");
+            });
         }
     }
 }

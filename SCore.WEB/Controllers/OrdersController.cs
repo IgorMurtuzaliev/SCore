@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.DAL.EF;
 using SCore.Models;
 using SCore.Models.Models;
@@ -16,10 +18,14 @@ namespace SCore.WEB.Controllers
     {
         private ApplicationDbContext db;
         private readonly IOrderService orderService;
-        public OrdersController(IOrderService _orderService, ApplicationDbContext _db)
+        private readonly UserManager<User> userManager;
+        private Cart cart;
+        public OrdersController(IOrderService _orderService, ApplicationDbContext _db, UserManager<User> _userManager, Cart _cart)
         {
             orderService = _orderService;
             db = _db;
+            userManager = _userManager;
+            cart = _cart;
         }
         // [MyAction]
         public ActionResult Index()
@@ -102,5 +108,51 @@ namespace SCore.WEB.Controllers
         {
             orderService.Dispose(disposing);
         }
+
+        public ViewResult Checkout() => View(new Order());
+        [HttpPost]
+        public async Task<IActionResult> Checkout(Cart cart)
+        {
+           if (cart.Lines.Count() == 0)
+            {
+                ModelState.AddModelError("", "Sorry, your cart is empty!");
+            }
+            if (ModelState.IsValid)
+            {
+
+               var id = userManager.GetUserId(HttpContext.User);
+                var order = new Order
+                {
+                    UserId =id,
+                    User = await userManager.FindByIdAsync(id),
+                TimeOfOrder = DateTime.Now,
+                 Lines = cart.Lines.ToArray()
+                };
+                foreach (var item in cart.Lines)
+                {
+                 var orderproduct = new ProductOrder
+                {
+                    ProductId = item.Product.ProductId,
+                    Amount = item.Quantity
+                };
+
+                }                             
+
+                orderService.SaveOrder(order);
+
+                return RedirectToAction(nameof(Completed));
+            }
+            else
+            {
+               return View();
+            }
+
+        }
+        public ViewResult Completed()
+        {
+            cart.Clear();
+            return View();
+        }
+
     }
 }

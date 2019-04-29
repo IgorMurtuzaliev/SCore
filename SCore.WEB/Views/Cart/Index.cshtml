@@ -21,7 +21,7 @@
                 <td>@line.Product.Name</td>
                 <td>@line.Product.Price.ToString("c")</td>
                 <td>@((line.Quantity * line.Product.Price).ToString("c"))</td>
-                <td>@Html.ActionLink("Remove", "RemoveFromCart", new { id = line.Product.ProductId })</td>
+                <td>@Html.ActionLink("Remove", "RemoveFromCart", new { productId = line.Product.ProductId })</td>
             </tr>
         }
     </tbody>
@@ -31,3 +31,7 @@
         </tr>
     </tfoot>
 </table>
+
+<a class="btn btn-primary" asp-action="Checkout" asp-controller="Orders">
+    Checkout
+</a>

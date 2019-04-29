@@ -25,7 +25,10 @@
         <dd>
             @Html.DisplayFor(model => model.TimeOfOrder)
         </dd>
-
+        @foreach (var item in Model.ProductOrders)
+        {
+            @Html.DisplayFor(a => item.Product.Name)
+        }
     </dl>
 </div>
 <p>

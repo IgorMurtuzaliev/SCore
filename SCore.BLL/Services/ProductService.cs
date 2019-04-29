@@ -10,6 +10,7 @@ namespace SCore.BLL.Services
     public class ProductService : IProductService
     {
         IUnitOfWork db { get; set; }
+
         public ProductService(IUnitOfWork _db)
         {
             db = _db;

@@ -4,42 +4,71 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using Microsoft.AspNetCore.Mvc;
+using SCore.BLL.Infrastructure;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Models;
+using SCore.Models;
 using SCore.WEB.ViewModels;
 
 namespace SCore.WEB.Controllers
 {
     public class CartController : Controller
     {
-        private readonly ICartService cartService;
-        public CartController(ICartService _cartService)
-        {
-            cartService = _cartService;
 
+        private IProductService repository;
+
+        public CartController(IProductService repo)
+        {
+            repository = repo;
         }
-        public IActionResult Index(Cart cart)
+
+        public ViewResult Index(string returnUrl)
         {
             return View(new CartIndexViewModel
             {
-                Cart = cart
+                Cart = GetCart(),
+                ReturnUrl = returnUrl
             });
+        }
+        public RedirectToActionResult AddToCart(int productId, string returnUrl)
+        {
+            Product product = repository.Get(productId);
+            if (product != null)
+            {
+                Cart cart = GetCart();
+                cart.AddItem(product, 1);
+                SaveCart(cart);
+            }
+            return RedirectToAction("Index", "Products");
+        }
 
-        }
-        public ActionResult AddToCart(Cart cart, int? id)
+        public RedirectToActionResult RemoveFromCart(int productId,
+                 string returnUrl)
         {
-            cartService.AddToCart(cart, id);
-            return RedirectToAction("Index","Products");
+            Product product = repository.Get(productId);
+            if (product != null)
+            {
+                Cart cart = GetCart();
+                cart.RemoveLine(product);
+                SaveCart(cart);
+            }
+            return RedirectToAction("Index", new { returnUrl });
         }
 
-        public ActionResult RemoveFromCart(Cart cart, int? id)
+        private Cart GetCart()
         {
-            cartService.RemoveFromCart(cart, id);
-            return RedirectToAction("Index");
+            Cart cart = HttpContext.Session.GetJson<Cart>("Cart") ?? new Cart();
+            return cart;
         }
-        public ActionResult Summary(Cart cart)
+
+        private void SaveCart(Cart cart)
         {
-            return PartialView(cart);
+            HttpContext.Session.SetJson("Cart", cart);
+        }
+        public ActionResult CartSummary()
+        {
+            Cart cart = GetCart();
+            return PartialView("~/Views/Cart/_CartSummary.cshtml", cart);
         }
     }
 }

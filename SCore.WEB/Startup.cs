@@ -52,7 +52,10 @@ namespace SCore.WEB
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IUnitOfWork, EFUnitOfWork>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
+            services.AddCors(corsOptions =>
+            {
+                corsOptions.AddPolicy("fully permissive", configurePolicy => configurePolicy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
+            });
             services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddTransient<IRepository<Product>, ProductRepository >();
             services.AddTransient<IUserService, UserService>();
@@ -68,23 +71,27 @@ namespace SCore.WEB
                 .AddDefaultTokenProviders();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddHttpContextAccessor();
-            services.AddAuthentication(options => {
-               options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 
+            services.AddAuthentication(options =>
+            {
+                options.DefaultSignOutScheme = IdentityConstants.ApplicationScheme;
             })
-               .AddFacebook(options => {
-                   options.AppId = "2895392233805084";
-                   options.AppSecret = "c43fdffef09ddf0436fc7f3eb66f18f2";
-               })
-                .AddCookie(options =>
+                .AddGoogle("Google", options =>
                 {
-                    options.LoginPath = "/auth/signin";
+                    options.ClientId = "405558759348-lv7doblutrpkqda42km1b1kd8eilcqu9.apps.googleusercontent.com";
+                    options.ClientSecret = "c4pXS08zF9tzsKpMMyei3b-i";
+                })
+                .AddFacebook(options => {
+                    options.AppId = "2895392233805084";
+                    options.AppSecret = "c43fdffef09ddf0436fc7f3eb66f18f2";
+                })
+                 .AddCookie(options =>
+                 {
+                     options.LoginPath = "/Account/LogIn";
 
-                });
+                 });
 
-            services.AddMemoryCache();
+                services.AddMemoryCache();
             services.AddSession();
             
         }
@@ -100,7 +107,7 @@ namespace SCore.WEB
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-            
+            app.UseCors("fully permissive");
             app.UseSession();
             app.UseHttpsRedirection();
             app.UseStaticFiles();

@@ -2,20 +2,32 @@
 @{
     ViewBag.Title = "Login";
 }
-<h2>Вход в приложение</h2>
-<form method="post" asp-controller="Account" asp-action="LogIn">
-    <div asp-validation-summary="ModelOnly"></div>
-    <div>
-        <label asp-for="Email"></label><br />
-        <input asp-for="Email" />
-        <span asp-validation-for="Email"></span>
+<div>
+    <div class="flex-column">
+        <h3>Вход в приложение</h3>
+        <form method="post" asp-controller="Account" asp-action="LogIn">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="Email"></label><br />
+                <input asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div>
+                <label asp-for="Password"></label><br />
+                <input asp-for="Password" />
+                <span asp-validation-for="Password"></span>
+            </div>
+            <div>
+                <input type="submit" value="Войти" />
+            </div>
+        </form>
     </div>
     <div>
-        <label asp-for="Password"></label><br />
-        <input asp-for="Password" />
-        <span asp-validation-for="Password"></span>
+        <h3>Sign in with other providers:</h3>
+        <form>
+            <button asp-action="SignInWithGoogle" asp-controller="Account">Google</button>
+            <button asp-action="SignInWithFacebook" asp-controller="Account">Facebook</button>
+        </form>
     </div>
-    <div>
-        <input type="submit" value="Войти" />
-    </div>
-</form>
+</div>
+

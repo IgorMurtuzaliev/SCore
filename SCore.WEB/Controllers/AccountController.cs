@@ -1,4 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
@@ -9,16 +12,16 @@ using SCore.Models.Models;
 
 namespace SCore.WEB.Controllers
 {
-    [Route("auth")]
     public class AccountController : Controller
     {
         readonly IAccountService service;
         private readonly UserManager<User> userManager;
-
-        public AccountController(UserManager<User> _userManager, IAccountService _service)
+        private readonly SignInManager<User> signInManager;
+        public AccountController(UserManager<User> _userManager, IAccountService _service, SignInManager<User> _signInManager)
         {
             service = _service;
             userManager = _userManager;
+            signInManager = _signInManager;
         }
         public IActionResult Index()
         {
@@ -88,24 +91,45 @@ namespace SCore.WEB.Controllers
             await service.Logout();
             return RedirectToAction("LogIn");
         }
-        [Route("signin")]
-
-        public IActionResult SignIn() => View();
-
-        [Route("signin/{provider}")]
-
-        public IActionResult SignIn(string provider, string returnUrl = null) =>
-
-            Challenge(new AuthenticationProperties { RedirectUri = returnUrl ?? "/" }, provider);
-
-        [Route("signout")]
-
-        public async Task<IActionResult> SignOut()
+        public IActionResult SignInWithGoogle()
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            var authenticationProperties = signInManager.ConfigureExternalAuthenticationProperties("Google", Url.Action(nameof(HandleExternalLogin)));
+            return Challenge(authenticationProperties, "Google");
+        }
+        public IActionResult SignInWithFacebook()
+        {
+            var authenticationProperties = signInManager.ConfigureExternalAuthenticationProperties("Facebook", Url.Action(nameof(HandleExternalLogin)));
+            return Challenge(authenticationProperties, "Facebook");
+        }
+        public async Task<IActionResult> HandleExternalLogin()
+        {
+            var info = await signInManager.GetExternalLoginInfoAsync();
+
+            var result = await signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false);
+
+            if (!result.Succeeded) //user does not exist yet
+            {
+                var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+                var newUser = new User
+                {
+                    Name = email,
+                    LastName = email,
+                    UserName = email,
+                    Email = email,
+                    EmailConfirmed = true
+                };
+                var createResult = await userManager.CreateAsync(newUser);
+                if (!createResult.Succeeded)
+                    throw new Exception(createResult.Errors.Select(e => e.Description).Aggregate((errors, error) => $"{errors}, {error}"));
+
+                await userManager.AddLoginAsync(newUser, info);
+                var newUserClaims = info.Principal.Claims.Append(new Claim("userId", newUser.Id));
+                await userManager.AddClaimsAsync(newUser, newUserClaims);
+                await signInManager.SignInAsync(newUser, isPersistent: false);
+                await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
+            }
 
             return RedirectToAction("Index", "Home");
-
         }
     }
 }

@@ -24,5 +24,6 @@ namespace SCore.DAL.EF
         public DbSet<Order> Orders { get; set; }
         public DbSet<ProductOrder> ProductOrders { get; set; }
         public DbSet<ApplicationRole> ApplicationRoles { get; set; }
+        public DbSet<CartLine> Lines { get; set; }
     }
 }

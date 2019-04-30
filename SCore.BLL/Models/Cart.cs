@@ -9,7 +9,7 @@ namespace SCore.BLL.Models
     public class Cart
     {
         private List<CartLine> lineCollection = new List<CartLine>();
-        public void AddItem(Product product, int quantity)
+        public virtual void AddItem(Product product, int quantity)
         {
             CartLine line = lineCollection.Where(p => p.Product.ProductId == product.ProductId).FirstOrDefault();
             if (line == null)
@@ -21,7 +21,7 @@ namespace SCore.BLL.Models
                 line.Quantity += quantity;
             }
         }
-        public void RemoveLine(Product product)
+        public virtual void RemoveLine(Product product)
         {
             lineCollection.RemoveAll(l => l.Product.ProductId == product.ProductId);
         }
@@ -29,7 +29,7 @@ namespace SCore.BLL.Models
         {
             return lineCollection.Sum(e => e.Product.Price * e.Quantity);
         }
-        public void Clear()
+        public virtual void Clear()
         {
             lineCollection.Clear();
         }
@@ -37,11 +37,5 @@ namespace SCore.BLL.Models
         {
             get { return lineCollection; }
         }
-    }
-    public class CartLine
-    {
-        public  int CattLineId { get; set;  }
-        public Product Product { get; set; }
-        public int Quantity { get; set; }
     }
 }

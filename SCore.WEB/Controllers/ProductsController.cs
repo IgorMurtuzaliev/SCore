@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Models;
-using SCore.DAL.EF;
-using SCore.DAL.Repositories;
 using SCore.Models;
 
 namespace SCore.WEB.Controllers

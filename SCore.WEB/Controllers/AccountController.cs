@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
-using SCore.BLL.Services;
 using SCore.Models;
 using SCore.Models.Models;
-using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 
 namespace SCore.WEB.Controllers
 {
+    [Route("auth")]
     public class AccountController : Controller
     {
         readonly IAccountService service;
@@ -89,6 +87,25 @@ namespace SCore.WEB.Controllers
         {
             await service.Logout();
             return RedirectToAction("LogIn");
+        }
+        [Route("signin")]
+
+        public IActionResult SignIn() => View();
+
+        [Route("signin/{provider}")]
+
+        public IActionResult SignIn(string provider, string returnUrl = null) =>
+
+            Challenge(new AuthenticationProperties { RedirectUri = returnUrl ?? "/" }, provider);
+
+        [Route("signout")]
+
+        public async Task<IActionResult> SignOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            return RedirectToAction("Index", "Home");
+
         }
     }
 }

@@ -1,9 +1,16 @@
-﻿using SCore.BLL.Interfaces;
+﻿
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
+using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
 using SCore.Models.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SCore.BLL.Services
@@ -11,9 +18,13 @@ namespace SCore.BLL.Services
     public class OrderService : IOrderService
     {
         IUnitOfWork db { get; set; }
-        public OrderService(IUnitOfWork _db)
+        private UserManager<User> userManager;
+        private ApplicationDbContext context;
+        public OrderService(IUnitOfWork _db, UserManager<User> _userManager, ApplicationDbContext _context)
         {
             db = _db;
+            userManager = _userManager;
+            context = _context;
         }
         public void Create(OrderViewModel orderVM)
         {
@@ -58,6 +69,20 @@ namespace SCore.BLL.Services
         public void Dispose(bool disposing)
         {
             db.Dispose(disposing);
+        }
+        public IEnumerable<Order> Orders => context.Orders
+                            .Include(o => o.Lines)
+                            .ThenInclude(l => l.Product);
+
+        public void SaveOrder(Order order)
+        {
+            context.AttachRange(order.Lines.Select(l => l.Product));
+            if (order.OrderId == 0)
+            {
+                context.Orders.Add(order);
+                context.SaveChanges();
+            }
+            
         }
 
     }

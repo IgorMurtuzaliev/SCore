@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Models;
 using SCore.DAL.EF;
@@ -27,12 +24,11 @@ namespace SCore.WEB.Controllers
             userManager = _userManager;
             cart = _cart;
         }
-        // [MyAction]
         public ActionResult Index()
         {
             return View(orderService.GetAll());
         }
-        //[MyAction]
+
         public ActionResult Details(int id)
         {
             Order order = orderService.Get(id);
@@ -42,7 +38,7 @@ namespace SCore.WEB.Controllers
             }
             return View(order);
         }
-       // [MyAction]
+
         public ActionResult Create()
         {
             ViewBag.UserId = new SelectList(db.Users, "Id", "Name");
@@ -111,42 +107,25 @@ namespace SCore.WEB.Controllers
 
         public ViewResult Checkout() => View(new Order());
         [HttpPost]
-        public async Task<IActionResult> Checkout(Cart cart)
-        {
+        public async Task<IActionResult> Checkout(Order order)
+        { 
            if (cart.Lines.Count() == 0)
             {
                 ModelState.AddModelError("", "Sorry, your cart is empty!");
             }
             if (ModelState.IsValid)
             {
-
-               var id = userManager.GetUserId(HttpContext.User);
-                var order = new Order
-                {
-                    UserId =id,
-                    User = await userManager.FindByIdAsync(id),
-                TimeOfOrder = DateTime.Now,
-                 Lines = cart.Lines.ToArray()
-                };
-                foreach (var item in cart.Lines)
-                {
-                 var orderproduct = new ProductOrder
-                {
-                    ProductId = item.Product.ProductId,
-                    Amount = item.Quantity
-                };
-
-                }                             
-
+                var id = userManager.GetUserId(HttpContext.User);
+                order.UserId = id;
+                order.User = await userManager.FindByIdAsync(id);
+                order.Lines = cart.Lines.ToArray();
                 orderService.SaveOrder(order);
-
                 return RedirectToAction(nameof(Completed));
-            }
+           }
             else
             {
-               return View();
+                return View(order);
             }
-
         }
         public ViewResult Completed()
         {

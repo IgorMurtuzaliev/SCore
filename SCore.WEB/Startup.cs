@@ -68,16 +68,19 @@ namespace SCore.WEB
                 .AddDefaultTokenProviders();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddHttpContextAccessor();
-            services.AddAuthentication(options=>options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddGoogle(googleOptions =>
-                {
-                    googleOptions.ClientId = "405558759348-k91mpnp7r8vmmqsvcgii0uek2affej8b.apps.googleusercontent.com";
-                    googleOptions.ClientSecret = "SXtEzIDr3XJjj0uHzGpNU7Hv";
+            services.AddAuthentication(options => {
+               options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 
-                })
+            })
+               .AddFacebook(options => {
+                   options.AppId = "2895392233805084";
+                   options.AppSecret = "c43fdffef09ddf0436fc7f3eb66f18f2";
+               })
                 .AddCookie(options =>
                 {
-                    options.LoginPath = "/Account/LogIn";
+                    options.LoginPath = "/auth/signin";
 
                 });
 

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Models;
-using SCore.BLL.Services;
 using SCore.WEB.ViewModels;
 
 namespace SCore.WEB.Controllers

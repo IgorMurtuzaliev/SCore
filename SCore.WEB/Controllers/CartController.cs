@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Infrastructure;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Models;
@@ -70,5 +65,7 @@ namespace SCore.WEB.Controllers
             Cart cart = GetCart();
             return PartialView("~/Views/Cart/_CartSummary.cshtml", cart);
         }
+
+
     }
 }

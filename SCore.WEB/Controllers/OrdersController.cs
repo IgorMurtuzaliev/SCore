@@ -118,7 +118,7 @@ namespace SCore.WEB.Controllers
                 var id = userManager.GetUserId(HttpContext.User);
                 order.UserId = id;
                 order.User = await userManager.FindByIdAsync(id);
-                order.Lines = cart.Lines.ToArray();
+                order.ProductOrders = cart.Lines.ToArray();
                 orderService.SaveOrder(order);
                 return RedirectToAction(nameof(Completed));
            }

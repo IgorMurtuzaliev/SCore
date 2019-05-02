@@ -1,0 +1,547 @@
+Request starting HTTP/2.0 GET https://localhost:44307/  
+Executing endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Home"}. Executing action SCore.WEB.Controllers.HomeController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.711ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 222.6782ms.
+Executed action SCore.WEB.Controllers.HomeController.Index (SCore.WEB) in 264.321ms
+Executed endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Request finished in 600.8274ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/  
+Executing endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Home"}. Executing action SCore.WEB.Controllers.HomeController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.655ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 201.7001ms.
+Executed action SCore.WEB.Controllers.HomeController.Index (SCore.WEB) in 239.6745ms
+Executed endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Request finished in 399.9643ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Products  
+Executing endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Products"}. Executing action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Date], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+Executed action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 124.5212ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 50.724ms.
+Executed action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) in 1341.6724ms
+Executed endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Request finished in 1395.747ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Account/Register  
+Executing endpoint 'SCore.WEB.Controllers.AccountController.Register (SCore.WEB)'
+Route matched with {action = "Register", controller = "Account"}. Executing action SCore.WEB.Controllers.AccountController.Register (SCore.WEB)
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing action method SCore.WEB.Controllers.AccountController.Register (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.AccountController.Register (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3011ms.
+Executing ViewResult, running view Register.
+Executed ViewResult - view Register executed in 39.8688ms.
+Executed action SCore.WEB.Controllers.AccountController.Register (SCore.WEB) in 129.4135ms
+Executed endpoint 'SCore.WEB.Controllers.AccountController.Register (SCore.WEB)'
+Request finished in 189.6183ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Account/LogIn  
+Executing endpoint 'SCore.WEB.Controllers.AccountController.LogIn (SCore.WEB)'
+Route matched with {action = "LogIn", controller = "Account"}. Executing action SCore.WEB.Controllers.AccountController.LogIn (SCore.WEB)
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing action method SCore.WEB.Controllers.AccountController.LogIn (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.AccountController.LogIn (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3545ms.
+Executing ViewResult, running view LogIn.
+Executed ViewResult - view LogIn executed in 45.5709ms.
+Executed action SCore.WEB.Controllers.AccountController.LogIn (SCore.WEB) in 124.971ms
+Executed endpoint 'SCore.WEB.Controllers.AccountController.LogIn (SCore.WEB)'
+Request finished in 189.5582ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Account/SignInWithGoogle  
+Executing endpoint 'SCore.WEB.Controllers.AccountController.SignInWithGoogle (SCore.WEB)'
+Route matched with {action = "SignInWithGoogle", controller = "Account"}. Executing action SCore.WEB.Controllers.AccountController.SignInWithGoogle (SCore.WEB)
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing action method SCore.WEB.Controllers.AccountController.SignInWithGoogle (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.AccountController.SignInWithGoogle (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ChallengeResult in 0.8402ms.
+Executing ChallengeResult with authentication schemes (Google).
+AuthenticationScheme: Google was challenged.
+Executed action SCore.WEB.Controllers.AccountController.SignInWithGoogle (SCore.WEB) in 77.3897ms
+Executed endpoint 'SCore.WEB.Controllers.AccountController.SignInWithGoogle (SCore.WEB)'
+Request finished in 131.3039ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/signin-google?state=CfDJ8MzGhNABp5NFrfchVuu92Exb7-DBZnoZId17QAeQCmo7Nh7QVwPLU51A9m_TjwswlWXlBBCUQtoFmlURHH1X4LBNjO0iz9F8gu8GvKkRIFPXVRoC6gWx08oxvO7QwS8lv9pjwssfjE3cTEiS5w3Nv7KP9hNqhNF6ik_IoqbIXfmSLhEBZrxzK94Iaq7X_t1h-9dX0o_gel3W_4wiB4YI9BX7RgtmFVXWde8niw3hfb15BgqWcjc_yTrWoIb_gCqpYnZVG874PYJ1_28ZPXuYho0&code=4/PgEjVZ3KPKWuHc4KFc0ap_7DrTFum1LsqvWrOpb7e54fpWBAmze1PFOnYMVBGoStlIYFUd0gOdcN3YUW6VrN2sg&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email+openid&authuser=0&session_state=92954ed022ecc0b3fcae097fb815c2255d7b6e2c..e138&prompt=none  
+AuthenticationScheme: Identity.External signed in.
+Request finished in 587.4813ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/Account/HandleExternalLogin  
+Executing endpoint 'SCore.WEB.Controllers.AccountController.HandleExternalLogin (SCore.WEB)'
+Route matched with {action = "HandleExternalLogin", controller = "Account"}. Executing action SCore.WEB.Controllers.AccountController.HandleExternalLogin (SCore.WEB)
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing action method SCore.WEB.Controllers.AccountController.HandleExternalLogin (SCore.WEB) - Validation state: Valid
+Executed DbCommand (14ms) [Parameters=[@__loginProvider_0='?' (Size = 450), @__providerKey_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [userLogin].[LoginProvider], [userLogin].[ProviderKey], [userLogin].[ProviderDisplayName], [userLogin].[UserId]
+FROM [AspNetUserLogins] AS [userLogin]
+WHERE ([userLogin].[LoginProvider] = @__loginProvider_0) AND ([userLogin].[ProviderKey] = @__providerKey_1)
+Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[DateOfRegister], [u].[Email], [u].[EmailConfirmed], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[Name], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[Id] = @__userId_0
+AuthenticationScheme: Identity.External signed out.
+Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE ([role].[Discriminator] = N'ApplicationRole') AND ([userRole].[UserId] = @__userId_0)
+AuthenticationScheme: Identity.Application signed in.
+Executed action method SCore.WEB.Controllers.AccountController.HandleExternalLogin (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 306.5244ms.
+Executing RedirectResult, redirecting to /.
+Executed action SCore.WEB.Controllers.AccountController.HandleExternalLogin (SCore.WEB) in 380.2405ms
+Executed endpoint 'SCore.WEB.Controllers.AccountController.HandleExternalLogin (SCore.WEB)'
+Request finished in 439.5169ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Home"}. Executing action SCore.WEB.Controllers.HomeController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0663ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 10.5849ms.
+Executed action SCore.WEB.Controllers.HomeController.Index (SCore.WEB) in 48.9029ms
+Executed endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Request finished in 129.4673ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Products  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Products"}. Executing action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Date], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+Executed action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.3178ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 17.567ms.
+Executed action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) in 76.9394ms
+Executed endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Request finished in 170.8629ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Cart/AddToCart?productId=1  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)'
+Route matched with {action = "AddToCart", controller = "Cart"}. Executing action SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)
+Executing action method SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB) with arguments (1, ) - Validation state: Valid
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[OrderId], [e].[ProductId]
+FROM [ProductOrders] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed action method SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 101.5025ms.
+Executing RedirectResult, redirecting to /Products.
+Executed action SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB) in 140.6469ms
+Executed endpoint 'SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)'
+Session started; Key:0a99103f-8319-1dac-211b-baa679d65309, Id:40b81e12-e4b2-8517-fcc3-10f17096d7f9
+Request finished in 244.4898ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/Products  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Products"}. Executing action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Date], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+Executed action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.9877ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 13.1921ms.
+Executed action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) in 58.7542ms
+Executed endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Request finished in 147.8695ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Cart/AddToCart?productId=2  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)'
+Route matched with {action = "AddToCart", controller = "Cart"}. Executing action SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)
+Executing action method SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB) with arguments (2, ) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[OrderId], [e].[ProductId]
+FROM [ProductOrders] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed action method SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 33.0945ms.
+Executing RedirectResult, redirecting to /Products.
+Executed action SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB) in 68.8298ms
+Executed endpoint 'SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)'
+Request finished in 141.344ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/Products  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Products"}. Executing action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Date], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+Executed action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.0049ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 15.3187ms.
+Executed action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) in 63.8761ms
+Executed endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Request finished in 147.7489ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Cart/AddToCart?productId=1  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)'
+Route matched with {action = "AddToCart", controller = "Cart"}. Executing action SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)
+Executing action method SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB) with arguments (1, ) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed action method SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 10.6179ms.
+Executing RedirectResult, redirecting to /Products.
+Executed action SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB) in 40.4619ms
+Executed endpoint 'SCore.WEB.Controllers.CartController.AddToCart (SCore.WEB)'
+Request finished in 126.243ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/Products  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Products"}. Executing action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Date], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+Executed action method SCore.WEB.Controllers.ProductsController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.2652ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 16.5626ms.
+Executed action SCore.WEB.Controllers.ProductsController.Index (SCore.WEB) in 69.2359ms
+Executed endpoint 'SCore.WEB.Controllers.ProductsController.Index (SCore.WEB)'
+Request finished in 156.3606ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Cart  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.CartController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Cart"}. Executing action SCore.WEB.Controllers.CartController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.CartController.Index (SCore.WEB) with arguments () - Validation state: Valid
+Executed action method SCore.WEB.Controllers.CartController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6471ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 23.559ms.
+Executed action SCore.WEB.Controllers.CartController.Index (SCore.WEB) in 64.3562ms
+Executed endpoint 'SCore.WEB.Controllers.CartController.Index (SCore.WEB)'
+Request finished in 188.0853ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders/Checkout  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB)'
+Route matched with {action = "Checkout", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB)
+Executing action method SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6841ms.
+Executing ViewResult, running view Checkout.
+Executed ViewResult - view Checkout executed in 22.5556ms.
+Executed action SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB) in 73.6154ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB)'
+Request finished in 180.2491ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44307/Orders/Checkout application/x-www-form-urlencoded 225
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB)'
+Route matched with {action = "Checkout", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB)
+Executing action method SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB) with arguments (SCore.Models.Order) - Validation state: Valid
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[ConcurrencyStamp], [e].[DateOfRegister], [e].[Email], [e].[EmailConfirmed], [e].[LastName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([TimeOfOrder], [UserId])
+VALUES (@p0, @p1);
+SELECT [OrderId]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [OrderId] = scope_identity();
+Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ProductOrders] ([Amount], [OrderId], [ProductId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [ProductOrders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ProductOrders] ([Amount], [OrderId], [ProductId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [ProductOrders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed action method SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 160.6947ms.
+Executing RedirectResult, redirecting to /Orders/Completed.
+Executed action SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB) in 228.6747ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Checkout (SCore.WEB)'
+Request finished in 320.1593ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/Orders/Completed  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Completed (SCore.WEB)'
+Route matched with {action = "Completed", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Completed (SCore.WEB)
+Executing action method SCore.WEB.Controllers.OrdersController.Completed (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.OrdersController.Completed (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6167ms.
+Executing ViewResult, running view Completed.
+Executed ViewResult - view Completed executed in 18.4932ms.
+Executed action SCore.WEB.Controllers.OrdersController.Completed (SCore.WEB) in 55.6738ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Completed (SCore.WEB)'
+Request finished in 136.0874ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[OrderId], [c].[TimeOfOrder], [c].[UserId], [c.User].[Id], [c.User].[AccessFailedCount], [c.User].[ConcurrencyStamp], [c.User].[DateOfRegister], [c.User].[Email], [c.User].[EmailConfirmed], [c.User].[LastName], [c.User].[LockoutEnabled], [c.User].[LockoutEnd], [c.User].[Name], [c.User].[NormalizedEmail], [c.User].[NormalizedUserName], [c.User].[PasswordHash], [c.User].[PhoneNumber], [c.User].[PhoneNumberConfirmed], [c.User].[SecurityStamp], [c.User].[TwoFactorEnabled], [c.User].[UserName]
+FROM [Orders] AS [c]
+LEFT JOIN [AspNetUsers] AS [c.User] ON [c].[UserId] = [c.User].[Id]
+Executed action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 48.2328ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 26.3329ms.
+Executed action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) in 112.6781ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Request finished in 189.6945ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders/Details/10  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)'
+Route matched with {action = "Details", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)
+Executing action method SCore.WEB.Controllers.OrdersController.Details (SCore.WEB) with arguments (10) - Validation state: Valid
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[OrderId], [e].[TimeOfOrder], [e].[UserId]
+FROM [Orders] AS [e]
+WHERE [e].[OrderId] = @__get_Item_0
+Executed action method SCore.WEB.Controllers.OrdersController.Details (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 17.3327ms.
+Executing ViewResult, running view Details.
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccessFailedCount], [e].[ConcurrencyStamp], [e].[DateOfRegister], [e].[Email], [e].[EmailConfirmed], [e].[LastName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[OrderId], [e].[ProductId]
+FROM [ProductOrders] AS [e]
+WHERE [e].[OrderId] = @__get_Item_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed ViewResult - view Details executed in 122.0168ms.
+Executed action SCore.WEB.Controllers.OrdersController.Details (SCore.WEB) in 183.6734ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)'
+Request finished in 269.8333ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Home"}. Executing action SCore.WEB.Controllers.HomeController.Index (SCore.WEB)
+Executing action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.HomeController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6847ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 201.0232ms.
+Executed action SCore.WEB.Controllers.HomeController.Index (SCore.WEB) in 257.3318ms
+Executed endpoint 'SCore.WEB.Controllers.HomeController.Index (SCore.WEB)'
+Request finished in 1500.5648ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)
+Accessing expired session, Key:0a99103f-8319-1dac-211b-baa679d65309
+Executing action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[OrderId], [c].[TimeOfOrder], [c].[UserId], [c.User].[Id], [c.User].[AccessFailedCount], [c.User].[ConcurrencyStamp], [c.User].[DateOfRegister], [c.User].[Email], [c.User].[EmailConfirmed], [c.User].[LastName], [c.User].[LockoutEnabled], [c.User].[LockoutEnd], [c.User].[Name], [c.User].[NormalizedEmail], [c.User].[NormalizedUserName], [c.User].[PasswordHash], [c.User].[PhoneNumber], [c.User].[PhoneNumberConfirmed], [c.User].[SecurityStamp], [c.User].[TwoFactorEnabled], [c.User].[UserName]
+FROM [Orders] AS [c]
+LEFT JOIN [AspNetUsers] AS [c.User] ON [c].[UserId] = [c.User].[Id]
+Executed action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 213.5688ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 42.3968ms.
+Executed action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) in 305.7516ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Request finished in 422.4933ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders/Create  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Create (SCore.WEB)'
+Route matched with {action = "Create", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Create (SCore.WEB)
+Accessing expired session, Key:0a99103f-8319-1dac-211b-baa679d65309
+Executing action method SCore.WEB.Controllers.OrdersController.Create (SCore.WEB) - Validation state: Valid
+Executed action method SCore.WEB.Controllers.OrdersController.Create (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.4991ms.
+Executing ViewResult, running view Create.
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateOfRegister], [a].[Email], [a].[EmailConfirmed], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Date], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+Executed ViewResult - view Create executed in 97.5093ms.
+Executed action SCore.WEB.Controllers.OrdersController.Create (SCore.WEB) in 154.9958ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Create (SCore.WEB)'
+Request finished in 232.4167ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 POST https://localhost:44307/Orders/Create application/x-www-form-urlencoded 290
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Create (SCore.WEB)'
+Route matched with {action = "Create", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Create (SCore.WEB)
+Accessing expired session, Key:0a99103f-8319-1dac-211b-baa679d65309
+Executing action method SCore.WEB.Controllers.OrdersController.Create (SCore.WEB) with arguments (SCore.Models.Models.OrderViewModel) - Validation state: Valid
+Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([TimeOfOrder], [UserId])
+VALUES (@p0, @p1);
+SELECT [OrderId]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [OrderId] = scope_identity();
+Executed DbCommand (2ms) [Parameters=[@p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ProductOrders] ([Amount], [OrderId], [ProductId])
+VALUES (@p2, @p3, @p4);
+SELECT [Id]
+FROM [ProductOrders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed action method SCore.WEB.Controllers.OrdersController.Create (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 91.5701ms.
+Executing RedirectResult, redirecting to /Orders.
+Executed action SCore.WEB.Controllers.OrdersController.Create (SCore.WEB) in 178.0599ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Create (SCore.WEB)'
+Request finished in 283.7799ms 302 
+Request starting HTTP/2.0 GET https://localhost:44307/Orders  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)
+Accessing expired session, Key:0a99103f-8319-1dac-211b-baa679d65309
+Executing action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[OrderId], [c].[TimeOfOrder], [c].[UserId], [c.User].[Id], [c.User].[AccessFailedCount], [c.User].[ConcurrencyStamp], [c.User].[DateOfRegister], [c.User].[Email], [c.User].[EmailConfirmed], [c.User].[LastName], [c.User].[LockoutEnabled], [c.User].[LockoutEnd], [c.User].[Name], [c.User].[NormalizedEmail], [c.User].[NormalizedUserName], [c.User].[PasswordHash], [c.User].[PhoneNumber], [c.User].[PhoneNumberConfirmed], [c.User].[SecurityStamp], [c.User].[TwoFactorEnabled], [c.User].[UserName]
+FROM [Orders] AS [c]
+LEFT JOIN [AspNetUsers] AS [c.User] ON [c].[UserId] = [c.User].[Id]
+Executed action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.8091ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 13.9371ms.
+Executed action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) in 78.5409ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Request finished in 148.2783ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders/Details/10  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)'
+Route matched with {action = "Details", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)
+Accessing expired session, Key:0a99103f-8319-1dac-211b-baa679d65309
+Executing action method SCore.WEB.Controllers.OrdersController.Details (SCore.WEB) with arguments (10) - Validation state: Valid
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[OrderId], [e].[TimeOfOrder], [e].[UserId]
+FROM [Orders] AS [e]
+WHERE [e].[OrderId] = @__get_Item_0
+Executed action method SCore.WEB.Controllers.OrdersController.Details (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 28.6456ms.
+Executing ViewResult, running view Details.
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccessFailedCount], [e].[ConcurrencyStamp], [e].[DateOfRegister], [e].[Email], [e].[EmailConfirmed], [e].[LastName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[OrderId], [e].[ProductId]
+FROM [ProductOrders] AS [e]
+WHERE [e].[OrderId] = @__get_Item_0
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed ViewResult - view Details executed in 101.8213ms.
+Executed action SCore.WEB.Controllers.OrdersController.Details (SCore.WEB) in 179.2667ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)'
+Request finished in 266.949ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Route matched with {action = "Index", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)
+Accessing expired session, Key:0a99103f-8319-1dac-211b-baa679d65309
+Executing action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[OrderId], [c].[TimeOfOrder], [c].[UserId], [c.User].[Id], [c.User].[AccessFailedCount], [c.User].[ConcurrencyStamp], [c.User].[DateOfRegister], [c.User].[Email], [c.User].[EmailConfirmed], [c.User].[LastName], [c.User].[LockoutEnabled], [c.User].[LockoutEnd], [c.User].[Name], [c.User].[NormalizedEmail], [c.User].[NormalizedUserName], [c.User].[PasswordHash], [c.User].[PhoneNumber], [c.User].[PhoneNumberConfirmed], [c.User].[SecurityStamp], [c.User].[TwoFactorEnabled], [c.User].[UserName]
+FROM [Orders] AS [c]
+LEFT JOIN [AspNetUsers] AS [c.User] ON [c].[UserId] = [c.User].[Id]
+Executed action method SCore.WEB.Controllers.OrdersController.Index (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.3363ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 12.1205ms.
+Executed action SCore.WEB.Controllers.OrdersController.Index (SCore.WEB) in 71.1314ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Index (SCore.WEB)'
+Request finished in 154.9261ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44307/Orders/Details/11  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)'
+Route matched with {action = "Details", controller = "Orders"}. Executing action SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)
+Accessing expired session, Key:0a99103f-8319-1dac-211b-baa679d65309
+Executing action method SCore.WEB.Controllers.OrdersController.Details (SCore.WEB) with arguments (11) - Validation state: Valid
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[OrderId], [e].[TimeOfOrder], [e].[UserId]
+FROM [Orders] AS [e]
+WHERE [e].[OrderId] = @__get_Item_0
+Executed action method SCore.WEB.Controllers.OrdersController.Details (SCore.WEB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.6579ms.
+Executing ViewResult, running view Details.
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccessFailedCount], [e].[ConcurrencyStamp], [e].[DateOfRegister], [e].[Email], [e].[EmailConfirmed], [e].[LastName], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[Name], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[OrderId], [e].[ProductId]
+FROM [ProductOrders] AS [e]
+WHERE [e].[OrderId] = @__get_Item_0
+Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [e].[ProductId], [e].[Date], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[ProductId] = @__get_Item_0
+Executed ViewResult - view Details executed in 53.5581ms.
+Executed action SCore.WEB.Controllers.OrdersController.Details (SCore.WEB) in 112.6164ms
+Executed endpoint 'SCore.WEB.Controllers.OrdersController.Details (SCore.WEB)'
+Request finished in 188.7641ms 200 text/html; charset=utf-8

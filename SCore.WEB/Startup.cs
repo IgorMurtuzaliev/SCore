@@ -23,7 +23,7 @@ using SCore.DAL.Interfaces;
 using SCore.DAL.Repositories;
 using SCore.Models;
 using SCore.Models.Entities;
-
+using SCore.WEB.Filters;
 
 namespace SCore.WEB
 {
@@ -69,7 +69,11 @@ namespace SCore.WEB
             services.AddIdentity<User, ApplicationRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(typeof(ActionFilter)); 
+
+            });
             services.AddHttpContextAccessor();
 
             services.AddAuthentication(options =>
@@ -119,14 +123,7 @@ namespace SCore.WEB
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-            loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
-            var logger = loggerFactory.CreateLogger("FileLogger");
-
-            app.Run(async (context) =>
-            {
-                logger.LogInformation("Processing request {0}", context.Request.Path);
-                await context.Response.WriteAsync("Hello World!");
-            });
+           
         }
     }
 }

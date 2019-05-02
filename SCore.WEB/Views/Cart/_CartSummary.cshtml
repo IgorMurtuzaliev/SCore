@@ -2,7 +2,7 @@
 <div>
         <span class="caption">
             <b> @Html.ActionLink("Cart", "Index", "Cart") : </b>
-            @Model.Lines.Sum(x => x.Quantity) item(s)
+            @Model.Lines.Sum(x => x.Amount) item(s)
             @Model.Totalvalue().ToString("c")
         </span>
 </div>

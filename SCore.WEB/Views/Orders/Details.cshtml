@@ -26,15 +26,15 @@
             @Html.DisplayFor(model => model.TimeOfOrder)
         </dd>
         <table class="table">
-            @foreach (var item in Model.Lines)
+            @foreach (var item in Model.ProductOrders)
             {
-                int i = item.Product.Price * item.Quantity;
+                int i = item.Product.Price * item.Amount;
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.Product.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Quantity)
+                    @Html.DisplayFor(modelItem => item.Amount)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Product.Price)

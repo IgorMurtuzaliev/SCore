@@ -71,12 +71,12 @@ namespace SCore.BLL.Services
             db.Dispose(disposing);
         }
         public IEnumerable<Order> Orders => context.Orders
-                            .Include(o => o.Lines)
+                            .Include(o => o.ProductOrders)
                             .ThenInclude(l => l.Product);
 
         public void SaveOrder(Order order)
         {
-            context.AttachRange(order.Lines.Select(l => l.Product));
+            context.AttachRange(order.ProductOrders.Select(l => l.Product));
             if (order.OrderId == 0)
             {
                 context.Orders.Add(order);

@@ -28,9 +28,9 @@ namespace SCore.DAL.Repositories
            // CartLine line = db.Lines.FirstOrDefault(c => c.OrderId == order.OrderId);
             if (order != null)
             {
-                foreach(var item in order.Lines)
+                foreach(var item in order.ProductOrders)
                 {
-                db.Lines.Remove(item);
+                db.ProductOrders.Remove(item);
                 }
 
                 db.Orders.Remove(order);

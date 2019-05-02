@@ -17,10 +17,10 @@
         @foreach (var line in Model.Cart.Lines)
         {
             <tr>
-                <td>@line.Quantity</td>
+                <td>@line.Amount</td>
                 <td>@line.Product.Name</td>
                 <td>@line.Product.Price.ToString("c")</td>
-                <td>@((line.Quantity * line.Product.Price).ToString("c"))</td>
+                <td>@((line.Amount * line.Product.Price).ToString("c"))</td>
                 <td>@Html.ActionLink("Remove", "RemoveFromCart", new { productId = line.Product.ProductId })</td>
             </tr>
         }

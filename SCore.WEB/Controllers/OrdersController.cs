@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -24,6 +25,7 @@ namespace SCore.WEB.Controllers
             userManager = _userManager;
             cart = _cart;
         }
+
         public ActionResult Index()
         {
             return View(orderService.GetAll());
@@ -38,7 +40,7 @@ namespace SCore.WEB.Controllers
             }
             return View(order);
         }
-
+        [Authorize(Roles = "User")]
         public ActionResult Create()
         {
             ViewBag.UserId = new SelectList(db.Users, "Id", "Name");
@@ -47,7 +49,7 @@ namespace SCore.WEB.Controllers
         }
 
         [HttpPost]
-        // [ValidateAntiForgeryToken]
+        [Authorize(Roles = "User")]
         public ActionResult Create(OrderViewModel orderVM)
         {
             if (ModelState.IsValid)
@@ -71,7 +73,6 @@ namespace SCore.WEB.Controllers
         }
 
         [HttpPost]
-        //[ValidateAntiForgeryToken]
         public ActionResult Edit(Order order)
         {
             if (ModelState.IsValid)
@@ -82,7 +83,7 @@ namespace SCore.WEB.Controllers
             ViewBag.UserId = new SelectList(db.Users, "Id", "Name", order.UserId);
             return View(order);
         }
-
+        [Authorize(Roles = "User")]
         public ActionResult Delete(int id)
         {
             Order order = orderService.Get(id);
@@ -94,7 +95,7 @@ namespace SCore.WEB.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        // [ValidateAntiForgeryToken]
+        [Authorize(Roles = "User")]
         public ActionResult DeleteConfirmed(int id)
         {
             orderService.Delete(id);
@@ -104,7 +105,7 @@ namespace SCore.WEB.Controllers
         {
             orderService.Dispose(disposing);
         }
-
+        [Authorize(Roles = "User")]
         public ViewResult Checkout() => View(new Order());
         [HttpPost]
         public async Task<IActionResult> Checkout(Order order)

@@ -1,9 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SCore.BLL.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SCore.BLL.Models;
 
 namespace SCore.BLL.Interfaces
 {

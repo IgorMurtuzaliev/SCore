@@ -1,14 +1,11 @@
 ﻿using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using MimeKit;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SCore.BLL.Services
 {
-     public class EmailService: IEmailSender
+    public class EmailService: IEmailSender
     {
         public async Task SendEmailAsync(string email, string subject, string message)
         {

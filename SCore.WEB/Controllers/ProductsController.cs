@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
-using SCore.BLL.Models;
 using SCore.Models;
 
 namespace SCore.WEB.Controllers
@@ -28,15 +28,14 @@ namespace SCore.WEB.Controllers
             }
             return View(product);
         }
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
         }
 
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        //[ValidateAntiForgeryToken]
         public ActionResult Create(Product product)
         {
             if (ModelState.IsValid)
@@ -63,25 +62,19 @@ namespace SCore.WEB.Controllers
             return View(product);
         }
 
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int id)
         {
             Product product = productService.Get(id);
             return View(product);
         }
 
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
             productService.Delete(id);
             return RedirectToAction("Index");
-        }
-        public ActionResult AddToCart(Cart cart, int? id)
-        {
-            cartService.AddToCart(cart, id);
-            return RedirectToAction("Index", "Cart");
         }
     }
 }

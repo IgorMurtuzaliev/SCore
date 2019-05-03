@@ -5,11 +5,10 @@ using SCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace SCore.DAL.Repositories
 {
-   public class OrderRepository: IRepository<Order>
+    public class OrderRepository: IRepository<Order>
     {
         private ApplicationDbContext db;
         public OrderRepository(ApplicationDbContext context)

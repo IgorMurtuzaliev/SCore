@@ -4,8 +4,6 @@ using Newtonsoft.Json;
 using SCore.BLL.Infrastructure;
 using SCore.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SCore.BLL.Models
 {

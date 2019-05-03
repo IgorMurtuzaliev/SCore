@@ -16,8 +16,12 @@
         <tr>
             <td>@item.Name</td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                <a class="btn btn-default" asp-action="Edit" asp-controller="Role" asp-route-productId="@item.Id">
+                    Edit
+                </a>
+                <a class="btn btn-default" asp-action="Delete" asp-controller="Role" asp-route-productId="@item.Id">
+                    Delete
+                </a>
             </td>
         </tr>
     }

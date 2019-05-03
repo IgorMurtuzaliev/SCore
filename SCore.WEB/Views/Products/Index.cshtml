@@ -10,7 +10,13 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-default" asp-action="Create" asp-controller="Products">
+            Create
+        </a>
+    }
+
 </p>
 <table class="table">
     <tr>
@@ -45,23 +51,22 @@
                 @Html.DisplayFor(modelItem => item.Date)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ProductId }) |
-                @Html.ActionLink("Details", "Details", new { id = item.ProductId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
-                @Html.ActionLink("Add", "AddToCart","Cart", new { productId = item.ProductId })
-                @*<form id="@item.ProductId." asp-action="AddToCart"
-                      asp-controller="Cart" method="post">
-                    <input type="hidden" asp-for="" />
-                    <input type="hidden" name="returnUrl"
-                           value="@ViewContext.HttpContext.Request.PathAndQuery()" />
-                    <span class="lead">
-                        <button type="submit" class="btn btn-success btn-sm pull-right">
-                            Add To Cart
-                        </button>
-                    </span>
-                </form>*@
+                @if (User.IsInRole("Admin"))
+                {
+                    <a class="btn btn-default" asp-action="Edit" asp-controller="Products" asp-route-id="@item.ProductId">
+                        Edit
+                    </a>
+                    <a class="btn btn-default" asp-action="Delete" asp-controller="Products" asp-route-id="@item.ProductId">
+                        Delete
+                    </a>               
+                }
+            <a class="btn btn-default" asp-action="Details" asp-controller="Products" asp-route-id="@item.ProductId">
+                Details
+            </a>
+                <a class="btn btn-default" asp-action="AddToCart" asp-controller="Cart" asp-route-productId="@item.ProductId">
+                    Add to cart
+                </a>
             </td>
         </tr>
     }
-
 </table>

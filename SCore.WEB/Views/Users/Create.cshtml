@@ -48,9 +48,8 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Users" asp-route-productId="@Model.Id">
+        Back to List
+    </a>
 </div>
 
-@*@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}*@

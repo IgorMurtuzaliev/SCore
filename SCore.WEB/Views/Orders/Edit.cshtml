@@ -9,7 +9,6 @@
 
 @using (Html.BeginForm())
 {
-    @Html.AntiForgeryToken()
 
 <div class="form-horizontal">
     <h4>Order</h4>
@@ -42,9 +41,8 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    <a class="btn btn-default" asp-action="Index" asp-controller="Orders" asp-route-productId="@Model.OrderId">
+        Back to List
+    </a>
 </div>
 
-@*@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}*@

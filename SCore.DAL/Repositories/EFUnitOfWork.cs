@@ -1,11 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using SCore.DAL.EF;
+﻿using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
-using SCore.Models.Entities;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SCore.DAL.Repositories
 {

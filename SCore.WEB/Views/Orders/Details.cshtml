@@ -25,29 +25,36 @@
         <dd>
             @Html.DisplayFor(model => model.TimeOfOrder)
         </dd>
+        <dt>
+            @Html.DisplayName("Products")
+        </dt>
         <table class="table">
             @foreach (var item in Model.ProductOrders)
             {
                 int i = item.Product.Price * item.Amount;
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Product.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Amount)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Product.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem =>i )
-                </td>
-            </tr>
+                <tr>
+                    <td>
+                        @item.Product.Name
+                    </td>
+                    <td>
+                        @item.Amount
+                    </td>
+                    <td>
+                        @item.Product.Price.ToString("c")
+                    </td>
+                    <td>
+                        @i.ToString("c")
+                    </td>
+                </tr>
             }
-          </table>
-</dl>
+        </table>
+    </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.OrderId }) |
-    @Html.ActionLink("Back to List", "Index")
+    <a class="btn btn-default" asp-action="Edit" asp-controller="Orders" asp-route-productId="@Model.OrderId">
+        Edit
+    </a>
+    <a class="btn btn-default" asp-action="Index" asp-controller="Orders" asp-route-productId="@Model.OrderId">
+        Back to List
+    </a>
 </p>

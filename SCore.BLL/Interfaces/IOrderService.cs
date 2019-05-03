@@ -1,5 +1,4 @@
-﻿using SCore.BLL.Models;
-using SCore.Models;
+﻿using SCore.Models;
 using SCore.Models.Models;
 using System.Collections.Generic;
 

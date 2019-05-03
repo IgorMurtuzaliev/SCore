@@ -1,9 +1,7 @@
 ﻿using SCore.BLL.Interfaces;
 using SCore.DAL.Interfaces;
 using SCore.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SCore.BLL.Services
 {

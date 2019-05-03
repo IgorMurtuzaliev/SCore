@@ -1,9 +1,6 @@
-﻿
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SCore.BLL.Interfaces;
-using SCore.BLL.Models;
 using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
@@ -11,7 +8,6 @@ using SCore.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace SCore.BLL.Services
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SCore.BLL.Models
+﻿namespace SCore.BLL.Models
 {
     public class CreateRoleModel
     {

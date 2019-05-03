@@ -3,7 +3,6 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
@@ -119,6 +118,7 @@ namespace SCore.WEB.Controllers
                     EmailConfirmed = true
                 };
                 var createResult = await userManager.CreateAsync(newUser);
+                await userManager.AddToRoleAsync(newUser, "User");
                 if (!createResult.Succeeded)
                     throw new Exception(createResult.Errors.Select(e => e.Description).Aggregate((errors, error) => $"{errors}, {error}"));
 

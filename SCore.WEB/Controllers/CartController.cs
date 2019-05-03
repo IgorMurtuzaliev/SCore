@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Infrastructure;
 using SCore.BLL.Interfaces;
 using SCore.BLL.Models;
@@ -16,7 +17,7 @@ namespace SCore.WEB.Controllers
         {
             repository = repo;
         }
-
+        [Authorize(Roles = "User")]
         public ViewResult Index(string returnUrl)
         {
             return View(new CartIndexViewModel
@@ -25,6 +26,7 @@ namespace SCore.WEB.Controllers
                 ReturnUrl = returnUrl
             });
         }
+        [Authorize(Roles = "User")]
         public RedirectToActionResult AddToCart(int productId, string returnUrl)
         {
             Product product = repository.Get(productId);
@@ -36,7 +38,7 @@ namespace SCore.WEB.Controllers
             }
             return RedirectToAction("Index", "Products");
         }
-
+        [Authorize(Roles = "User")]
         public RedirectToActionResult RemoveFromCart(int productId,
                  string returnUrl)
         {

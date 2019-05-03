@@ -3,10 +3,6 @@ using SCore.BLL.Interfaces;
 using SCore.BLL.Models;
 using SCore.DAL.Interfaces;
 using SCore.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SCore.BLL.Services
 {

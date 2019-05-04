@@ -25,9 +25,9 @@ namespace SCore.BLL.Services
             return context.Orders.Where(c => c.TimeOfOrder > from && c.TimeOfOrder < to).ToList();
         }
 
-        //public List<Order> FindByUser(string id, User U)
-        //{
-        //    return context.Orders.Where(c => c.User.Id == id).ToList();
-        //}
+        public List<Order> FindByUser(string search)
+        {
+            return context.Orders.Where(p => p.User.Name.Contains(search) || p.User.LastName.Contains(search) || p.User.UserName.Contains(search)).ToList();
+        }
     }
 }

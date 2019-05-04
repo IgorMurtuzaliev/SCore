@@ -4,7 +4,7 @@
     ViewBag.Title = "Delete";
 }
 
-<h2>Delete</h2>
+<h4>Delete</h4>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
@@ -32,8 +32,8 @@
     @using (Html.BeginForm()) {
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            <a class="btn btn-default" asp-action="Index" asp-controller="Orders" asp-route-productId="@Model.OrderId">
+            <input type="submit" value="Delete" class="btn btn-outline-primary" /> |
+            <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Orders" asp-route-productId="@Model.OrderId">
                 Back to List
             </a>
         </div>

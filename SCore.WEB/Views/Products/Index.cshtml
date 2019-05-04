@@ -7,12 +7,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-
+<h4>List of products</h4>
+<hr />
 <p>
     @if (User.IsInRole("Admin"))
     {
-        <a class="btn btn-default" asp-action="Create" asp-controller="Products">
+        <a class="btn btn-outline-primary" asp-action="Create" asp-controller="Products">
             Create
         </a>
     }
@@ -53,19 +53,22 @@
             <td>
                 @if (User.IsInRole("Admin"))
                 {
-                    <a class="btn btn-default" asp-action="Edit" asp-controller="Products" asp-route-id="@item.ProductId">
+                    <a class="btn btn-outline-dark" asp-action="Edit" asp-controller="Products" asp-route-id="@item.ProductId">
                         Edit
                     </a>
-                    <a class="btn btn-default" asp-action="Delete" asp-controller="Products" asp-route-id="@item.ProductId">
+                    <a class="btn btn-outline-dark" asp-action="Delete" asp-controller="Products" asp-route-id="@item.ProductId">
                         Delete
-                    </a>               
+                    </a>
                 }
-            <a class="btn btn-default" asp-action="Details" asp-controller="Products" asp-route-id="@item.ProductId">
-                Details
-            </a>
-                <a class="btn btn-default" asp-action="AddToCart" asp-controller="Cart" asp-route-productId="@item.ProductId">
-                    Add to cart
-                </a>
+                @if (User.IsInRole("User"))
+                {
+                    <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Products" asp-route-id="@item.ProductId">
+                        Details
+                    </a>
+                    <a class="btn btn-outline-primary" asp-action="AddToCart" asp-controller="Cart" asp-route-productId="@item.ProductId">
+                        Add to cart
+                    </a>
+                }
             </td>
         </tr>
     }

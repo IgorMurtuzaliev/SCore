@@ -4,7 +4,7 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h4>Details</h4>
 
 <div>
     <h4>Order</h4>
@@ -51,10 +51,10 @@
     </dl>
 </div>
 <p>
-    <a class="btn btn-default" asp-action="Edit" asp-controller="Orders" asp-route-productId="@Model.OrderId">
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Orders" asp-route-productId="@Model.OrderId">
         Edit
     </a>
-    <a class="btn btn-default" asp-action="Index" asp-controller="Orders" asp-route-productId="@Model.OrderId">
+    <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Orders" asp-route-productId="@Model.OrderId">
         Back to List
     </a>
 </p>

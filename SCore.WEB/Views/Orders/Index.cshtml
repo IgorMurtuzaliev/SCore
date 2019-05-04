@@ -4,10 +4,10 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-
+<h4>Orders of user @User.Identity.Name</h4>
+<hr />
 <p>
-    <a class="btn btn-default" asp-action="Create" asp-controller="Orders">
+    <a class="btn btn-outline-primary" asp-action="Create" asp-controller="Orders">
         Create
     </a>
 </p>
@@ -34,13 +34,13 @@
                     @Html.DisplayFor(modelItem => item.TimeOfOrder)
                 </td>
                 <td>
-                    <a class="btn btn-default" asp-action="Edit" asp-controller="Orders" asp-route-id="@item.OrderId">
+                    <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Orders" asp-route-id="@item.OrderId">
                         Edit
                     </a>
-                    <a class="btn btn-default" asp-action="Details" asp-controller="Orders" asp-route-id="@item.OrderId">
+                    <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Orders" asp-route-id="@item.OrderId">
                         Details
                     </a>
-                    <a class="btn btn-default" asp-action="Delete" asp-controller="Orders" asp-route-id="@item.OrderId">
+                    <a class="btn btn-outline-primary" asp-action="Delete" asp-controller="Orders" asp-route-id="@item.OrderId">
                         Delete
                     </a>
 

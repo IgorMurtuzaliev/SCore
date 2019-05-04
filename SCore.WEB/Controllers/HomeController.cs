@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SCore.BLL.Interfaces;
@@ -6,6 +7,7 @@ using SCore.DAL.EF;
 using SCore.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SCore.WEB.Controllers
 {
@@ -27,26 +29,26 @@ namespace SCore.WEB.Controllers
             
             return View();
         }
+        [Authorize(Roles ="Admin")]
         [HttpGet]
         public ActionResult FindData()
         {
-            //ViewBag.UserId = new SelectList(context.Users, "Id", "UserName");
-            var qq = orderService.GetAll();
-            return View(qq);
+            var orders = orderService.GetAll();
+            return View(orders);
         }
         [HttpPost]
-        public ActionResult FindData(DateTime? from, DateTime? to, User user)
+        public ActionResult FindData(DateTime? from, DateTime? to, string search)
         {
             if (from != null || to != null)
             {
                var orders= service.FindByDate(from,to);
                 return View(orders);
             }
-            //if (user != null)
-            //{
-            //    var orders = service.FindByUser(user);
-            //    return View(orders);
-            //}
+            if (search != null)
+            {
+                var orders = service.FindByUser(search);
+                return View(orders);
+            }
             return View();
         }
     }

@@ -4,8 +4,8 @@
     ViewBag.Title = "Create";
 }
 
-<h2>Create</h2>
-
+<h4>Create</h4>
+<hr />
 
 @using (Html.BeginForm("Create","Products",FormMethod.Post))
 {
@@ -41,13 +41,13 @@
 
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Create" class="btn btn-default" />
+            <input type="submit" value="Create" class="btn btn-outline-primary" />
         </div>
     </div>
 </div>
 }
 <div>
-    <a class="btn btn-default" asp-action="Index" asp-controller="Product" asp-route-productId="@Model.ProductId">
+    <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Product" asp-route-productId="@Model.ProductId">
         Back to List
     </a>
 </div>

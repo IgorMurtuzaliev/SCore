@@ -4,7 +4,7 @@ namespace SCore.Models.Models
 {
     public class OrderViewModel
     {
-        public string UserId { get; set; }
+        public string UserId { get; set; } 
         public int ProductId { get; set; }
         public int OrderId { get; set; }
         public int Amount { get; set; }

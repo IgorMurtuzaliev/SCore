@@ -4,10 +4,10 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-
+<h4>Authorisated users</h4>
+<hr />
 <p>
-    <a class="btn btn-default" asp-action="Create" asp-controller="Users">
+    <a class="btn btn-outline-primary" asp-action="Create" asp-controller="Users">
         Create
     </a>
 </p>
@@ -43,13 +43,13 @@
             @Html.DisplayFor(modelItem => item.DateOfRegister)
         </td>
         <td>
-            <a class="btn btn-default" asp-action="Edit" asp-controller="Users" asp-route-id="@item.Id">
+            <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Users" asp-route-id="@item.Id">
                 Edit
             </a>
-            <a class="btn btn-default" asp-action="Details" asp-controller="Users" asp-route-id="@item.Id">
+            <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Users" asp-route-id="@item.Id">
                 Details
             </a>
-            <a class="btn btn-default" asp-action="Delete" asp-controller="Users" asp-route-id="@item.Id">
+            <a class="btn btn-outline-primary" asp-action="Delete" asp-controller="Users" asp-route-id="@item.Id">
                 Delete
             </a>
         </td>

@@ -4,7 +4,8 @@
     ViewBag.Title = "Roles";
 }
 
-<h2>Roles</h2>
+<h4>Roles</h4>
+<hr />
 <table class="table">
     <tr>
         <th>Name</th>
@@ -16,10 +17,10 @@
         <tr>
             <td>@item.Name</td>
             <td>
-                <a class="btn btn-default" asp-action="Edit" asp-controller="Role" asp-route-productId="@item.Id">
+                <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Role" asp-route-productId="@item.Id">
                     Edit
                 </a>
-                <a class="btn btn-default" asp-action="Delete" asp-controller="Role" asp-route-productId="@item.Id">
+                <a class="btn btn-outline-primary" asp-action="Delete" asp-controller="Role" asp-route-productId="@item.Id">
                     Delete
                 </a>
             </td>

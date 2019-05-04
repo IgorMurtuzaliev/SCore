@@ -14,13 +14,15 @@ namespace SCore.WEB.Controllers
     public class AccountController : Controller
     {
         readonly IAccountService service;
+        private readonly IUserService userService;
         private readonly UserManager<User> userManager;
         private readonly SignInManager<User> signInManager;
-        public AccountController(UserManager<User> _userManager, IAccountService _service, SignInManager<User> _signInManager)
+        public AccountController(UserManager<User> _userManager, IAccountService _service, SignInManager<User> _signInManager, IUserService _userService)
         {
             service = _service;
             userManager = _userManager;
             signInManager = _signInManager;
+            userService = _userService;
         }
         public IActionResult Index()
         {
@@ -130,6 +132,16 @@ namespace SCore.WEB.Controllers
             }
 
             return RedirectToAction("Index", "Home");
+        }
+        public ActionResult GetUsersAccount(string id)
+        {
+
+            if (id == null)
+            {
+                return BadRequest();
+            }
+            User user = userService.Get(id);
+            return View(user);
         }
     }
 }

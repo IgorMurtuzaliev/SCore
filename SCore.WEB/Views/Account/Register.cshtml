@@ -5,8 +5,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Register</h2>
-
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -52,7 +50,7 @@
             </div>
         </div>
 
-        <div>
+        <div style="margin-top:25px;">
             <div>
                 <input type="submit" value="Register" />
             </div>

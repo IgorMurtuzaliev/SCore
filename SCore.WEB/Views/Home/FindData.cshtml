@@ -3,16 +3,18 @@
     ViewBag.Title = "FindData";
 }
 
-<h2>FindData</h2>
+<h4>Report</h4>
 
-@*<form method="post" action="">
-        <div class="form-inline">
-            <label class="control-label">user: </label>
-            @Html.DropDownList("UserId", null, htmlAttributes: new { @class = "form-control" })
-            <input type="submit" value="Отправить" class="btn btn-default" />
+<form asp-action="FindData">
+    <div class="row input-group">
+        <input type="text" name="search" id="search" class="form-control" />
+        <div class="input-group-btn">
+            <input type="submit" value="Search" class="btn btn-primary" />
         </div>
-    </form>*@
-<form method="post" action="">
+    </div>
+
+</form>
+<form method="post" action="" style="margin-top:25px">
     <input type="date" value="from" name="from" />
     <input type="date" value="to" name="to" />
     <input type="submit" value="Отправить" />
@@ -38,11 +40,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.TimeOfOrder)
             </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.OrderId }) |
-                @Html.ActionLink("Details", "Details", new { id = item.OrderId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.OrderId })
-            </td>
+            <td></td>
         </tr>
     }
 

@@ -107,3 +107,4 @@ C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\R
 C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Cart\_CartSummary.g.cshtml.cs
 C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Checkout.g.cshtml.cs
 C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Completed.g.cshtml.cs
+C:\Users\User\source\repos\SCore\SCore.WEB\obj\Debug\netcoreapp2.2\Razor\Views\Account\GetUsersAccount.g.cshtml.cs

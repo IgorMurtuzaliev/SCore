@@ -9,6 +9,6 @@ namespace SCore.BLL.Interfaces
     public interface ISearchService
     {
         List<Order> FindByDate(DateTime? from, DateTime? to);
-        //List<Order> FindByUser(string id,User user);
+        List<Order> FindByUser(string search);
     }
 }

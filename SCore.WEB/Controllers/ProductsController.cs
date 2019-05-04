@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using SCore.BLL.Interfaces;
-using SCore.DAL.EF;
-using SCore.DAL.Repositories;
 using SCore.Models;
 
 namespace SCore.WEB.Controllers
@@ -14,10 +8,11 @@ namespace SCore.WEB.Controllers
     public class ProductsController : Controller
     {
         private readonly IProductService productService;
-        public ProductsController(IProductService _productService)
+        private readonly ICartService cartService;
+        public ProductsController(IProductService _productService, ICartService _cartService)
         {
             productService = _productService;
-
+            cartService = _cartService;
         }
         public ActionResult Index()
         {
@@ -33,15 +28,14 @@ namespace SCore.WEB.Controllers
             }
             return View(product);
         }
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
         }
 
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        //[ValidateAntiForgeryToken]
         public ActionResult Create(Product product)
         {
             if (ModelState.IsValid)
@@ -68,16 +62,15 @@ namespace SCore.WEB.Controllers
             return View(product);
         }
 
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int id)
         {
             Product product = productService.Get(id);
             return View(product);
         }
 
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
             productService.Delete(id);

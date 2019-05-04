@@ -5,11 +5,10 @@ using SCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace SCore.DAL.Repositories
 {
-   public class OrderRepository: IRepository<Order>
+    public class OrderRepository: IRepository<Order>
     {
         private ApplicationDbContext db;
         public OrderRepository(ApplicationDbContext context)
@@ -22,11 +21,20 @@ namespace SCore.DAL.Repositories
             db.Orders.Add(item);
         }
 
-        public void Delete(int id)
+        public void Delete(int? id)
         {
             Order order = db.Orders.Find(id);
+           // CartLine line = db.Lines.FirstOrDefault(c => c.OrderId == order.OrderId);
             if (order != null)
+            {
+                foreach(var item in order.ProductOrders)
+                {
+                db.ProductOrders.Remove(item);
+                }
+
                 db.Orders.Remove(order);
+            }
+
         }
 
         public void Delete(string id)
@@ -44,7 +52,7 @@ namespace SCore.DAL.Repositories
             return db.Orders.Where(predicate).ToList();
         }
 
-        public Order Get(int id)
+        public Order Get(int? id)
         {
             return db.Orders.Find(id);
         }
@@ -56,7 +64,7 @@ namespace SCore.DAL.Repositories
 
         public IEnumerable<Order> GetAll()
         {
-            return db.Orders.ToList();
+            return db.Orders.Include(c=>c.User).ToList();
         }
 
         public void Save()

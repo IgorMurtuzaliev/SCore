@@ -1,39 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.BLL.Services;
 using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.DAL.Repositories;
 using SCore.Models;
+using SCore.Models.Entities;
+using SCore.WEB.Filters;
 
 namespace SCore.WEB
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostingEnvironment env)
         {
             Configuration = configuration;
+
+            Configuration = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json").Build();
         }
 
         public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<CookiePolicyOptions>(options =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
@@ -42,16 +43,57 @@ namespace SCore.WEB
                 options.UseSqlServer(connection));
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IUnitOfWork, EFUnitOfWork>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddCors(corsOptions =>
+            {
+                corsOptions.AddPolicy("fully permissive", configurePolicy => configurePolicy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
+            });
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddTransient<IRepository<Product>, ProductRepository >();
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IRepository<User>, UserRepository>();
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IRepository<Order>, OrderRepository>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddTransient<IAccountService, AccountService>();
+            services.AddTransient<ISearchService, SearchService>();
+            services.AddTransient<ICartService, CartService>();
+            services.AddTransient<IEmailSender, EmailService>();
+            services.AddTransient<IRoleService, RoleService>();
+            services.AddIdentity<User, ApplicationRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(typeof(ActionFilter)); 
+
+            });
+            services.AddHttpContextAccessor();
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultSignOutScheme = IdentityConstants.ApplicationScheme;
+            })
+                .AddGoogle("Google", options =>
+                {
+                    options.ClientId = "405558759348-lv7doblutrpkqda42km1b1kd8eilcqu9.apps.googleusercontent.com";
+                    options.ClientSecret = "c4pXS08zF9tzsKpMMyei3b-i";
+                })
+                .AddFacebook(options => {
+                    options.AppId = "2895392233805084";
+                    options.AppSecret = "c43fdffef09ddf0436fc7f3eb66f18f2";
+                })
+                 .AddCookie(options =>
+                 {
+                     options.LoginPath = "/Account/LogIn";
+
+                 });
+
+                services.AddMemoryCache();
+            services.AddSession();
+            
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -60,20 +102,21 @@ namespace SCore.WEB
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.UseCors("fully permissive");
+            app.UseSession();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+           
         }
     }
 }

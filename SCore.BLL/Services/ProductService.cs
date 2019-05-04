@@ -1,15 +1,14 @@
 ﻿using SCore.BLL.Interfaces;
 using SCore.DAL.Interfaces;
 using SCore.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SCore.BLL.Services
 {
     public class ProductService : IProductService
     {
         IUnitOfWork db { get; set; }
+
         public ProductService(IUnitOfWork _db)
         {
             db = _db;

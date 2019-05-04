@@ -4,12 +4,11 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>Edit</h2>
+<h4>Edit</h4>
 
 
 @using (Html.BeginForm())
 {
-    @Html.AntiForgeryToken()
 
 <div class="form-horizontal">
     <h4>Order</h4>
@@ -35,16 +34,15 @@
 
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Save" class="btn btn-default" />
+            <input type="submit" value="Save" class="btn btn-outline-primary" />
         </div>
     </div>
 </div>
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Orders" asp-route-productId="@Model.OrderId">
+        Back to List
+    </a>
 </div>
 
-@*@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}*@

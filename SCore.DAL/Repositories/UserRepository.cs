@@ -5,7 +5,6 @@ using SCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace SCore.DAL.Repositories
 {
@@ -21,7 +20,7 @@ namespace SCore.DAL.Repositories
             db.Users.Add(item);
         }
 
-        public void Delete(int id)
+        public void Delete(int? id)
         {
             throw new NotImplementedException();
         }
@@ -36,7 +35,6 @@ namespace SCore.DAL.Repositories
         public void Edit(User item)
         {
             db.Entry(item).State = EntityState.Modified;
-
         }
 
         public IEnumerable<User> Find(Func<User, bool> predicate)
@@ -49,7 +47,7 @@ namespace SCore.DAL.Repositories
             return db.Users.Find(id);
         }
 
-        public User Get(int id)
+        public User Get(int? id)
         {
             throw new NotImplementedException();
         }
@@ -58,6 +56,7 @@ namespace SCore.DAL.Repositories
         {
             return db.Users.ToList();
         }
+
         public void Save()
         {
             db.SaveChanges();

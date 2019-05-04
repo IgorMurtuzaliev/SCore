@@ -3,7 +3,6 @@ using SCore.DAL.Interfaces;
 using SCore.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SCore.DAL.Repositories
 {
@@ -19,7 +18,7 @@ namespace SCore.DAL.Repositories
             db.ProductOrders.Add(item);
         }
 
-        public void Delete(int id)
+        public void Delete(int? id)
         {
             throw new NotImplementedException();
         }
@@ -39,7 +38,7 @@ namespace SCore.DAL.Repositories
             throw new NotImplementedException();
         }
 
-        public ProductOrder Get(int id)
+        public ProductOrder Get(int? id)
         {
             throw new NotImplementedException();
         }

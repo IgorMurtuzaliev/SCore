@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 using System.Xml.Serialization;
 
 namespace SCore.Models
@@ -30,6 +30,7 @@ namespace SCore.Models
         [DataType(DataType.DateTime)]
         public DateTime Date { get; set; } = DateTime.Now;
         [XmlIgnore]
-        public ICollection<ProductOrder> ProductOrders { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<ProductOrder> ProductOrders { get; set; }
     }
 }

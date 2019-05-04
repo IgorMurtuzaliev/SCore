@@ -4,10 +4,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-
+<h4>Orders of user @User.Identity.Name</h4>
+<hr />
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a class="btn btn-outline-primary" asp-action="Create" asp-controller="Orders">
+        Create
+    </a>
 </p>
 <table class="table">
     <tr>
@@ -22,19 +24,30 @@
 
     @foreach (var item in Model)
     {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.UserName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TimeOfOrder)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.OrderId }) |
-                @Html.ActionLink("Details", "Details", new { id = item.OrderId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.OrderId })
-            </td>
-        </tr>
+        if (item.User.UserName == User.Identity.Name)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TimeOfOrder)
+                </td>
+                <td>
+                    <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Orders" asp-route-id="@item.OrderId">
+                        Edit
+                    </a>
+                    <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Orders" asp-route-id="@item.OrderId">
+                        Details
+                    </a>
+                    <a class="btn btn-outline-primary" asp-action="Delete" asp-controller="Orders" asp-route-id="@item.OrderId">
+                        Delete
+                    </a>
+
+                </td>
+            </tr>
+        }
+
     }
 
 </table>

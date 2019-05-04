@@ -4,7 +4,7 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h4>Details</h4>
 
 <div>
     <h4>User</h4>
@@ -77,6 +77,10 @@
 
 </table>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Users" asp-route-Id="@Model.Id">
+        Edit
+    </a>
+    <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Users" asp-route-productId="@Model.Id">
+        Back to List
+    </a>
 </p>

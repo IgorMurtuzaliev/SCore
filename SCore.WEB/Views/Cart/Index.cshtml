@@ -1,0 +1,37 @@
+﻿@model SCore.WEB.ViewModels.CartIndexViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Cart</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Quantity</th>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var line in Model.Cart.Lines)
+        {
+            <tr>
+                <td>@line.Amount</td>
+                <td>@line.Product.Name</td>
+                <td>@line.Product.Price.ToString("c")</td>
+                <td>@((line.Amount * line.Product.Price).ToString("c"))</td>
+                <td>@Html.ActionLink("Remove", "RemoveFromCart", new { productId = line.Product.ProductId })</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            Total sum:  @Model.Cart.Totalvalue().ToString("c")
+        </tr>
+    </tfoot>
+</table>
+
+<a class="btn btn-outline-primary" asp-action="Checkout" asp-controller="Orders">
+    Checkout
+</a>

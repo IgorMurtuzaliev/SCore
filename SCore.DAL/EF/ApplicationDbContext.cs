@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SCore.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using SCore.Models.Entities;
 
 namespace SCore.DAL.EF
 {
@@ -14,8 +12,14 @@ namespace SCore.DAL.EF
         {
             Database.EnsureCreated();
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLazyLoadingProxies();
+
+        }
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<ProductOrder> ProductOrders { get; set; }
+        public DbSet<ApplicationRole> ApplicationRoles { get; set; }
     }
 }

@@ -12,5 +12,9 @@ namespace SCore.BLL.Interfaces
         IEnumerable<Order> GetAll();
         void Edit(Order product);
         void Dispose(bool disposing);
+
+        IEnumerable<Order> Orders { get; }
+        void SaveOrder(Order order);
+
     }
 }

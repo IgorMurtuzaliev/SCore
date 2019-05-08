@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SCore.DAL.Migrations
 {
-    public partial class init : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -194,33 +194,6 @@ namespace SCore.DAL.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Lines",
-                columns: table => new
-                {
-                    CartLineId = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    ProductId = table.Column<int>(nullable: true),
-                    Quantity = table.Column<int>(nullable: false),
-                    OrderId = table.Column<int>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Lines", x => x.CartLineId);
-                    table.ForeignKey(
-                        name: "FK_Lines_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "OrderId",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Lines_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "ProductId",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "ProductOrders",
                 columns: table => new
                 {
@@ -287,16 +260,6 @@ namespace SCore.DAL.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Lines_OrderId",
-                table: "Lines",
-                column: "OrderId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Lines_ProductId",
-                table: "Lines",
-                column: "ProductId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Orders_UserId",
                 table: "Orders",
                 column: "UserId");
@@ -328,9 +291,6 @@ namespace SCore.DAL.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
-
-            migrationBuilder.DropTable(
-                name: "Lines");
 
             migrationBuilder.DropTable(
                 name: "ProductOrders");

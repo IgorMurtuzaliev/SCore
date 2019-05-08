@@ -10,8 +10,8 @@ using SCore.DAL.EF;
 namespace SCore.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190502091007_seeec")]
-    partial class seeec
+    [Migration("20190504193422_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

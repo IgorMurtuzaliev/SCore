@@ -59,6 +59,7 @@ namespace SCore.WEB
             services.AddTransient<ICartService, CartService>();
             services.AddTransient<IEmailSender, EmailService>();
             services.AddTransient<IRoleService, RoleService>();
+            services.AddTransient<IFileManager, FileManager>();
             services.AddIdentity<User, ApplicationRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();

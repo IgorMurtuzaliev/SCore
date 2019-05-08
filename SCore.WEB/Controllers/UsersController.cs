@@ -8,9 +8,11 @@ namespace SCore.WEB.Controllers
     public class UsersController : Controller
     {
         private readonly IUserService userService;
-        public UsersController(IUserService _userService)
+        private readonly IFileManager fileManager;
+        public UsersController(IUserService _userService, IFileManager _fileManager)
         {
             userService = _userService;
+            fileManager = _fileManager;
 
         }
         [Authorize(Roles = "Admin")]
@@ -86,6 +88,11 @@ namespace SCore.WEB.Controllers
             userService.Delete(id);
             return RedirectToAction("Index");
         }
-
+        [HttpGet("/Image/{image}")]
+        public IActionResult Image(string image)
+        {
+            var mime = image.Substring(image.LastIndexOf('.') + 1);
+            return new FileStreamResult(fileManager.ImageStream(image), $"image/{mime}");
+        }
     }
 }

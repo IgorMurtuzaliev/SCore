@@ -210,6 +210,8 @@ namespace SCore.DAL.Migrations
 
                     b.Property<bool>("EmailConfirmed");
 
+                    b.Property<string>("Image");
+
                     b.Property<string>("LastName")
                         .IsRequired();
 

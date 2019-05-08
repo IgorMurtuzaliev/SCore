@@ -20,12 +20,14 @@ namespace SCore.WEB.Controllers
         private readonly ISearchService service;
         private readonly IOrderService orderService;
         private readonly UserManager<User> manager;
-        public HomeController(ISearchService _service, IOrderService _orderService, ApplicationDbContext _context, UserManager<User> _manager)
+        private readonly IFileManager fileManager;
+        public HomeController(ISearchService _service, IOrderService _orderService, ApplicationDbContext _context, UserManager<User> _manager, IFileManager _fileManager)
         {
             service = _service;
             orderService = _orderService;
             context = _context;
             manager = _manager;
+            fileManager = _fileManager;
         }
         public ActionResult Index()
         {            
@@ -78,5 +80,6 @@ namespace SCore.WEB.Controllers
                 }
             }
         }
+        
     }
 }

@@ -5,8 +5,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@using (Html.BeginForm())
-{
+
+<form asp-controller="Account" asp-action="Register" method="post" enctype="multipart/form-data">
     @Html.AntiForgeryToken()
 
     <div>
@@ -49,6 +49,12 @@
                 @Html.EditorFor(model => model.PasswordConfirm)
             </div>
         </div>
+        <div>
+            Confirm password
+            <div>
+                @Html.EditorFor(model => model.Image)
+            </div>
+        </div>
 
         <div style="margin-top:25px;">
             <div>
@@ -56,5 +62,5 @@
             </div>
         </div>
     </div>
-}
+</form>
 

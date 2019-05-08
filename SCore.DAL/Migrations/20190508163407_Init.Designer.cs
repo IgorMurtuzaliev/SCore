@@ -10,7 +10,7 @@ using SCore.DAL.EF;
 namespace SCore.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190504193422_Init")]
+    [Migration("20190508163407_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -211,6 +211,8 @@ namespace SCore.DAL.Migrations
                         .HasMaxLength(256);
 
                     b.Property<bool>("EmailConfirmed");
+
+                    b.Property<string>("Image");
 
                     b.Property<string>("LastName")
                         .IsRequired();

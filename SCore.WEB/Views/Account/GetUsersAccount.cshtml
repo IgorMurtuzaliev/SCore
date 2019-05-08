@@ -9,6 +9,11 @@
 <div>
     <hr />
     <dl class="dl-horizontal">
+        @if (!String.IsNullOrEmpty(Model.Image))
+        {
+            var image_path = $"/Image/{Model.Image}";
+            <img src="@image_path"/>
+        }
         <dt>
             @Html.DisplayNameFor(model => model.Name)
         </dt>

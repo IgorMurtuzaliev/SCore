@@ -16939,3 +16939,2543 @@ RequestTime: 05/08/2019 03:57:04.349 PM
   StackTrace: (null) 
   ?essage: (null) 
 ---------------------------------------- 
+RequestTime: 05/08/2019 04:40:57.534 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi3-GVsUaF8A24trzGc9E2QkFuJWRP1h-tUNlOL-a4gbY_PiV3qhGyiHxS9vDIZAzU-yMhZDxj365E-6Y_JE5zRWTlG6d1W51nAz5pdVO_aKDPME28cb9If3W5WyNiCuyNLEiU5I-NPEfHI5mhK18gnTyEslsSHPxu3hHRsMtAaJf8XdsS6Sb5RpoKlAVpMeRgcS2_3gvHrFrbaFq8NizJyhrLPdd2ju6ELhebVbYztSHkwA8g8WixFuObYCRW1v7Qn6Mp5S6NLtPS3ikLFL28IX_hgtTbc9YkHE6PCyftjmKj44uV8AYlf4szU-6S8slx2kOqKHet1th_ZwwHQpNHZtnnsaKsdATLefdO7jg-6rMi_pJS66HLKxG1wwZ4lttgS64xR-KKnqiRXmlyQJcfXKPGBMSH3siBdEZndZvOIarxnRGbycgHLN-B3WCY94y4jFTq9m22A9wOOAau5HTIiFWoWG69duW4TV-K0PAn4nyJZ60ZESQgR-QLIKxjD0O-6fJ5Ve09-4GbTLslQq_jKzOiiaitG4ZhvO1bKP36IRitmwf9-VASWF1r6nS5og-ZGY-jsyX8mU0coLOR5uT7_JJ7KkXDQ3lK5_rTXgm2e3Nup4mOP063oDqqi5k_ynmn1LfBEKt41xPbfql3QBT2vMac1Vs55JDv8Hqn679kt1559rCS9MCwkZAEvcqnsqwyxU; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:40:57.534 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:41:00.214 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:06.377 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:06.377 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:41:07.443 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:23.574 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 233], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:23.574 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:41:23.631 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:26.170 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 235], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:26.170 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:41:26.193 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:39.734 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 236], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:41:39.734 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:41:41.031 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:08.502 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:08.502 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:42:08.525 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:13.568 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 235], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:13.568 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:42:13.602 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:16.315 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:16.315 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:42:16.331 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:27.888 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 255], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:27.888 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:42:28.756 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:34.840 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:34.840 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:42:34.868 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:52.067 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 236], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:52.067 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:42:52.097 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:53.810 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/ExportToExcel 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi38k8c0cMsjBE42MSPibNNpSCgWoTEFOBdlYnu2XVTzrJKlLDJXsgw5gEAnG9Q3E0dUGQKbeXiF3rWww6QOJWVLdkndGi0X3T88h0c0CbET0dGa2t-w-0fBx67-B2S0pXgE; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [Referer, https://localhost:44307/Home/FindData], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 04:42:53.810 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Home/ExportToExcel 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 04:43:07.212 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:36:37.009 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39PGhV0gJLmxNrUOZjEfqd812D7VRWToPNjdkkBCwgnJbmFd5QaTdh2JYt0sCkATXVps83XKE7ZieshANNv1_q6Cp-i4hEZKIPle3p0klmAL8EChLFVJufNgwbo76rf-T47l-SzdRXKm8A3943nEQx8rL_L6BV2qYHcIYHhDtKDU4bP_miYMC0D8zPFLKZ2oBbjKTtRXS90pD3kF3JuEXwJ3bYo7zioDuFPGEJiDofrL1eB0gSp9-e43yZtc8fZo5ja825E56Icxhyt6GCHcqrPYzDqpKiKrsea153_ugJqenn7zgxiFZrJg_vOp3PgKpJ9PuK6TRaeJzPko3AKnMkdeGY295tcsagL75tCMrZRRbAW7X_flvPzcvQMsp4hIdR3ZvsAmpNv09EKbc88jr5r4DY8Ox58GOHSm040p81qXfqz8JlXRPXVHKAtUS6G3uVVbx6MReHPEpl7fkTli6DKj1U-yV4LD6PhZyfx4KkP6dpxH0OBKV0THBFvZcX7bAVh3tlzeF0VnFdkjqOhxXMI7pch_1GeUTWKBc75WAU-aLEtg0WN5AqJ8ebnhnIaZheeCUpUCdEgBIIbwW1kI9hxUyRh-lB0JGkDzAK0DY7_vEL4-ec8Tok_KED5BBEOnSfq7bOtul2LHHjHqhu91mpMOhOW0mB7eX5jRmxWA7h1WHjau7FipUgQ1wNOSOEibEM], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:36:37.009 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.TwoFactorUserId=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:36:37.973 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:37:08.373 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:37:08.373 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:37:08.424 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:37:08.459 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:37:08.459 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:37:08.478 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:37:32.318 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 293], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:37:32.318 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi3-GLNoGhfMP4_ZmaqLE4PCGfSKZBH7pKgt6HGTlCKRUrPu263QUtDS6unS6yIMu_4Z4lhyEV1iEzWK6odpL8hg7QqMrmp5EmtWDKs2BKM7vo7pY8u71wEaGYr2W1AdmGVNBQnfnX8Zj7gjxpX8tukYLA8DKxIsF9qyfllBaMW7jysQ0SVRoBRiaYESrcjX2GvNb65TZjFyxZ7bLF_2vjAVV16X91QuCO9J3TEPW0aBylyJS0yK0eEcZ5mtxybDPqB_NtvLMnpyhcZe2BW9nwT-hZJHjCK8w-M1S3bb9neGENfNad-7adiRPEgWoU8vgyAB5EOlsdY2VW3hlDCa6-h3HadLJU5t4FWsQmMjUbKk0cw5VvaGPGt6cKGTqhWAclq6OqD5HxgNMbOgowDrRSc9upsbMPknsGd-HHdyvPVAgpU7P6so05JJN-W0Yk2lj4Og8-CnMTpR8D9dsCpNngO_SdNOayKGprvXn7Edjeh554n9-qfsRWXThGVBDW38Vrq51deXRRfKpFJHAJ8AgCqeEZ7N9se7_DTgFr3F5zIV8BHjfT1ntIknFwuT1fAFIVyji8hCMP1Viv2krGkCN7Xc6; path=/; secure; samesite=lax; httponly], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:37:38.867 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: (null) 
+ Username: (null) 
+ RequestUri: (null) 
+ StatusCode: (null) 
+ Headers: (null) 
+ Body: (null) 
+ QueryString: (null) 
+  HttpMethod: (null) 
+ ResponseTime: (null) 
+  StackTrace:    at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at SCore.BLL.Services.AccountService.Create(RegisterViewModel model, String url) in c:\Users\ingwa\source\repos\SCore\SCore.BLL\Services\AccountService.cs:line 37
+   at SCore.WEB.Controllers.AccountController.Register(RegisterViewModel model) in c:\Users\ingwa\source\repos\SCore\SCore.WEB\Controllers\AccountController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync() 
+  ?essage: Role USER does not exist. 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:25.983 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:25.983 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:38:26.226 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:35.340 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:35.340 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:38:35.358 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:39.568 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 193], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Role/Create], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:39.568 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:38:40.487 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:40.834 PM 
+ Username: (null) 
+ RequestUri: /Role 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Role/Create], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:40.834 PM 
+ Username: (null) 
+ RequestUri: /Role 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:38:41.225 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:47.281 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:47.281 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:38:47.290 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:52.123 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 192], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Role/Create], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:52.123 PM 
+ Username: (null) 
+ RequestUri: /Role/Create 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:38:52.233 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:52.398 PM 
+ Username: (null) 
+ RequestUri: /Role 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Role/Create], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:38:52.398 PM 
+ Username: (null) 
+ RequestUri: /Role 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:38:52.425 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:00.264 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:00.264 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:41:01.133 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:09.762 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:09.762 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:41:09.775 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:27.108 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 293], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:27.108 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38Ir7snIXIVUsKdAncaBJ3DvNKnWm4UjbJbxFFtsHyxjLKOZH83H6PBwgoB0UWg5MYSZJi94gbHRq8nmkicAAGiQd1jgPSMGROFFpb9zVkPpuPoT-T-azvmcBNdPp5ExHkRam42m9fZUP9XSrc7mXtThe8Sx7dqdpHHPfMWS7nmq6scnsalAGhQNQrXvX0eFuOnLLrktP7kwS2S9N6656aDR6aEJ4cOM4mtMzicNtYPb6tWFB65ow8zRS0h_nyStJPWJxu7Rz0qGMzRGc2wP8ecWo4teqtFVqhNB5Er1pHDaCEqL0iWq50zTFSRKmPEb1LhaK96h-VJsE7KwXhqdLh4p8fBu9SBD5tufUhFxUCTbRIIEzj644Xz4iQo7pdNTfMiXBBdYkfLtEkwQs3I6VGAaPApCe6C_Y6SXjFuYbD4X3IWJnbiVA-2NiNjRK7Xyl_jZL9FKHNiktze3zmb7fCLeOOhfA4B4gHvdOysFMj1tZBdqIAe_CXtzS55oeKO7IXdiPcTgfDSqNP05pcN0BobL1Pzb1y2Zu7K_0mgJcIpOtYhs01SUq2KcpLrBMc0RB8VU4wpJNd3BDPSXS5MkbxO; path=/; secure; samesite=lax; httponly], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:41:32.432 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:32.679 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38Ir7snIXIVUsKdAncaBJ3DvNKnWm4UjbJbxFFtsHyxjLKOZH83H6PBwgoB0UWg5MYSZJi94gbHRq8nmkicAAGiQd1jgPSMGROFFpb9zVkPpuPoT-T-azvmcBNdPp5ExHkRam42m9fZUP9XSrc7mXtThe8Sx7dqdpHHPfMWS7nmq6scnsalAGhQNQrXvX0eFuOnLLrktP7kwS2S9N6656aDR6aEJ4cOM4mtMzicNtYPb6tWFB65ow8zRS0h_nyStJPWJxu7Rz0qGMzRGc2wP8ecWo4teqtFVqhNB5Er1pHDaCEqL0iWq50zTFSRKmPEb1LhaK96h-VJsE7KwXhqdLh4p8fBu9SBD5tufUhFxUCTbRIIEzj644Xz4iQo7pdNTfMiXBBdYkfLtEkwQs3I6VGAaPApCe6C_Y6SXjFuYbD4X3IWJnbiVA-2NiNjRK7Xyl_jZL9FKHNiktze3zmb7fCLeOOhfA4B4gHvdOysFMj1tZBdqIAe_CXtzS55oeKO7IXdiPcTgfDSqNP05pcN0BobL1Pzb1y2Zu7K_0mgJcIpOtYhs01SUq2KcpLrBMc0RB8VU4wpJNd3BDPSXS5MkbxO], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:32.679 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:41:32.690 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:34.177 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38Ir7snIXIVUsKdAncaBJ3DvNKnWm4UjbJbxFFtsHyxjLKOZH83H6PBwgoB0UWg5MYSZJi94gbHRq8nmkicAAGiQd1jgPSMGROFFpb9zVkPpuPoT-T-azvmcBNdPp5ExHkRam42m9fZUP9XSrc7mXtThe8Sx7dqdpHHPfMWS7nmq6scnsalAGhQNQrXvX0eFuOnLLrktP7kwS2S9N6656aDR6aEJ4cOM4mtMzicNtYPb6tWFB65ow8zRS0h_nyStJPWJxu7Rz0qGMzRGc2wP8ecWo4teqtFVqhNB5Er1pHDaCEqL0iWq50zTFSRKmPEb1LhaK96h-VJsE7KwXhqdLh4p8fBu9SBD5tufUhFxUCTbRIIEzj644Xz4iQo7pdNTfMiXBBdYkfLtEkwQs3I6VGAaPApCe6C_Y6SXjFuYbD4X3IWJnbiVA-2NiNjRK7Xyl_jZL9FKHNiktze3zmb7fCLeOOhfA4B4gHvdOysFMj1tZBdqIAe_CXtzS55oeKO7IXdiPcTgfDSqNP05pcN0BobL1Pzb1y2Zu7K_0mgJcIpOtYhs01SUq2KcpLrBMc0RB8VU4wpJNd3BDPSXS5MkbxO], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:34.177 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.TwoFactorUserId=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:41:34.215 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:34.312 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:41:34.312 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:41:34.324 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:11.223 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:11.223 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:11.469 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:16.279 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:16.279 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:16.298 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:18.841 PM 
+ Username: (null) 
+ RequestUri: /Account/SignInWithFacebook 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString: ? 
+  HttpMethod: ? 
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:18.841 PM 
+ Username: (null) 
+ RequestUri: /Account/SignInWithFacebook 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString: ? 
+  HttpMethod: ? 
+ ResponseTime: 05/08/2019 07:42:18.859 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:21.988 PM 
+ Username: (null) 
+ RequestUri: /Account/HandleExternalLogin 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; Identity.External=CfDJ8KItXVLU9X1BnE3kUIdfi39uFzUcn5gRN1O37EeQOXG6wQSFSxFjxDgdbRRtJVGnHMzDihJHfaKuSy-W1Lj_4YdEUHsvbUhfnpDCjdyAegAcWpjCA1WiTciknBxZV_1Qi6cxar8PtadEM-s2tKFPOSyf6xcj2e5JaXlk-qc7n69jlfdsy-vSH2m5vlh8617h-VSjJuvkvupoGS9rLSlQLd-oRe1fzZ1LqXaeOL89y1Pnq4pxeyjpncRws0oUTAsli3xmVNPPWVtiax7LMR4JtohChzYUPdlGfKO80pU2IxJa2LdGBclcoF-X739gWDsvQnRkxKQerU6J6poSI5JxDhxkYmIc5yjUPDxsFN2hgFzvWYiP28Ytn6KGerCq9M4Vg5rc2qu6B4u_0_ceXb5Ol1A5jhHbnIe6iAclH_UtalVcmGbsuF0w2po-o1L3IBGFnirvUcekX_NvepJ8xQCT39EqK200ffTs48W94KKhEHBwLLX7nnUymv4rxO9qawby-tcyei2RTnPc4JwlS2n3eelBH4Wi3mORDiPaMsyHbFHYmnvmwiNSNP8mOyhQ-20ifDVZWzg7GujFMAttljKRWQxzzZ6SS_3Wg807yZOgcnw1hD8i77KkMIv-22bW_Bo6sMFuuc8n6M-JmQA3s2jGY2DMpIFFwiOyJ0IH5y6qSV6qnoRAo273zz1GurYzKFqdLMsFOuK4BdUJhZIU1f_QWXh3nU9DJ-8S2ed4lJgfhALoggo-bpJ13smWMZG6jgpLRcwyMZ0FeLBDLrrpRY4qgsDZ0LuSzuXpo_ryLhAFZgQRnQYEVCdW83oWxtJMXObYoSR3mjeH2b5Ur5oiSKkJOiyq5MbIVMGiX5M33m839c63_weuaL44AP3YV6mM11RUIP0vRmja9f5n5C2d2A4-a3g], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:21.988 PM 
+ Username: (null) 
+ RequestUri: /Account/HandleExternalLogin 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38idXW2UD3N5uMjGw1rUxbQ_qMGIUqglINXb50ZybEXTDF4ZL8He-Xpf38l72XQP5Z_KqkDjWI9tJXzmccFdcWpzHIwZW6cEib51DlxDfXLCnggK8et1jGWaTliAT7Rxf5NwRhC5pci4mAlJGVFv1o0D50OnRM8E1olbMUFj1gygfea_cUjJ6Oo79MwhqtdFuzLp84ZTaWWhKRjYCqzoEQLeeBr1X2qT4nTC4R6lqcoFnBIwyBmurM2GiEhkHvPa1jvcIS8_2c09660WdN2wDa_ovZgUbBogaQQxHbbPaD69QUwBuDbM2iDu1zDaxKq5MfN5dWNP2qwFv2jGWilik-U8BBvMultMwiEOu8WscXIhZJjrtfmOCrEaemd8X1aB0-sLE2g1atO0l1MZAgLNxAL6Mjoem1-G3kvadB1dXvR-o_spBeiNbpQi23yEPO2W-beP2UWtitr4wSUBKb93bqjqYa9Cjx0QvFrS6NyHetxmxIVcoGgRgyeKsGZqz_ZaDt4-uLz4z_5_9OAF_b5oB9g5d_YoZ6njoSMwN_FrMadIcYC3-vdKGDUYRdtbqpdsmcjYU8FJAXFPz7-PeA01HIQZr0p263GsJhv9k9GTRdMjmx83Kli9uEhaD-7CqTYnEUnwKsEfwe07UiZt2dUc1yQe3a25Q8X61hShjurWZZZ8HyiMc3LixXWR3LEZcHH6u32izZBaONjqp4cOy3Nw-uxihRuWzxqAswwyd171GdhPAdAr1fa0Cb7JUOqE2oH7EdCYIEpeO_xXc7eMK3WlooMBI6p0UFhLjBAI90JkjZAL93CiRjQVA8yTXQAW1VmBAXxHn8Sx8GmcyVzESsioLJPTPcweObpusZpCoLoeImZOngxXX3gibNeLXl6UvlmrLgrRzpUaQw_fwll3Idm2VZOmtJr4cgJmgfUm6Vyh9-OQH3U7TTwwrMB3xMVckOcqEtMzmWyzewxRddWGUu9LdgAWLMEf9WtGvh1Tu28JZNKwG7xgBJ73wf-oXpFu5N-9uhYf_m2W1OsfE6qLRrVi1hzxjwnFSNzGGfCTKH8tmr6ny3dXlul7WGejyS812hYMiw2vFlq8EocTxvLxJw2GwYtNp9iW45lztgoK816nrmHvUZFsD5mACKuC0tuc260P8118UQg-caKtmCHwHEQFzREp_oJvZwg2ZIUAyWOeyIy1KKixL3stNdlV8FkQ3uif1pXENC3NqCdK0Fx0nRp2rToiLY_87UDnhjfmwFkw05eVDRjYGHJNWIrf7LHDk4OAQ0; path=/; secure; samesite=lax; httponly,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:25.862 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:26.128 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38idXW2UD3N5uMjGw1rUxbQ_qMGIUqglINXb50ZybEXTDF4ZL8He-Xpf38l72XQP5Z_KqkDjWI9tJXzmccFdcWpzHIwZW6cEib51DlxDfXLCnggK8et1jGWaTliAT7Rxf5NwRhC5pci4mAlJGVFv1o0D50OnRM8E1olbMUFj1gygfea_cUjJ6Oo79MwhqtdFuzLp84ZTaWWhKRjYCqzoEQLeeBr1X2qT4nTC4R6lqcoFnBIwyBmurM2GiEhkHvPa1jvcIS8_2c09660WdN2wDa_ovZgUbBogaQQxHbbPaD69QUwBuDbM2iDu1zDaxKq5MfN5dWNP2qwFv2jGWilik-U8BBvMultMwiEOu8WscXIhZJjrtfmOCrEaemd8X1aB0-sLE2g1atO0l1MZAgLNxAL6Mjoem1-G3kvadB1dXvR-o_spBeiNbpQi23yEPO2W-beP2UWtitr4wSUBKb93bqjqYa9Cjx0QvFrS6NyHetxmxIVcoGgRgyeKsGZqz_ZaDt4-uLz4z_5_9OAF_b5oB9g5d_YoZ6njoSMwN_FrMadIcYC3-vdKGDUYRdtbqpdsmcjYU8FJAXFPz7-PeA01HIQZr0p263GsJhv9k9GTRdMjmx83Kli9uEhaD-7CqTYnEUnwKsEfwe07UiZt2dUc1yQe3a25Q8X61hShjurWZZZ8HyiMc3LixXWR3LEZcHH6u32izZBaONjqp4cOy3Nw-uxihRuWzxqAswwyd171GdhPAdAr1fa0Cb7JUOqE2oH7EdCYIEpeO_xXc7eMK3WlooMBI6p0UFhLjBAI90JkjZAL93CiRjQVA8yTXQAW1VmBAXxHn8Sx8GmcyVzESsioLJPTPcweObpusZpCoLoeImZOngxXX3gibNeLXl6UvlmrLgrRzpUaQw_fwll3Idm2VZOmtJr4cgJmgfUm6Vyh9-OQH3U7TTwwrMB3xMVckOcqEtMzmWyzewxRddWGUu9LdgAWLMEf9WtGvh1Tu28JZNKwG7xgBJ73wf-oXpFu5N-9uhYf_m2W1OsfE6qLRrVi1hzxjwnFSNzGGfCTKH8tmr6ny3dXlul7WGejyS812hYMiw2vFlq8EocTxvLxJw2GwYtNp9iW45lztgoK816nrmHvUZFsD5mACKuC0tuc260P8118UQg-caKtmCHwHEQFzREp_oJvZwg2ZIUAyWOeyIy1KKixL3stNdlV8FkQ3uif1pXENC3NqCdK0Fx0nRp2rToiLY_87UDnhjfmwFkw05eVDRjYGHJNWIrf7LHDk4OAQ0], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:26.128 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:26.143 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:35.233 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38idXW2UD3N5uMjGw1rUxbQ_qMGIUqglINXb50ZybEXTDF4ZL8He-Xpf38l72XQP5Z_KqkDjWI9tJXzmccFdcWpzHIwZW6cEib51DlxDfXLCnggK8et1jGWaTliAT7Rxf5NwRhC5pci4mAlJGVFv1o0D50OnRM8E1olbMUFj1gygfea_cUjJ6Oo79MwhqtdFuzLp84ZTaWWhKRjYCqzoEQLeeBr1X2qT4nTC4R6lqcoFnBIwyBmurM2GiEhkHvPa1jvcIS8_2c09660WdN2wDa_ovZgUbBogaQQxHbbPaD69QUwBuDbM2iDu1zDaxKq5MfN5dWNP2qwFv2jGWilik-U8BBvMultMwiEOu8WscXIhZJjrtfmOCrEaemd8X1aB0-sLE2g1atO0l1MZAgLNxAL6Mjoem1-G3kvadB1dXvR-o_spBeiNbpQi23yEPO2W-beP2UWtitr4wSUBKb93bqjqYa9Cjx0QvFrS6NyHetxmxIVcoGgRgyeKsGZqz_ZaDt4-uLz4z_5_9OAF_b5oB9g5d_YoZ6njoSMwN_FrMadIcYC3-vdKGDUYRdtbqpdsmcjYU8FJAXFPz7-PeA01HIQZr0p263GsJhv9k9GTRdMjmx83Kli9uEhaD-7CqTYnEUnwKsEfwe07UiZt2dUc1yQe3a25Q8X61hShjurWZZZ8HyiMc3LixXWR3LEZcHH6u32izZBaONjqp4cOy3Nw-uxihRuWzxqAswwyd171GdhPAdAr1fa0Cb7JUOqE2oH7EdCYIEpeO_xXc7eMK3WlooMBI6p0UFhLjBAI90JkjZAL93CiRjQVA8yTXQAW1VmBAXxHn8Sx8GmcyVzESsioLJPTPcweObpusZpCoLoeImZOngxXX3gibNeLXl6UvlmrLgrRzpUaQw_fwll3Idm2VZOmtJr4cgJmgfUm6Vyh9-OQH3U7TTwwrMB3xMVckOcqEtMzmWyzewxRddWGUu9LdgAWLMEf9WtGvh1Tu28JZNKwG7xgBJ73wf-oXpFu5N-9uhYf_m2W1OsfE6qLRrVi1hzxjwnFSNzGGfCTKH8tmr6ny3dXlul7WGejyS812hYMiw2vFlq8EocTxvLxJw2GwYtNp9iW45lztgoK816nrmHvUZFsD5mACKuC0tuc260P8118UQg-caKtmCHwHEQFzREp_oJvZwg2ZIUAyWOeyIy1KKixL3stNdlV8FkQ3uif1pXENC3NqCdK0Fx0nRp2rToiLY_87UDnhjfmwFkw05eVDRjYGHJNWIrf7LHDk4OAQ0], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:35.233 PM 
+ Username: ingwarrior.99@yandex.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.TwoFactorUserId=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:35.264 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:35.301 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:35.301 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:35.310 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:37.942 PM 
+ Username: (null) 
+ RequestUri: /Account/SignInWithGoogle 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString: ? 
+  HttpMethod: ? 
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:37.942 PM 
+ Username: (null) 
+ RequestUri: /Account/SignInWithGoogle 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString: ? 
+  HttpMethod: ? 
+ ResponseTime: 05/08/2019 07:42:37.953 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:39.202 PM 
+ Username: (null) 
+ RequestUri: /Account/HandleExternalLogin 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; Identity.External=CfDJ8KItXVLU9X1BnE3kUIdfi38z2LmwAZl12B7D8m1nbyfIzZuLCEIrsc3godSRXw23whKuLQeINmvJ3A492Ys6YKiUc27LR9mkRHpqxI0G_oFC9IhIC3I9QcOvLkhLkH3Tgyp28Qlh6UzCM0yTo0rJa-mlkYQzb6IESY-vJFihqtTbFFFk9gH1CnnbBiigS3N8DZh6yUmZBQpNfck6nRKoOYHIl0HSFENgbaueq5YaE4v2RvXQSjam0CfuqMOUZHIpDwmpJ-i2jboxRrKUfPq5aOaq4xaykboEWdAJ4MtzzQuAynUM3Uj--01NsRtqM7GdWERWdlvZix3527cLoaVCjXeJYswp855CrjoTRJ1vPnmc1-8AWfCEt2uXs5xJyw9g3QsLm-HmIhCSTo-c2OepIOxxCSMwgvJHL3Iq3imaIbN-cSKy0ql-G5VoqstH5__g3s6FC3jGRQD0vIa2OGbYMGOnjgW0FL2LN5cCsneZkvJ0r5y5PHrWDiZmZo8fY77qd-XXnBaj1_EgZ-1goGxwAd5-Zqplbeex8wGx5DFsqkQZs6HTDvtXADP_r3SbsJiaGq8u5tcflM-Ko7-7bwDBhB1hwCV022LRexps7O7u569OgNHlPM4gnjZZKwK5cYRtM88-dubpeVcKv35FBG_IUtYxAk3cRfYcGqOsR35V6OAPzAbQqQu7OQZEXhNBldN2FRWItJ2d3HPcFKalml7CReYeINp4eL-J5K8Ap3zFLIEn5xKQtekOJNfHJO9B3ktVRdUKYc7bwitKqRQ7Cf9jjPhziG0TPxaR6bQzb1x_8M0psPef8uYetGzJnTpCGteopA1FJUn_uTVVpOT-zruF4nw1GWxACSqwgY0iuwBjHmdaubEnJxpPjmKzvWGINQXU4g], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:39.202 PM 
+ Username: (null) 
+ RequestUri: /Account/HandleExternalLogin 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39i_C75Jxu4PZfCgm2OVsWQsMNwErz-yjiQkskq4GvlkG2UJ6eboa901HR1NFfdUfANX8yGghKPRElrZI1FjcDSIAfZz5ru3_uSMqI8xSM6thJ98Oua0ySmw_1s7n7aTEKa28S7PW2QwqhxXdOEn9CmiXoKdLu3yEAK21g7oBDc8x77BvuCFQwGHzh0aNRAmmASVQSshTP6RSTbm5Ykos9VA_kTKOMhT7EYr8pjesJkEsadAPZyJkgXbAvfzIsAhYSU1jqO6d50RB_2usRukr__9bNhPqw0vTJhnSnN_BYD2tJ1nv8AH8VcNO93HIlqWPzKkhOhGiLLCUqWLG1191kgcshshDL2fIsxTW4lDo03YAvHICP6TWrhQ_-KRnBRucKDbjq936rKYVdQsqFFtZfXcsFag0BKi65na--hxL5i-Ip9wam1cM54rchSXLG7NmvsLhDcM2AHwY9flX2dC15Wu1RWgcWO_xbhW0HhO8f0_0L1Fwo_xuBYrOfI2POW9wX1C1uMOLdoQBC76VNxREC1qkT8wXe5DPKifr0fXf-F2gffygaMG4FOq2e6i0gKYsDxME72zfLHjtYnSPP2fQmj921FBatMNOnNrV0kjMi7Ix51VmPVo--iGywS0mDuUmiTbQEHFIyelcuZoZ5YSScOAz3_2CDyVeddnlUdTXxyMQbCt5HxR1E1Jl28bkWJL2zWAcdVLnb-mwCGFYyCSv7A-2m7gonXEUxaEDTEvsb_InkYQeuo-NhLnbTeZGwcYPKFweyQWmPcxYwgqMNkw8STiA81BeY6o0eDFvCasuV-czDXwKRgagbDHKDu1pM7RA2ch85GyD4Gs_xQy5tLZHie1yb0jQT8NjjxRg7rnElogt1nIH5I3IKaMVzDohN4tbFs7PwJuS04uPFm9qTUF2n-UbgFyrjZDqhaxQbWE7XRSp5coyL6kw4nNnvRBVpFUtmNVbFg2GdicxM8GCqUUC2NenkEjaJzDjqIYhzAaOqUAuAitDPNVFkcFvUKm9DaCod6qrD5hi_h-fgEkKB8GIs5RfI2hsSyL7nOzMm733D4c-qwDQx7DiJfOnZIBZB3Uh-6sIIkqy-9QNAnn3mY_D6hV02CsqFc-mwekxTgWduQSJ3c2a8XOiJNsczn8HH4ova8teUwyQxGwY4bRy9cK359_3VX7nCOao_-y7cdpXGaFHjvHcCTVEvCJ-bfbL_iEo_R0i9fyTf1N2lDTBKGKdiU4o4SYo6RmTFSEZvMjJAQahBUtqL8U_zzqg3gP-M1CKg; path=/; secure; samesite=lax; httponly,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:39.543 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:39.584 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39i_C75Jxu4PZfCgm2OVsWQsMNwErz-yjiQkskq4GvlkG2UJ6eboa901HR1NFfdUfANX8yGghKPRElrZI1FjcDSIAfZz5ru3_uSMqI8xSM6thJ98Oua0ySmw_1s7n7aTEKa28S7PW2QwqhxXdOEn9CmiXoKdLu3yEAK21g7oBDc8x77BvuCFQwGHzh0aNRAmmASVQSshTP6RSTbm5Ykos9VA_kTKOMhT7EYr8pjesJkEsadAPZyJkgXbAvfzIsAhYSU1jqO6d50RB_2usRukr__9bNhPqw0vTJhnSnN_BYD2tJ1nv8AH8VcNO93HIlqWPzKkhOhGiLLCUqWLG1191kgcshshDL2fIsxTW4lDo03YAvHICP6TWrhQ_-KRnBRucKDbjq936rKYVdQsqFFtZfXcsFag0BKi65na--hxL5i-Ip9wam1cM54rchSXLG7NmvsLhDcM2AHwY9flX2dC15Wu1RWgcWO_xbhW0HhO8f0_0L1Fwo_xuBYrOfI2POW9wX1C1uMOLdoQBC76VNxREC1qkT8wXe5DPKifr0fXf-F2gffygaMG4FOq2e6i0gKYsDxME72zfLHjtYnSPP2fQmj921FBatMNOnNrV0kjMi7Ix51VmPVo--iGywS0mDuUmiTbQEHFIyelcuZoZ5YSScOAz3_2CDyVeddnlUdTXxyMQbCt5HxR1E1Jl28bkWJL2zWAcdVLnb-mwCGFYyCSv7A-2m7gonXEUxaEDTEvsb_InkYQeuo-NhLnbTeZGwcYPKFweyQWmPcxYwgqMNkw8STiA81BeY6o0eDFvCasuV-czDXwKRgagbDHKDu1pM7RA2ch85GyD4Gs_xQy5tLZHie1yb0jQT8NjjxRg7rnElogt1nIH5I3IKaMVzDohN4tbFs7PwJuS04uPFm9qTUF2n-UbgFyrjZDqhaxQbWE7XRSp5coyL6kw4nNnvRBVpFUtmNVbFg2GdicxM8GCqUUC2NenkEjaJzDjqIYhzAaOqUAuAitDPNVFkcFvUKm9DaCod6qrD5hi_h-fgEkKB8GIs5RfI2hsSyL7nOzMm733D4c-qwDQx7DiJfOnZIBZB3Uh-6sIIkqy-9QNAnn3mY_D6hV02CsqFc-mwekxTgWduQSJ3c2a8XOiJNsczn8HH4ova8teUwyQxGwY4bRy9cK359_3VX7nCOao_-y7cdpXGaFHjvHcCTVEvCJ-bfbL_iEo_R0i9fyTf1N2lDTBKGKdiU4o4SYo6RmTFSEZvMjJAQahBUtqL8U_zzqg3gP-M1CKg], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:39.584 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:39.593 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:42.073 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: /Orders 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39i_C75Jxu4PZfCgm2OVsWQsMNwErz-yjiQkskq4GvlkG2UJ6eboa901HR1NFfdUfANX8yGghKPRElrZI1FjcDSIAfZz5ru3_uSMqI8xSM6thJ98Oua0ySmw_1s7n7aTEKa28S7PW2QwqhxXdOEn9CmiXoKdLu3yEAK21g7oBDc8x77BvuCFQwGHzh0aNRAmmASVQSshTP6RSTbm5Ykos9VA_kTKOMhT7EYr8pjesJkEsadAPZyJkgXbAvfzIsAhYSU1jqO6d50RB_2usRukr__9bNhPqw0vTJhnSnN_BYD2tJ1nv8AH8VcNO93HIlqWPzKkhOhGiLLCUqWLG1191kgcshshDL2fIsxTW4lDo03YAvHICP6TWrhQ_-KRnBRucKDbjq936rKYVdQsqFFtZfXcsFag0BKi65na--hxL5i-Ip9wam1cM54rchSXLG7NmvsLhDcM2AHwY9flX2dC15Wu1RWgcWO_xbhW0HhO8f0_0L1Fwo_xuBYrOfI2POW9wX1C1uMOLdoQBC76VNxREC1qkT8wXe5DPKifr0fXf-F2gffygaMG4FOq2e6i0gKYsDxME72zfLHjtYnSPP2fQmj921FBatMNOnNrV0kjMi7Ix51VmPVo--iGywS0mDuUmiTbQEHFIyelcuZoZ5YSScOAz3_2CDyVeddnlUdTXxyMQbCt5HxR1E1Jl28bkWJL2zWAcdVLnb-mwCGFYyCSv7A-2m7gonXEUxaEDTEvsb_InkYQeuo-NhLnbTeZGwcYPKFweyQWmPcxYwgqMNkw8STiA81BeY6o0eDFvCasuV-czDXwKRgagbDHKDu1pM7RA2ch85GyD4Gs_xQy5tLZHie1yb0jQT8NjjxRg7rnElogt1nIH5I3IKaMVzDohN4tbFs7PwJuS04uPFm9qTUF2n-UbgFyrjZDqhaxQbWE7XRSp5coyL6kw4nNnvRBVpFUtmNVbFg2GdicxM8GCqUUC2NenkEjaJzDjqIYhzAaOqUAuAitDPNVFkcFvUKm9DaCod6qrD5hi_h-fgEkKB8GIs5RfI2hsSyL7nOzMm733D4c-qwDQx7DiJfOnZIBZB3Uh-6sIIkqy-9QNAnn3mY_D6hV02CsqFc-mwekxTgWduQSJ3c2a8XOiJNsczn8HH4ova8teUwyQxGwY4bRy9cK359_3VX7nCOao_-y7cdpXGaFHjvHcCTVEvCJ-bfbL_iEo_R0i9fyTf1N2lDTBKGKdiU4o4SYo6RmTFSEZvMjJAQahBUtqL8U_zzqg3gP-M1CKg], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:42.073 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: /Orders 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:42.267 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:43.802 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: /Products 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39i_C75Jxu4PZfCgm2OVsWQsMNwErz-yjiQkskq4GvlkG2UJ6eboa901HR1NFfdUfANX8yGghKPRElrZI1FjcDSIAfZz5ru3_uSMqI8xSM6thJ98Oua0ySmw_1s7n7aTEKa28S7PW2QwqhxXdOEn9CmiXoKdLu3yEAK21g7oBDc8x77BvuCFQwGHzh0aNRAmmASVQSshTP6RSTbm5Ykos9VA_kTKOMhT7EYr8pjesJkEsadAPZyJkgXbAvfzIsAhYSU1jqO6d50RB_2usRukr__9bNhPqw0vTJhnSnN_BYD2tJ1nv8AH8VcNO93HIlqWPzKkhOhGiLLCUqWLG1191kgcshshDL2fIsxTW4lDo03YAvHICP6TWrhQ_-KRnBRucKDbjq936rKYVdQsqFFtZfXcsFag0BKi65na--hxL5i-Ip9wam1cM54rchSXLG7NmvsLhDcM2AHwY9flX2dC15Wu1RWgcWO_xbhW0HhO8f0_0L1Fwo_xuBYrOfI2POW9wX1C1uMOLdoQBC76VNxREC1qkT8wXe5DPKifr0fXf-F2gffygaMG4FOq2e6i0gKYsDxME72zfLHjtYnSPP2fQmj921FBatMNOnNrV0kjMi7Ix51VmPVo--iGywS0mDuUmiTbQEHFIyelcuZoZ5YSScOAz3_2CDyVeddnlUdTXxyMQbCt5HxR1E1Jl28bkWJL2zWAcdVLnb-mwCGFYyCSv7A-2m7gonXEUxaEDTEvsb_InkYQeuo-NhLnbTeZGwcYPKFweyQWmPcxYwgqMNkw8STiA81BeY6o0eDFvCasuV-czDXwKRgagbDHKDu1pM7RA2ch85GyD4Gs_xQy5tLZHie1yb0jQT8NjjxRg7rnElogt1nIH5I3IKaMVzDohN4tbFs7PwJuS04uPFm9qTUF2n-UbgFyrjZDqhaxQbWE7XRSp5coyL6kw4nNnvRBVpFUtmNVbFg2GdicxM8GCqUUC2NenkEjaJzDjqIYhzAaOqUAuAitDPNVFkcFvUKm9DaCod6qrD5hi_h-fgEkKB8GIs5RfI2hsSyL7nOzMm733D4c-qwDQx7DiJfOnZIBZB3Uh-6sIIkqy-9QNAnn3mY_D6hV02CsqFc-mwekxTgWduQSJ3c2a8XOiJNsczn8HH4ova8teUwyQxGwY4bRy9cK359_3VX7nCOao_-y7cdpXGaFHjvHcCTVEvCJ-bfbL_iEo_R0i9fyTf1N2lDTBKGKdiU4o4SYo6RmTFSEZvMjJAQahBUtqL8U_zzqg3gP-M1CKg], [Host, localhost:44307], [Referer, https://localhost:44307/Orders], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:43.802 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: /Products 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:43.844 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:45.218 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: /Account/Logout 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39i_C75Jxu4PZfCgm2OVsWQsMNwErz-yjiQkskq4GvlkG2UJ6eboa901HR1NFfdUfANX8yGghKPRElrZI1FjcDSIAfZz5ru3_uSMqI8xSM6thJ98Oua0ySmw_1s7n7aTEKa28S7PW2QwqhxXdOEn9CmiXoKdLu3yEAK21g7oBDc8x77BvuCFQwGHzh0aNRAmmASVQSshTP6RSTbm5Ykos9VA_kTKOMhT7EYr8pjesJkEsadAPZyJkgXbAvfzIsAhYSU1jqO6d50RB_2usRukr__9bNhPqw0vTJhnSnN_BYD2tJ1nv8AH8VcNO93HIlqWPzKkhOhGiLLCUqWLG1191kgcshshDL2fIsxTW4lDo03YAvHICP6TWrhQ_-KRnBRucKDbjq936rKYVdQsqFFtZfXcsFag0BKi65na--hxL5i-Ip9wam1cM54rchSXLG7NmvsLhDcM2AHwY9flX2dC15Wu1RWgcWO_xbhW0HhO8f0_0L1Fwo_xuBYrOfI2POW9wX1C1uMOLdoQBC76VNxREC1qkT8wXe5DPKifr0fXf-F2gffygaMG4FOq2e6i0gKYsDxME72zfLHjtYnSPP2fQmj921FBatMNOnNrV0kjMi7Ix51VmPVo--iGywS0mDuUmiTbQEHFIyelcuZoZ5YSScOAz3_2CDyVeddnlUdTXxyMQbCt5HxR1E1Jl28bkWJL2zWAcdVLnb-mwCGFYyCSv7A-2m7gonXEUxaEDTEvsb_InkYQeuo-NhLnbTeZGwcYPKFweyQWmPcxYwgqMNkw8STiA81BeY6o0eDFvCasuV-czDXwKRgagbDHKDu1pM7RA2ch85GyD4Gs_xQy5tLZHie1yb0jQT8NjjxRg7rnElogt1nIH5I3IKaMVzDohN4tbFs7PwJuS04uPFm9qTUF2n-UbgFyrjZDqhaxQbWE7XRSp5coyL6kw4nNnvRBVpFUtmNVbFg2GdicxM8GCqUUC2NenkEjaJzDjqIYhzAaOqUAuAitDPNVFkcFvUKm9DaCod6qrD5hi_h-fgEkKB8GIs5RfI2hsSyL7nOzMm733D4c-qwDQx7DiJfOnZIBZB3Uh-6sIIkqy-9QNAnn3mY_D6hV02CsqFc-mwekxTgWduQSJ3c2a8XOiJNsczn8HH4ova8teUwyQxGwY4bRy9cK359_3VX7nCOao_-y7cdpXGaFHjvHcCTVEvCJ-bfbL_iEo_R0i9fyTf1N2lDTBKGKdiU4o4SYo6RmTFSEZvMjJAQahBUtqL8U_zzqg3gP-M1CKg], [Host, localhost:44307], [Referer, https://localhost:44307/Products], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:45.218 PM 
+ Username: ingwarrior.99@gmail.com 
+ RequestUri: /Account/Logout 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.TwoFactorUserId=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:45.251 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:45.296 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Products], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:42:45.296 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:42:45.308 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:53:35.120 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:53:35.120 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:53:36.031 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:53:42.310 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 07:53:42.310 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 07:53:42.329 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:34:11.729 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:34:11.729 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:34:13.364 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:34:39.727 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:34:39.727 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:34:39.766 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:36:32.749 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 350], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:36:32.749 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:36:33.845 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: (null) 
+ Username: (null) 
+ RequestUri: (null) 
+ StatusCode: (null) 
+ Headers: (null) 
+ Body: (null) 
+ QueryString: (null) 
+  HttpMethod: (null) 
+ ResponseTime: (null) 
+  StackTrace:    at SCore.BLL.Services.FileManager.SaveImage(IFormFile image) in c:\Users\ingwa\source\repos\SCore\SCore.BLL\Services\FileManager.cs:line 27
+   at SCore.BLL.Services.AccountService.Create(RegisterViewModel model, String url) in c:\Users\ingwa\source\repos\SCore\SCore.BLL\Services\AccountService.cs:line 29
+   at SCore.WEB.Controllers.AccountController.Register(RegisterViewModel model) in c:\Users\ingwa\source\repos\SCore\SCore.WEB\Controllers\AccountController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync() 
+  ?essage: Object reference not set to an instance of an object. 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:42:10.594 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:42:10.594 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:42:11.425 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:42:20.795 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:42:20.795 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:42:20.834 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:43:20.163 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 350], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:43:20.163 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:44:49.924 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: (null) 
+ Username: (null) 
+ RequestUri: (null) 
+ StatusCode: (null) 
+ Headers: (null) 
+ Body: (null) 
+ QueryString: (null) 
+  HttpMethod: (null) 
+ ResponseTime: (null) 
+  StackTrace:    at SCore.BLL.Services.FileManager.SaveImage(IFormFile image) in c:\Users\ingwa\source\repos\SCore\SCore.BLL\Services\FileManager.cs:line 27
+   at SCore.BLL.Services.AccountService.Create(RegisterViewModel model, String url) in c:\Users\ingwa\source\repos\SCore\SCore.BLL\Services\AccountService.cs:line 29
+   at SCore.WEB.Controllers.AccountController.Register(RegisterViewModel model) in c:\Users\ingwa\source\repos\SCore\SCore.WEB\Controllers\AccountController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync() 
+  ?essage: Object reference not set to an instance of an object. 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:54:26.171 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:54:26.171 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:54:26.945 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:54:37.859 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:54:37.859 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:54:37.916 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:55:01.174 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 350], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:58:19.030 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:58:19.030 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:58:19.056 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:58:19.325 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:58:19.325 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:58:19.358 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:55:01.174 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38q9Z951T7iHF3SuZuvYaEOHSRp2OvhZ_0EviezbN61MJfMJRO5gWwh-COfjNWuFB3vEcRtSjLbsHJ5gbnGMa3dwcm6cG9atUKg1aGBZGjxbof8fW3xXNdyEuh1t7xt9P9EWhJHnSb5juOw9dhG2RRScxNDdhGBDIg5AZgiCRsxrWA7mpgeSN9E0KY6-EHUSyvzvd6oYrtjBevhfgzMRcuTNnt3SyGGryyhcKtR9JNGCJWcztxVo_4jIC7WGxS0MeOVFvkp18GIh01ZkznVXSo497BdUxMjYr2e5JP4NUgA4nqGIqeixA38w9lcTOIqvtrN17p5VhJHUxNSBR2keBJq3LYL26bIgMM6O-9HRualqhMA2TsKkBA5oBOQNVZnQ2GXT2RjsQ3RhiiJTcLvdeynqy-eUvr7A3XuQ--OxXhjN4t99d_v_KH2z_FxjDjD5DHyTlOveciq0Qv0cWkp3yOAPLfJhACPqoEnHDKR4gjfUIbNdE6caezdTDwpyGoHvakR6NZXflNxaWnZ986z3GvOd6qa3f0YJecpqrjHYRpR0sqXYYVroVtEaEN2VD-Vip8; path=/; secure; samesite=lax; httponly], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:58:21.365 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:58:23.505 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 08:58:23.505 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 08:58:23.519 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:11:36.870 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:11:36.870 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:11:38.664 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:11:47.161 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:11:47.161 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:11:47.250 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:12:17.362 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 29005], [Content-Type, multipart/form-data; boundary=----WebKitFormBoundary0Bq40lMkNGNBfpJu], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:12:17.362 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:12:47.986 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:26.664 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 29005], [Content-Type, multipart/form-data; boundary=----WebKitFormBoundaryXWgjgx45IEsRKhNE], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:26.664 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39OPDcG0TbsrdD2-v0z93BxTJi51cpS7vpaYNOSW8NoQiMkkghzTlhp1h9YKOmg_4OwLJoBOZ8ftqj2KZePCWYyXctfkayp5-0tSUpLdRA73E4cC686-PHqVFeahf9i5_rIlO2WN4sN2ZV9ai3fZz2yXzA6CiC2Qj7LejhrLp64fpvM065uyrsw655uUYOqByzZjF0DjJp9fAUObavideAUKMBci9yOCv0ehk1js-ngZ9rmzImsnyG6_nIi_wejPg_JwovrICJNUmoNBIc1PRh82hZbOh5gzWNPcdkBG1KRFO4XOPg5lR3H8pirkTJRvAV-v7OizeiOygYddzcZmF2SM-y2N7x5CugYAWjzWF-bLsvbPJfcYX37DW4fWLz1hgbJe1yqgRugeyeY2CawKqSa12dj2t2icNTS9ejIkA7C5qhs-0Od0h7Ngc0U7XCYr9hDyA_zUVza-yJRW4h2rJrc99KH571LSlwu9M-_S0wC3M29vpYCJ-n_TwigM9M5-TimZZljlJr4hedVRf-2bXqRuegrN--x0_mi_V7DayaIc-DxdUKvfTpF9WSYqe8no_c; path=/; secure; samesite=lax; httponly], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:27:38.632 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:38.905 PM 
+ Username: petrov@mail.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39OPDcG0TbsrdD2-v0z93BxTJi51cpS7vpaYNOSW8NoQiMkkghzTlhp1h9YKOmg_4OwLJoBOZ8ftqj2KZePCWYyXctfkayp5-0tSUpLdRA73E4cC686-PHqVFeahf9i5_rIlO2WN4sN2ZV9ai3fZz2yXzA6CiC2Qj7LejhrLp64fpvM065uyrsw655uUYOqByzZjF0DjJp9fAUObavideAUKMBci9yOCv0ehk1js-ngZ9rmzImsnyG6_nIi_wejPg_JwovrICJNUmoNBIc1PRh82hZbOh5gzWNPcdkBG1KRFO4XOPg5lR3H8pirkTJRvAV-v7OizeiOygYddzcZmF2SM-y2N7x5CugYAWjzWF-bLsvbPJfcYX37DW4fWLz1hgbJe1yqgRugeyeY2CawKqSa12dj2t2icNTS9ejIkA7C5qhs-0Od0h7Ngc0U7XCYr9hDyA_zUVza-yJRW4h2rJrc99KH571LSlwu9M-_S0wC3M29vpYCJ-n_TwigM9M5-TimZZljlJr4hedVRf-2bXqRuegrN--x0_mi_V7DayaIc-DxdUKvfTpF9WSYqe8no_c], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:38.905 PM 
+ Username: petrov@mail.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:27:38.923 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:58.084 PM 
+ Username: petrov@mail.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39OPDcG0TbsrdD2-v0z93BxTJi51cpS7vpaYNOSW8NoQiMkkghzTlhp1h9YKOmg_4OwLJoBOZ8ftqj2KZePCWYyXctfkayp5-0tSUpLdRA73E4cC686-PHqVFeahf9i5_rIlO2WN4sN2ZV9ai3fZz2yXzA6CiC2Qj7LejhrLp64fpvM065uyrsw655uUYOqByzZjF0DjJp9fAUObavideAUKMBci9yOCv0ehk1js-ngZ9rmzImsnyG6_nIi_wejPg_JwovrICJNUmoNBIc1PRh82hZbOh5gzWNPcdkBG1KRFO4XOPg5lR3H8pirkTJRvAV-v7OizeiOygYddzcZmF2SM-y2N7x5CugYAWjzWF-bLsvbPJfcYX37DW4fWLz1hgbJe1yqgRugeyeY2CawKqSa12dj2t2icNTS9ejIkA7C5qhs-0Od0h7Ngc0U7XCYr9hDyA_zUVza-yJRW4h2rJrc99KH571LSlwu9M-_S0wC3M29vpYCJ-n_TwigM9M5-TimZZljlJr4hedVRf-2bXqRuegrN--x0_mi_V7DayaIc-DxdUKvfTpF9WSYqe8no_c], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:58.084 PM 
+ Username: petrov@mail.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.TwoFactorUserId=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:27:58.129 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:58.258 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:27:58.258 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:27:58.276 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:29:43.426 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:29:43.426 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:29:43.442 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:29:46.064 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:29:46.064 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:29:46.074 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:29:47.722 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:29:47.722 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:29:47.731 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:34:22.369 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:34:22.369 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:34:24.099 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:34:31.833 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:34:31.833 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:34:32.176 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:36:22.735 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:36:22.735 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:36:23.811 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:36:32.409 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:36:32.409 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:36:32.421 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:36:53.215 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 29005], [Content-Type, multipart/form-data; boundary=----WebKitFormBoundarySVpx97EKUBhxprBt], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:36:53.215 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:37:14.149 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: (null) 
+ Username: (null) 
+ RequestUri: (null) 
+ StatusCode: (null) 
+ Headers: (null) 
+ Body: (null) 
+ QueryString: (null) 
+  HttpMethod: (null) 
+ ResponseTime: (null) 
+  StackTrace:    at MailKit.Net.Smtp.SmtpClient.DataAsync(FormatOptions options, MimeMessage message, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at SCore.BLL.Services.EmailService.SendEmailAsync(String email, String subject, String message) in c:\Users\ingwa\source\repos\SCore\SCore.BLL\Services\EmailService.cs:line 24
+   at SCore.BLL.Services.AccountService.Create(RegisterViewModel model, String url) in c:\Users\ingwa\source\repos\SCore\SCore.BLL\Services\AccountService.cs:line 37
+   at SCore.WEB.Controllers.AccountController.Register(RegisterViewModel model) in c:\Users\ingwa\source\repos\SCore\SCore.WEB\Controllers\AccountController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync() 
+  ?essage: 5.7.1 [2] Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1557340632-ZJDXXpTYkH-bCR0oIKD 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:37:41.130 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:37:41.130 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:37:41.142 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:38:53.497 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 29026], [Content-Type, multipart/form-data; boundary=----WebKitFormBoundaryCw2izE4kpQ1BhDNb], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:38:53.497 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38FSIseVDw_Zqlu8NwWhXGaZzyaJRwzD8JU6MaAPNlb25hRh1NTxgfkk6yssZh-HN977R8CjhMHAAdKQjiv4HjFCYbn_F715Y31mOPO9C3IS5llG-1KEMoiYeUCblYyDpv5eQvTbPhKdDOl9sn7I_nRYrx_Jl240bh8patPYh-yHClQ9n_f2zL5KNvv5DKzFAv3Q1Hh5tPPpC_D6_ekKJp1LTnau53ehKS6KfIy-k67cTLV10ao6x93PGkJCvIn84f0VYIMHHzOtVs_Ll2Vpt-ifGr_O7krerw58oaJMz843ejvt22cVXiRDz49YJygBpdGlPFaU0qQ3rzuJPeHVm6RVWFTIO1e8X0TVBQqJ1si2ulFE_sGpb8f_BL6FiWQGciXLSxJ4GgXZbuW8Br3m6ULc3yktgPJpL9XhPrHXkXc_sAT8qLXwut6M2nmDBARhamK-jafCKeLfPwIIEGF0jGlZoDN5o8N_t3TRoT8HrnbWJEwJF5-6mxS9dTKd5nLJx_8_IjrXDMroMIeFmS_8T-dqn3n7NPEHHvuexQRnA4lXYHzRXNz1iCzG6BiVHZPDrXTIHXsLVSzqlTIvx96sJm4; path=/; secure; samesite=lax; httponly], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:38:59.547 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:39:04.405 PM 
+ Username: igor.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38FSIseVDw_Zqlu8NwWhXGaZzyaJRwzD8JU6MaAPNlb25hRh1NTxgfkk6yssZh-HN977R8CjhMHAAdKQjiv4HjFCYbn_F715Y31mOPO9C3IS5llG-1KEMoiYeUCblYyDpv5eQvTbPhKdDOl9sn7I_nRYrx_Jl240bh8patPYh-yHClQ9n_f2zL5KNvv5DKzFAv3Q1Hh5tPPpC_D6_ekKJp1LTnau53ehKS6KfIy-k67cTLV10ao6x93PGkJCvIn84f0VYIMHHzOtVs_Ll2Vpt-ifGr_O7krerw58oaJMz843ejvt22cVXiRDz49YJygBpdGlPFaU0qQ3rzuJPeHVm6RVWFTIO1e8X0TVBQqJ1si2ulFE_sGpb8f_BL6FiWQGciXLSxJ4GgXZbuW8Br3m6ULc3yktgPJpL9XhPrHXkXc_sAT8qLXwut6M2nmDBARhamK-jafCKeLfPwIIEGF0jGlZoDN5o8N_t3TRoT8HrnbWJEwJF5-6mxS9dTKd5nLJx_8_IjrXDMroMIeFmS_8T-dqn3n7NPEHHvuexQRnA4lXYHzRXNz1iCzG6BiVHZPDrXTIHXsLVSzqlTIvx96sJm4], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:39:04.405 PM 
+ Username: igor.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:39:04.487 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:39:12.389 PM 
+ Username: igor.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi38FSIseVDw_Zqlu8NwWhXGaZzyaJRwzD8JU6MaAPNlb25hRh1NTxgfkk6yssZh-HN977R8CjhMHAAdKQjiv4HjFCYbn_F715Y31mOPO9C3IS5llG-1KEMoiYeUCblYyDpv5eQvTbPhKdDOl9sn7I_nRYrx_Jl240bh8patPYh-yHClQ9n_f2zL5KNvv5DKzFAv3Q1Hh5tPPpC_D6_ekKJp1LTnau53ehKS6KfIy-k67cTLV10ao6x93PGkJCvIn84f0VYIMHHzOtVs_Ll2Vpt-ifGr_O7krerw58oaJMz843ejvt22cVXiRDz49YJygBpdGlPFaU0qQ3rzuJPeHVm6RVWFTIO1e8X0TVBQqJ1si2ulFE_sGpb8f_BL6FiWQGciXLSxJ4GgXZbuW8Br3m6ULc3yktgPJpL9XhPrHXkXc_sAT8qLXwut6M2nmDBARhamK-jafCKeLfPwIIEGF0jGlZoDN5o8N_t3TRoT8HrnbWJEwJF5-6mxS9dTKd5nLJx_8_IjrXDMroMIeFmS_8T-dqn3n7NPEHHvuexQRnA4lXYHzRXNz1iCzG6BiVHZPDrXTIHXsLVSzqlTIvx96sJm4], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:39:12.389 PM 
+ Username: igor.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.TwoFactorUserId=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:39:12.459 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:39:15.584 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:39:15.584 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:39:15.599 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:41:11.084 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:41:11.084 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:41:11.117 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:41:43.827 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 29031], [Content-Type, multipart/form-data; boundary=----WebKitFormBoundaryzjy9Jdsd94y4usjP], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:41:43.827 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:41:44.811 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:45:02.558 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:45:02.558 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:45:04.376 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:49:34.370 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:49:34.370 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:49:34.379 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:49:40.695 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:49:40.695 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:49:40.711 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:11.450 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 29028], [Content-Type, multipart/form-data; boundary=----WebKitFormBoundaryKNS90xw1gLgE7Av8], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:11.450 PM 
+ Username: (null) 
+ RequestUri: /Account/Register 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39G55H2aQaFMY2dDOseBjPQ0cx3bqnIdD3soYTrleQJutAhm3XN9GQfTlRJA53W_Fgayh4NDZTZGNd1aMbELb_0m_a90T-hGFiy7HmkcLfEQIYNc7fOVES4SCT_4qsT2MbWbwjoGQhkwVGrkyIbBkqd_fsEVTsrhtYvgGHVqdI6xSzexxb6J7gkBCLhfJJWf6BRdpF0h_FhWtl4ZzTYWgvvE287ZPTe-userqRFs2lo5drLGdZHUYvO-9SuqXvAvUwyq435F_h-YQXCVZ7HlaAScUIR9-cMt1HtG-FWTRkLRFbGZat7iCFTm-1dH_LA7BM6_wmocYKce7vXkjVm-2RHCnzW-HDuMbGMVZBAB80fQWoeYV7fEEwSuFAbh1vrnMSv7b5SH-hEDePkflrGFx-Cp2r59HD_7yh9qf63DQmIsohJt0qZGeVoMg9pxaiSLaI52FDe3rzCXbOvEjQF8jBPTNnfso6ukOqvFJzuoF2TCVC4Sh85RTRgtt7KcDVw4EJrY_GTgtxwf60UpbBstc3qRyesx2DaPROWhjlyMyyCGNXVyd0G_5Z9jD3PtIxG3ThiQ15PHcbR7GIZ2eRpvItr; path=/; secure; samesite=lax; httponly], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:50:17.341 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:19.586 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39G55H2aQaFMY2dDOseBjPQ0cx3bqnIdD3soYTrleQJutAhm3XN9GQfTlRJA53W_Fgayh4NDZTZGNd1aMbELb_0m_a90T-hGFiy7HmkcLfEQIYNc7fOVES4SCT_4qsT2MbWbwjoGQhkwVGrkyIbBkqd_fsEVTsrhtYvgGHVqdI6xSzexxb6J7gkBCLhfJJWf6BRdpF0h_FhWtl4ZzTYWgvvE287ZPTe-userqRFs2lo5drLGdZHUYvO-9SuqXvAvUwyq435F_h-YQXCVZ7HlaAScUIR9-cMt1HtG-FWTRkLRFbGZat7iCFTm-1dH_LA7BM6_wmocYKce7vXkjVm-2RHCnzW-HDuMbGMVZBAB80fQWoeYV7fEEwSuFAbh1vrnMSv7b5SH-hEDePkflrGFx-Cp2r59HD_7yh9qf63DQmIsohJt0qZGeVoMg9pxaiSLaI52FDe3rzCXbOvEjQF8jBPTNnfso6ukOqvFJzuoF2TCVC4Sh85RTRgtt7KcDVw4EJrY_GTgtxwf60UpbBstc3qRyesx2DaPROWhjlyMyyCGNXVyd0G_5Z9jD3PtIxG3ThiQ15PHcbR7GIZ2eRpvItr], [Host, localhost:44307], [Referer, https://localhost:44307/Account/Register], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:19.586 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:50:19.618 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:23.753 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39G55H2aQaFMY2dDOseBjPQ0cx3bqnIdD3soYTrleQJutAhm3XN9GQfTlRJA53W_Fgayh4NDZTZGNd1aMbELb_0m_a90T-hGFiy7HmkcLfEQIYNc7fOVES4SCT_4qsT2MbWbwjoGQhkwVGrkyIbBkqd_fsEVTsrhtYvgGHVqdI6xSzexxb6J7gkBCLhfJJWf6BRdpF0h_FhWtl4ZzTYWgvvE287ZPTe-userqRFs2lo5drLGdZHUYvO-9SuqXvAvUwyq435F_h-YQXCVZ7HlaAScUIR9-cMt1HtG-FWTRkLRFbGZat7iCFTm-1dH_LA7BM6_wmocYKce7vXkjVm-2RHCnzW-HDuMbGMVZBAB80fQWoeYV7fEEwSuFAbh1vrnMSv7b5SH-hEDePkflrGFx-Cp2r59HD_7yh9qf63DQmIsohJt0qZGeVoMg9pxaiSLaI52FDe3rzCXbOvEjQF8jBPTNnfso6ukOqvFJzuoF2TCVC4Sh85RTRgtt7KcDVw4EJrY_GTgtxwf60UpbBstc3qRyesx2DaPROWhjlyMyyCGNXVyd0G_5Z9jD3PtIxG3ThiQ15PHcbR7GIZ2eRpvItr], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:23.753 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/Logout 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.External=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax,Identity.TwoFactorUserId=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:50:23.802 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:26.018 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:50:26.018 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:50:26.031 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:51:19.313 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:51:19.313 PM 
+ Username: (null) 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:51:19.697 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:04.587 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:04.587 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:52:04.599 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:33.339 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:33.339 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:52:33.395 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:42.378 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Content-Length, 239], [Content-Type, application/x-www-form-urlencoded], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [origin, https://localhost:44307], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:42.378 PM 
+ Username: (null) 
+ RequestUri: /Account/LogIn 
+ StatusCode: 200 
+ Headers: {[Set-Cookie, .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb; expires=Wed, 22 May 2019 18:52:43 GMT; path=/; secure; samesite=lax; httponly], [Cache-Control, no-cache], [Pragma, no-cache], [Expires, Thu, 01 Jan 1970 00:00:00 GMT]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:52:43.977 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:44.163 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [Referer, https://localhost:44307/Account/LogIn], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 09:52:44.163 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 09:52:44.187 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:06:40.578 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:06:40.578 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:06:41.645 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:06:52.409 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:06:52.409 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:06:55.211 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:07:08.027 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:07:08.027 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:07:08.495 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:08:19.094 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Cache-Control, max-age=0], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:08:19.094 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:08:19.455 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:08:53.738 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Products 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [Referer, https://localhost:44307/Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:08:53.738 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Products 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:08:54.780 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:09:01.951 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [Referer, https://localhost:44307/Products], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:09:01.951 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:09:02.121 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:23:25.292 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39DG6B0GhuTlNbtJ4p1eaOxTpHBIO2tkWHdDCN5UFDl9uxMP35s00ZuHHLPOqUCo9g66OWMF6S8J2Eq8vOnWGm-VEnAQOBSi50Fcfv6M2iUpeYypn-ywPJgDNoyUC4WM4cZAnqqjygrzOD2OezzTIaEfkJ7SiZQg6qXT1y6thm49rHmfrylNuKGrmWHZKG6dEaZUK5AwNvpHw9E6t0RTc22oG3yF2WL6SXr6Joy4Ji2_dFFfMem8Kor9p9w_g9tpklCqX3VHXhv33Qc5AH6EVUBSsWQSodHJpqBOGiKcWCS1gPC5H1fo7SKqCnZMOphiTcRLaig8qAG6FTu6nOK_hmgP2hhJ_dy-bVTf7w7fZhS5RtBtHRbFsG71Hpf1iA0XmiUmPkIBAvll60jkCKmG3JwmFPb3T02wAet0D52qqwIrJEVSC-M0U2nbaJmpiKacFt3S_pAYcCOqwnrJ9DmnduLDhlXzmmNEstZbcyNqYJ_3x6lksNOFqXmwQ6_ZutjjV7KGIucuH3ZXWW79pQroPFmqj0Q35PXNQ9-IYxKPHAJ6eDw6EnTrWCaBFhLy6vzE6Z6qizAA9nc_sBfmMn8xdvQ2q1KO6GEIDCxhWC5besgpQgF7PKB7fYzZ0OZ9AIZsmgBN2eBEfP_9zbFQaUJp_99jo7hC74B540pEgeL2Hi_fdw2QsIL5_uSRpvqZZ0xUEKdGniNKPI-eZpd0FuFB7zb], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:23:25.292 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:23:26.104 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:23:35.968 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39wrtI2dCNNz1vqgE0bBEdOiJrolFdqERIe1s4Zj9WtwQmXnipBFwGl-4jB44WdFjoTFrF-KeHDxk4Ua6O4u6XnVEhIK84LzdyOjJm_IY9g3OmhmRAmKaTVi_vRyLXJodkduUcGLovxc48Op08z_Z0eFSp1OCQrG1CyB7nZMPbSchkaO0leHfyT3XBFNH-2yqdclxk4gnQ6SJcicHqZ-MkaqOCNID5qXDiIyv56PgaGRdDilAZx5rO57988ZWGzzlYjdC7chGzxekEUYayKzO6HUlEdb46XWWXl6tl0Ym6w7bdZxa_EbmhVA-0_E_-iTNJH-CQ2sMpqafoHLVKFG8mmSpbytzTW4sFt6pHKw-DKwKhKQkCeASO_e55WAGiE-IBtJ8nHf8xpOKAIwmnOmT1fBiTyMEtDfrBE4FkA4Svv0nr0xtmkNEWs5iEMODn-NYuB1OJtrQ4BHymODCKN0ffpIYh-S28_j6SqMacMRgGvdHebG_xH5R1mrRbCfwDO-kejFLYB3dj6i7efUQ1HzKWdoHK_3rW7TIkgTS7Gz16VG3tbBjD5QkddK7YFLJqw8MHvlBcQ_C2v4E7pnPYmc46RPjtnvOgPni8dt3B_OSnE4KYI-YCCeL99xC0xMTBf8a4scdfWed91lKRbKj7ceWFHzijqIK_6qfM82W4mnlZHAW9OiyHPOBq7Hsa5lDKx0AX8ULM4aJjAkeZdeZQLoAkM], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:23:35.968 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:23:36.402 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:27:04.706 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39wrtI2dCNNz1vqgE0bBEdOiJrolFdqERIe1s4Zj9WtwQmXnipBFwGl-4jB44WdFjoTFrF-KeHDxk4Ua6O4u6XnVEhIK84LzdyOjJm_IY9g3OmhmRAmKaTVi_vRyLXJodkduUcGLovxc48Op08z_Z0eFSp1OCQrG1CyB7nZMPbSchkaO0leHfyT3XBFNH-2yqdclxk4gnQ6SJcicHqZ-MkaqOCNID5qXDiIyv56PgaGRdDilAZx5rO57988ZWGzzlYjdC7chGzxekEUYayKzO6HUlEdb46XWWXl6tl0Ym6w7bdZxa_EbmhVA-0_E_-iTNJH-CQ2sMpqafoHLVKFG8mmSpbytzTW4sFt6pHKw-DKwKhKQkCeASO_e55WAGiE-IBtJ8nHf8xpOKAIwmnOmT1fBiTyMEtDfrBE4FkA4Svv0nr0xtmkNEWs5iEMODn-NYuB1OJtrQ4BHymODCKN0ffpIYh-S28_j6SqMacMRgGvdHebG_xH5R1mrRbCfwDO-kejFLYB3dj6i7efUQ1HzKWdoHK_3rW7TIkgTS7Gz16VG3tbBjD5QkddK7YFLJqw8MHvlBcQ_C2v4E7pnPYmc46RPjtnvOgPni8dt3B_OSnE4KYI-YCCeL99xC0xMTBf8a4scdfWed91lKRbKj7ceWFHzijqIK_6qfM82W4mnlZHAW9OiyHPOBq7Hsa5lDKx0AX8ULM4aJjAkeZdeZQLoAkM], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:27:04.706 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:27:05.482 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:27:16.469 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39wrtI2dCNNz1vqgE0bBEdOiJrolFdqERIe1s4Zj9WtwQmXnipBFwGl-4jB44WdFjoTFrF-KeHDxk4Ua6O4u6XnVEhIK84LzdyOjJm_IY9g3OmhmRAmKaTVi_vRyLXJodkduUcGLovxc48Op08z_Z0eFSp1OCQrG1CyB7nZMPbSchkaO0leHfyT3XBFNH-2yqdclxk4gnQ6SJcicHqZ-MkaqOCNID5qXDiIyv56PgaGRdDilAZx5rO57988ZWGzzlYjdC7chGzxekEUYayKzO6HUlEdb46XWWXl6tl0Ym6w7bdZxa_EbmhVA-0_E_-iTNJH-CQ2sMpqafoHLVKFG8mmSpbytzTW4sFt6pHKw-DKwKhKQkCeASO_e55WAGiE-IBtJ8nHf8xpOKAIwmnOmT1fBiTyMEtDfrBE4FkA4Svv0nr0xtmkNEWs5iEMODn-NYuB1OJtrQ4BHymODCKN0ffpIYh-S28_j6SqMacMRgGvdHebG_xH5R1mrRbCfwDO-kejFLYB3dj6i7efUQ1HzKWdoHK_3rW7TIkgTS7Gz16VG3tbBjD5QkddK7YFLJqw8MHvlBcQ_C2v4E7pnPYmc46RPjtnvOgPni8dt3B_OSnE4KYI-YCCeL99xC0xMTBf8a4scdfWed91lKRbKj7ceWFHzijqIK_6qfM82W4mnlZHAW9OiyHPOBq7Hsa5lDKx0AX8ULM4aJjAkeZdeZQLoAkM], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:27:16.469 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:27:17.917 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:27:20.070 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Image/img_08-05-2019-21-50-11.jpg 
+ StatusCode: (null) 
+ Headers: {[Accept, image/webp,image/apng,image/*,*/*;q=0.8], [Accept-Encoding, gzip, deflate, br], [Accept-Language, en-US,en;q=0.9,ru;q=0.8], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.rq-BkU71YDY=CfDJ8KItXVLU9X1BnE3kUIdfi3-BB3lmpmUcxk-r4E0vL94adRYeFId40Fs_xLeiDSDVKDhPkR5pTN54lFgCWZ7cAoXssihW3upWkUhg-svXhHgjqF6dkC-znerqbFK-Ezq_dmSY4altSRVnvj5R63iT2Us; .AspNetCore.Identity.Application=CfDJ8KItXVLU9X1BnE3kUIdfi39wrtI2dCNNz1vqgE0bBEdOiJrolFdqERIe1s4Zj9WtwQmXnipBFwGl-4jB44WdFjoTFrF-KeHDxk4Ua6O4u6XnVEhIK84LzdyOjJm_IY9g3OmhmRAmKaTVi_vRyLXJodkduUcGLovxc48Op08z_Z0eFSp1OCQrG1CyB7nZMPbSchkaO0leHfyT3XBFNH-2yqdclxk4gnQ6SJcicHqZ-MkaqOCNID5qXDiIyv56PgaGRdDilAZx5rO57988ZWGzzlYjdC7chGzxekEUYayKzO6HUlEdb46XWWXl6tl0Ym6w7bdZxa_EbmhVA-0_E_-iTNJH-CQ2sMpqafoHLVKFG8mmSpbytzTW4sFt6pHKw-DKwKhKQkCeASO_e55WAGiE-IBtJ8nHf8xpOKAIwmnOmT1fBiTyMEtDfrBE4FkA4Svv0nr0xtmkNEWs5iEMODn-NYuB1OJtrQ4BHymODCKN0ffpIYh-S28_j6SqMacMRgGvdHebG_xH5R1mrRbCfwDO-kejFLYB3dj6i7efUQ1HzKWdoHK_3rW7TIkgTS7Gz16VG3tbBjD5QkddK7YFLJqw8MHvlBcQ_C2v4E7pnPYmc46RPjtnvOgPni8dt3B_OSnE4KYI-YCCeL99xC0xMTBf8a4scdfWed91lKRbKj7ceWFHzijqIK_6qfM82W4mnlZHAW9OiyHPOBq7Hsa5lDKx0AX8ULM4aJjAkeZdeZQLoAkM], [Host, localhost:44307], [Referer, https://localhost:44307/Account/GetUsersAccount/55ff863c-2a62-45db-a81b-e1d04be34209], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05/08/2019 10:27:20.070 PM 
+ Username: i.murtuzaliev.vironit@vironit.ru 
+ RequestUri: /Image/img_08-05-2019-21-50-11.jpg 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05/08/2019 10:27:20.209 PM 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 

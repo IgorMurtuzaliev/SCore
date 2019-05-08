@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SCore.Models;
 using SCore.Models.Entities;
+using SCore.Models.Models;
 
 namespace SCore.DAL.EF
 {

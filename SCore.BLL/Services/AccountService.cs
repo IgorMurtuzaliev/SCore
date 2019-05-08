@@ -15,16 +15,18 @@ namespace SCore.BLL.Services
         private readonly UserManager<User> _userManager;
         private readonly IEmailSender _emailSender;
         private readonly SignInManager<User> _signInManager;
-        public AccountService(UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender)
+        private readonly IFileManager _fileManager;
+        public AccountService(UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender, IFileManager fileManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
+            _fileManager = fileManager;
         }
 
         public async Task<IdentityResult> Create(RegisterViewModel model, string url)
         {
-            User user = new User { Email = model.Email, UserName = model.Email,Name = model.Name, LastName = model.LastName};
+            User user = new User { Email = model.Email, UserName = model.Email,Name = model.Name, LastName = model.LastName, Image = await _fileManager.SaveImage(model.Image) };
             IdentityResult result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)

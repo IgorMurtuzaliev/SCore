@@ -143,5 +143,6 @@ namespace SCore.WEB.Controllers
             User user = userService.Get(id);
             return View(user);
         }
+        
     }
 }

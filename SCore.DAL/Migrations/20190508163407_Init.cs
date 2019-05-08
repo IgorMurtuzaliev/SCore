@@ -44,7 +44,8 @@ namespace SCore.DAL.Migrations
                     AccessFailedCount = table.Column<int>(nullable: false),
                     Name = table.Column<string>(nullable: false),
                     LastName = table.Column<string>(nullable: false),
-                    DateOfRegister = table.Column<DateTime>(nullable: false)
+                    DateOfRegister = table.Column<DateTime>(nullable: false),
+                    Image = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

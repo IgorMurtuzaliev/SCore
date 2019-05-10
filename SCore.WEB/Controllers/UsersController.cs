@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
 using SCore.Models;
+using SCore.Models.Models;
+using System.IO;
 
 namespace SCore.WEB.Controllers
 {
@@ -51,24 +53,48 @@ namespace SCore.WEB.Controllers
         [Authorize(Roles = "Admin")]
         public ActionResult Edit(string id)
         {
-            User user = userService.Get(id);
+            var user = userService.Get(id);
             if (user == null)
             {
                 return NotFound();
             }
-            return View(user);
+            return View(new RegisterViewModel
+            {
+                Name = user.Name,
+                LastName = user.LastName,
+                Email = user.Email,
+                CurrentAvatar = user.Avatar
+            });
         }
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public ActionResult Edit(User user)
+        public ActionResult Edit(RegisterViewModel model)
         {
+            User user = new User
+            {
+                Name = model.Name,
+                LastName = model.LastName,
+                Email = model.Email,
+            };
+            if (model.Avatar == null) user.Avatar = model.CurrentAvatar;
+            else
+            {
+                byte[] imageData = null;
+                // считываем переданный файл в массив байтов
+                using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
+                {
+                    imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
+                }
+                // установка массива байтов
+                user.Avatar = imageData;
+            }
             if (ModelState.IsValid)
             {
                 userService.Edit(user);
                 return RedirectToAction("Index");
             }
-            return View(user);
+            return RedirectToAction("Index","Home");
         }
         [Authorize(Roles = "Admin")]
         public ActionResult Delete(string id)

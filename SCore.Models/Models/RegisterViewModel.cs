@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace SCore.Models.Models
@@ -21,7 +22,7 @@ namespace SCore.Models.Models
         [Compare("Password", ErrorMessage = "Пароли не совпадают")]
         [DataType(DataType.Password)]
         public string PasswordConfirm { get; set; }
-
+        public byte[] CurrentAvatar { get; set; }
         public IFormFile Avatar { get; set; } 
     }
 }

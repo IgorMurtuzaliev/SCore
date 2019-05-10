@@ -1,4 +1,4 @@
-﻿@model SCore.Models.User
+﻿@model SCore.Models.Models.RegisterViewModel
 
 @{
     ViewBag.Title = "Edit";
@@ -13,7 +13,6 @@
         <h4>User</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.HiddenFor(model => model.Id)
 
         <div class="form-group">
             @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -47,9 +46,3 @@
         </div>
     </div>
 }
-
-<div>
-    <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Users" asp-route-productId="@Model.Id">
-        Back to List
-    </a>
-</div>

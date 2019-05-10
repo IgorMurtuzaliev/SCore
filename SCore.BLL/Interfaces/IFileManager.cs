@@ -11,5 +11,6 @@ namespace SCore.BLL.Interfaces
     {
         Task<string> SaveImage(IFormFile image);
         FileStream ImageStream(string image);
+        //Task<List<string>> SaveImage(IFormFileCollection images);
     }
 }

@@ -29,6 +29,7 @@ namespace SCore.Models
         [Display(Name = "Date")]
         [DataType(DataType.DateTime)]
         public DateTime Date { get; set; } = DateTime.Now;
+
         [XmlIgnore]
         [JsonIgnore]
         public virtual ICollection<ProductOrder> ProductOrders { get; set; }

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
 using SCore.Models;
+using SCore.Models.Models;
 
 namespace SCore.WEB.Controllers
 {
@@ -36,14 +37,14 @@ namespace SCore.WEB.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public ActionResult Create(Product product)
+        public ActionResult Create(ProductViewModel model)
         {
             if (ModelState.IsValid)
             {
-                productService.Create(product);
+                productService.Create(model);
                 return RedirectToAction("Index");
             }
-            return View(product);
+            return View(model);
         }
 
         public ActionResult Edit(int id)

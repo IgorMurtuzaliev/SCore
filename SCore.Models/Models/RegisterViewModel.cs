@@ -22,6 +22,6 @@ namespace SCore.Models.Models
         [DataType(DataType.Password)]
         public string PasswordConfirm { get; set; }
 
-        public IFormFile Image { get; set; } = null;
+        public IFormFile Avatar { get; set; } 
     }
 }

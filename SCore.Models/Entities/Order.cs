@@ -15,6 +15,8 @@ namespace SCore.Models
         [Display(Name = "Date of order")]
         public DateTime TimeOfOrder { get; set; } = DateTime.Now;
         public string UserId { get; set; }
+        [Display(Name = "Total")]
+        public int Sum { get; set; }
 
         public virtual User User { get; set; }
         public virtual ICollection<ProductOrder> ProductOrders { get; set; }

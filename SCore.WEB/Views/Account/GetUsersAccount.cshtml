@@ -9,10 +9,9 @@
 <div>
     <hr />
     <dl class="dl-horizontal">
-        @if (!String.IsNullOrEmpty(Model.Image))
+        @if (Model.Avatar != null)
         {
-            var image_path = $"/Image/{Model.Image}";
-            <img src="@image_path"/>
+            <img style='width:150px; height:100px;' src="data:image/jpeg;base64,@(Convert.ToBase64String(Model.Avatar))" />
         }
         <dt>
             @Html.DisplayNameFor(model => model.Name)

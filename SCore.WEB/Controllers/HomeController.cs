@@ -1,16 +1,22 @@
 ﻿using ClosedXML.Excel;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using MimeKit;
 using SCore.BLL.Interfaces;
 using SCore.DAL.EF;
 using SCore.Models;
+using SCore.Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace SCore.WEB.Controllers
 {
@@ -21,18 +27,21 @@ namespace SCore.WEB.Controllers
         private readonly IOrderService orderService;
         private readonly UserManager<User> manager;
         private readonly IFileManager fileManager;
-        public HomeController(ISearchService _service, IOrderService _orderService, ApplicationDbContext _context, UserManager<User> _manager, IFileManager _fileManager)
+        private IHostingEnvironment _appEnvironment;
+        public HomeController(ISearchService _service, IOrderService _orderService, ApplicationDbContext _context, UserManager<User> _manager, IFileManager _fileManager, IHostingEnvironment appEnvironment)
         {
             service = _service;
             orderService = _orderService;
             context = _context;
             manager = _manager;
             fileManager = _fileManager;
+            _appEnvironment = appEnvironment;
         }
         public ActionResult Index()
         {            
             return View();
         }
+
         [Authorize(Roles ="Admin")]
         [HttpGet]
         public ActionResult FindData()
@@ -43,43 +52,27 @@ namespace SCore.WEB.Controllers
         [HttpPost]
         public ActionResult FindData(DateTime? from, DateTime? to, string search)
         {
-            if (from != null || to != null)
-            {
-               var orders= service.FindByDate(from,to);
-                return View(orders);
-            }
-            if (search != null)
-            {
-                var orders = service.FindByUser(search);
-                return View(orders);
-            }
-            return View();
+            ViewBag.From = from;
+            ViewBag.To = to;
+            ViewBag.Search = search;
+            var orders = service.Search(from,to,search);
+            return View(orders);
         }
 
         public FileResult ExportToExcel(DateTime? from, DateTime? to, string search)
         {
-            DataTable dataTable = new DataTable("Grid");
-            dataTable.Columns.AddRange(new DataColumn[3]
-            {
-                new DataColumn("User"),
-                new DataColumn("OrderId"),
-                new DataColumn("Order time"),
-            });
-            var orders = from != null && to!=null? service.FindByDate(from, to):search!=null? service.FindByUser(search):orderService.GetAll();
-            foreach (var order in orders)
-            {
-                dataTable.Rows.Add(order.User.UserName, order.OrderId, order.TimeOfOrder);
-            }
-            using(XLWorkbook wb = new XLWorkbook())
-            {
-                wb.Worksheets.Add(dataTable);
-                using(MemoryStream stream = new MemoryStream())
+                using (MemoryStream stream = new MemoryStream())
                 {
+                    var wb = service.ExportToExcel(from,to,search);
                     wb.SaveAs(stream);
                     return File(stream.ToArray(), "application/vnd.orenxmlformats-officedocument.spreadsheetml.sheet", "Grid.xlsx");
                 }
-            }
         }
-        
+
+        public async Task<IActionResult> SendEmailAsync(DateTime? from, DateTime? to, string search)
+        {
+            await service.SendByEmail(from, to, search);
+            return RedirectToAction("FindData", "Home");
+        }
     }
 }

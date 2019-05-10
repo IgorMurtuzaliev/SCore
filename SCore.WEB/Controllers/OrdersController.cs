@@ -120,6 +120,11 @@ namespace SCore.WEB.Controllers
                 order.UserId = id;
                 order.User = await userManager.FindByIdAsync(id);
                 order.ProductOrders = cart.Lines.ToArray();
+                order.Sum= 0;
+                foreach(var line in cart.Lines)
+                {
+                    order.Sum += line.Product.Price * line.Amount;
+                }
                 orderService.SaveOrder(order);
                 return RedirectToAction(nameof(Completed));
            }

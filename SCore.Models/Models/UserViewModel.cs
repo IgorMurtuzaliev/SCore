@@ -16,7 +16,7 @@ namespace SCore.Models.Models
 
         [Required]
         public string Email { get; set; }
-        public byte[] CurrentAvatar { get; set; }
+        public string CurrentAvatar { get; set; }
         public IFormFile Avatar { get; set; }
     }
 }

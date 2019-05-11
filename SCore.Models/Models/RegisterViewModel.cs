@@ -22,7 +22,7 @@ namespace SCore.Models.Models
         [Compare("Password", ErrorMessage = "Пароли не совпадают")]
         [DataType(DataType.Password)]
         public string PasswordConfirm { get; set; }
-        public byte[] CurrentAvatar { get; set; }
+        public string CurrentAvatar { get; set; }
         public IFormFile Avatar { get; set; } 
     }
 }

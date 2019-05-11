@@ -1,8 +1,15 @@
-﻿using SCore.BLL.Interfaces;
+﻿
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using SCore.BLL.Interfaces;
+using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
+using SCore.Models.Entities;
 using SCore.Models.Models;
+using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace SCore.BLL.Services
 {
@@ -10,10 +17,14 @@ namespace SCore.BLL.Services
     {
         IUnitOfWork db { get; set; }
         private readonly IFileManager _fileManager;
-        public ProductService(IUnitOfWork _db,IFileManager fileManager)
+        private readonly ApplicationDbContext context;
+        IHostingEnvironment _appEnvironment;
+        public ProductService(IUnitOfWork _db,IFileManager fileManager, IConfiguration config, ApplicationDbContext _context, IHostingEnvironment appEnvironment)
         {
             db = _db;
             _fileManager = fileManager;
+            _appEnvironment = appEnvironment;
+            context = _context;
         }
 
         public void Create(ProductViewModel model)
@@ -28,6 +39,19 @@ namespace SCore.BLL.Services
             };
             db.Products.Create(product);
             db.Products.Save();
+            foreach(var file in model.Images)
+            {
+                    string path = "/Files/" + file.FileName;
+                using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                {
+                   file.CopyToAsync(fileStream);
+                }
+                 FileModel newfile = new FileModel { Name = file.FileName, Path = path, ProductId = product.ProductId};
+                context.Files.Add(newfile);
+                context.SaveChanges();
+
+                product.Files.Add(newfile);
+            }         
         }
 
         public Product Get(int id)

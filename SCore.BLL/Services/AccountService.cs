@@ -30,14 +30,7 @@ namespace SCore.BLL.Services
             User user = new User { Email = model.Email, UserName = model.Email,Name = model.Name, LastName = model.LastName };
             if (model.Avatar != null)
             {
-                byte[] imageData = null;
-                // считываем переданный файл в массив байтов
-                using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
-                {
-                    imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
-                }
-                // установка массива байтов
-                user.Avatar = imageData;
+                user.Avatar = _fileManager.SaveImage(model.Avatar);
             }
             IdentityResult result = await _userManager.CreateAsync(user, model.Password);
 
@@ -48,7 +41,7 @@ namespace SCore.BLL.Services
                 var callbackurl = new StringBuilder("https://").AppendFormat(url).AppendFormat("/Account/ConfirmEmail").AppendFormat($"?userId={user.Id}&code={encode}");
                 await _emailSender.SendEmailAsync(user.Email, "Тема письма", $"Please confirm your account by <a href='{callbackurl}'>clicking here</a>.");
                 await _signInManager.SignInAsync(user, false);
-                await _userManager.AddToRoleAsync( user,"User");
+                await _userManager.AddToRoleAsync( user,"Admin");
             }
             return result;
         }

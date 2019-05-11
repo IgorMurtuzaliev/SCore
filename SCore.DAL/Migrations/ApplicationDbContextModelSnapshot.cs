@@ -144,7 +144,11 @@ namespace SCore.DAL.Migrations
 
                     b.Property<string>("Path");
 
+                    b.Property<int>("ProductId");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
 
                     b.ToTable("Files");
                 });
@@ -217,7 +221,7 @@ namespace SCore.DAL.Migrations
 
                     b.Property<int>("AccessFailedCount");
 
-                    b.Property<byte[]>("Avatar");
+                    b.Property<string>("Avatar");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
@@ -320,6 +324,14 @@ namespace SCore.DAL.Migrations
                     b.HasOne("SCore.Models.User")
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("SCore.Models.Entities.FileModel", b =>
+                {
+                    b.HasOne("SCore.Models.Product", "Product")
+                        .WithMany("Files")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 

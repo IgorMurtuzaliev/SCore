@@ -35,6 +35,7 @@ namespace SCore.WEB.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
+
         {
             
             if (ModelState.IsValid)

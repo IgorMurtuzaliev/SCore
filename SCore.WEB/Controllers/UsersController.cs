@@ -79,16 +79,9 @@ namespace SCore.WEB.Controllers
             user.LastName = model.LastName;
             user.Email = model.Email;
             if (model.Avatar == null) user.Avatar = model.CurrentAvatar;
-            else
+            if (model.Avatar != null)
             {
-                byte[] imageData = null;
-                // считываем переданный файл в массив байтов
-                using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
-                {
-                    imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
-                }
-                // установка массива байтов
-                user.Avatar = imageData;
+                user.Avatar =  fileManager.SaveImage(model.Avatar);
             }
             if (ModelState.IsValid)
             {

@@ -15,7 +15,6 @@ namespace SCore.Models.Models
 
         public string Description { get; set; }
 
-        public DateTime Date { get; set; } = DateTime.Now;
-        public IFormFileCollection Images { get; set; }
+        public List<IFormFile> Images { get; set; }
     }
 }

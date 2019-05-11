@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
 using SCore.Models;
@@ -11,11 +12,12 @@ namespace SCore.WEB.Controllers
     {
         private readonly IUserService userService;
         private readonly IFileManager fileManager;
-        public UsersController(IUserService _userService, IFileManager _fileManager)
+        private readonly UserManager<User> userManager;
+        public UsersController(IUserService _userService, IFileManager _fileManager, UserManager<User> _userManager)
         {
             userService = _userService;
             fileManager = _fileManager;
-
+            userManager = _userManager;
         }
         [Authorize(Roles = "Admin")]
         public ActionResult Index()
@@ -50,7 +52,7 @@ namespace SCore.WEB.Controllers
 
             return View(user);
         }
-        [Authorize(Roles = "Admin")]
+
         public ActionResult Edit(string id)
         {
             var user = userService.Get(id);
@@ -58,25 +60,24 @@ namespace SCore.WEB.Controllers
             {
                 return NotFound();
             }
-            return View(new RegisterViewModel
+            return View(new UserViewModel
             {
+                Id=user.Id,
                 Name = user.Name,
                 LastName = user.LastName,
                 Email = user.Email,
-                CurrentAvatar = user.Avatar
+                CurrentAvatar = user.Avatar,           
             });
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
-        public ActionResult Edit(RegisterViewModel model)
+        public ActionResult Edit(UserViewModel model)
         {
-            User user = new User
-            {
-                Name = model.Name,
-                LastName = model.LastName,
-                Email = model.Email,
-            };
+            var user = userService.Get(model.Id);
+            if (user == null) return NotFound();
+            user.Name = model.Name;
+            user.LastName = model.LastName;
+            user.Email = model.Email;
             if (model.Avatar == null) user.Avatar = model.CurrentAvatar;
             else
             {
@@ -92,7 +93,7 @@ namespace SCore.WEB.Controllers
             if (ModelState.IsValid)
             {
                 userService.Edit(user);
-                return RedirectToAction("Index");
+                return RedirectToAction("GetUsersAccount", "Account", new { id = userManager.GetUserId(User) });
             }
             return RedirectToAction("Index","Home");
         }

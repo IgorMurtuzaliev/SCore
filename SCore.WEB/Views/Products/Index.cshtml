@@ -62,13 +62,14 @@
                 }
                 @if (User.IsInRole("User"))
                 {
-                    <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Products" asp-route-id="@item.ProductId">
-                        Details
-                    </a>
+
                     <a class="btn btn-outline-primary" asp-action="AddToCart" asp-controller="Cart" asp-route-productId="@item.ProductId">
                         Add to cart
                     </a>
                 }
+                <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Products" asp-route-id="@item.ProductId">
+                    Details
+                </a>
             </td>
         </tr>
     }

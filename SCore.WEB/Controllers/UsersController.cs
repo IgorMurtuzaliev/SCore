@@ -2,8 +2,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.Models;
 using SCore.Models.Models;
+using SCore.WEB.ViewModels;
 using System.IO;
 
 namespace SCore.WEB.Controllers
@@ -73,16 +75,16 @@ namespace SCore.WEB.Controllers
         [HttpPost]
         public ActionResult Edit(UserViewModel model)
         {
-            var user = userService.Get(model.Id);
-            if (user == null) return NotFound();
-            user.Name = model.Name;
-            user.LastName = model.LastName;
-            user.Email = model.Email;
-            if (model.Avatar == null) user.Avatar = model.CurrentAvatar;
-            if (model.Avatar != null)
+
+            var user = new UserModel
             {
-                user.Avatar =  fileManager.SaveImage(model.Avatar);
-            }
+                Avatar = model.Avatar,
+                CurrentAvatar = model.CurrentAvatar,
+                Email = model.Email,
+                Id = model.Id,
+                LastName = model.LastName,
+                Name = model.Name
+            };
             if (ModelState.IsValid)
             {
                 userService.Edit(user);

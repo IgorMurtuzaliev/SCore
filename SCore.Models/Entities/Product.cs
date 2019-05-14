@@ -31,6 +31,8 @@ namespace SCore.Models
         [Display(Name = "Date")]
         [DataType(DataType.DateTime)]
         public DateTime Date { get; set; } = DateTime.Now;
+
+        [JsonIgnore]
         public virtual List<FileModel> Files { get; set; }
         [XmlIgnore]
         [JsonIgnore]

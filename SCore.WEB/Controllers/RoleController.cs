@@ -31,7 +31,7 @@ namespace SCore.WEB.Controllers
         {
             if (ModelState.IsValid)
             {
-                var createRole = new CreateRoleModel { Name = model.Name };
+               var createRole = new CreateRoleModel { Name = model.Name };
                var result = await _rolesService.Create(createRole);
                 if (result.Succeeded)
                 {

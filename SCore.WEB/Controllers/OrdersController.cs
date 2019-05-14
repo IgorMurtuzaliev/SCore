@@ -9,6 +9,7 @@ using SCore.BLL.Models;
 using SCore.DAL.EF;
 using SCore.Models;
 using SCore.Models.Models;
+using SCore.WEB.ViewModels;
 
 namespace SCore.WEB.Controllers
 {
@@ -43,7 +44,6 @@ namespace SCore.WEB.Controllers
         [Authorize(Roles = "User")]
         public ActionResult Create()
         {
-            ViewBag.UserId = new SelectList(db.Users, "Id", "Name");
             ViewBag.ProductId = new SelectList(db.Products, "ProductId", "Name");
             return View();
         }
@@ -52,9 +52,17 @@ namespace SCore.WEB.Controllers
         [Authorize(Roles = "User")]
         public ActionResult Create(OrderViewModel orderVM)
         {
+            var order = new OrderModel
+            {
+                Amount = orderVM.Amount,
+                OrderId = orderVM.OrderId,
+                ProductId = orderVM.ProductId,
+                TimeOfOrder = orderVM.TimeOfOrder,
+                UserId = userManager.GetUserId(User)
+            };
             if (ModelState.IsValid)
             {
-                orderService.Create(orderVM);
+                orderService.Create(order);
 
                 return RedirectToAction("Index");
             }

@@ -27,7 +27,7 @@ namespace SCore.DAL.Repositories
 
         public void Delete(string id)
         {
-             User user = db.Users.Find(id);
+            User user = db.Users.Find(id);
             if (user != null)
                 db.Users.Remove(user);
         }

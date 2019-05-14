@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.Models;
-using SCore.Models.Models;
-using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
@@ -25,7 +24,7 @@ namespace SCore.BLL.Services
             _fileManager = fileManager;
         }
 
-        public async Task<IdentityResult> Create(RegisterViewModel model, string url)
+        public async Task<IdentityResult> Create(RegisterModel model, string url)
         {
             User user = new User { Email = model.Email, UserName = model.Email,Name = model.Name, LastName = model.LastName };
             if (model.Avatar != null)
@@ -33,7 +32,6 @@ namespace SCore.BLL.Services
                 user.Avatar = _fileManager.SaveImage(model.Avatar);
             }
             IdentityResult result = await _userManager.CreateAsync(user, model.Password);
-
             if (result.Succeeded)
             {
                 string code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -45,10 +43,8 @@ namespace SCore.BLL.Services
             }
             return result;
         }
-
-        
-
-        public async Task<SignInResult> LogIn(LoginViewModel model)
+    
+        public async Task<SignInResult> LogIn(LoginModel model)
         {
             SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, true, false);
             return result;
@@ -65,7 +61,7 @@ namespace SCore.BLL.Services
            return _signInManager.SignOutAsync();
            
         }
-
+        
     }
     
 }

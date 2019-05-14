@@ -2,11 +2,12 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
 using SCore.Models.Entities;
-using SCore.Models.Models;
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,7 +20,7 @@ namespace SCore.BLL.Services
         private readonly IFileManager _fileManager;
         private readonly ApplicationDbContext context;
         IHostingEnvironment _appEnvironment;
-        public ProductService(IUnitOfWork _db,IFileManager fileManager, IConfiguration config, ApplicationDbContext _context, IHostingEnvironment appEnvironment)
+        public ProductService(IUnitOfWork _db, IFileManager fileManager, IConfiguration config, ApplicationDbContext _context, IHostingEnvironment appEnvironment)
         {
             db = _db;
             _fileManager = fileManager;
@@ -27,7 +28,7 @@ namespace SCore.BLL.Services
             context = _context;
         }
 
-        public void Create(ProductViewModel model)
+        public void Create(ProductModel model)
         {
             Product product = new Product
             {
@@ -41,7 +42,7 @@ namespace SCore.BLL.Services
             db.Products.Save();
             foreach(var file in model.Images)
             {
-                    string path = "/Files/" + file.FileName;
+                string path = "/Files/" + file.FileName;
                 using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
                 {
                    file.CopyToAsync(fileStream);
@@ -70,8 +71,16 @@ namespace SCore.BLL.Services
             return db.Products.GetAll();
         }
 
-        public void Edit(Product product)
+        public void Edit(ProductModel model)
         {
+            Product product = new Product
+            {
+                ProductId = model.ProductId,
+                Date = model.Date,
+                Description = model.Description,
+                Name = model.Name,
+                Price = model.Price
+            };
             db.Products.Edit(product);
             db.Products.Save();
         }

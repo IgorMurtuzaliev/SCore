@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
-using SCore.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,12 +22,14 @@ namespace SCore.BLL.Services
             userManager = _userManager;
             context = _context;
         }
-        public void Create(OrderViewModel orderVM)
+        public void Create(OrderModel orderVM)
         {
             var order = new Order
             {
                 UserId = orderVM.UserId,
-                TimeOfOrder = DateTime.Now
+                TimeOfOrder = DateTime.Now,
+                Sum = 0
+               
             };
 
             var orderproduct = new ProductOrder
@@ -35,10 +37,10 @@ namespace SCore.BLL.Services
                 ProductId = orderVM.ProductId,
                 Amount = orderVM.Amount,
             };
-
             order.ProductOrders.Add(orderproduct);
             db.Orders.Create(order);
             db.Save();
+
         }
 
         public Order Get(int id)
@@ -75,8 +77,8 @@ namespace SCore.BLL.Services
             context.AttachRange(order.ProductOrders.Select(l => l.Product));
             if (order.OrderId == 0)
             {
-                context.Orders.Add(order);
-                context.SaveChanges();
+                db.Orders.Create(order);
+                db.Save();
             }
             
         }

@@ -24,7 +24,6 @@ namespace SCore.DAL.Repositories
         public void Delete(int? id)
         {
             Order order = db.Orders.Find(id);
-           // CartLine line = db.Lines.FirstOrDefault(c => c.OrderId == order.OrderId);
             if (order != null)
             {
                 foreach(var item in order.ProductOrders)

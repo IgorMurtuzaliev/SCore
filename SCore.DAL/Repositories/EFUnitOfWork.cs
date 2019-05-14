@@ -1,6 +1,7 @@
 ﻿using SCore.DAL.EF;
 using SCore.DAL.Interfaces;
 using SCore.Models;
+using SCore.Models.Entities;
 using System;
 
 namespace SCore.DAL.Repositories
@@ -12,6 +13,7 @@ namespace SCore.DAL.Repositories
         private OrderRepository orderRepository;
         private ProductRepository productRepository;
         private ProductOrderRepository productOrderRepository;
+        private FileRepository fileRepository;
 
         public EFUnitOfWork(ApplicationDbContext context)
         {
@@ -53,6 +55,15 @@ namespace SCore.DAL.Repositories
                 if (productOrderRepository == null)
                     productOrderRepository = new ProductOrderRepository(db);
                 return productOrderRepository;
+            }
+        }
+        public IRepository<FileModel> Files
+        {
+            get
+            {
+                if (fileRepository == null)
+                    fileRepository = new FileRepository(db);
+                return fileRepository;
             }
         }
         public void Save()

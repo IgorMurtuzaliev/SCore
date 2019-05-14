@@ -1,4 +1,5 @@
 ﻿using SCore.Models;
+using SCore.Models.Entities;
 
 namespace SCore.DAL.Interfaces
 {
@@ -7,6 +8,7 @@ namespace SCore.DAL.Interfaces
         IRepository<User> Users { get; }
         IRepository<Product> Products { get; }
         IRepository<Order> Orders { get; }
+        IRepository<FileModel> Files { get; }
         void Save();
         void Dispose(bool disposing);
     }

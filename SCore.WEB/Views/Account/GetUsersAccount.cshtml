@@ -4,81 +4,119 @@
     ViewBag.Title = "Details";
 }
 
-<h4>My page</h4>
 
-<div>
-    <hr />
-    <dl class="dl-horizontal">
-        @if (!String.IsNullOrEmpty(Model.Avatar))
-        {
-            var image_path = $"/Image/{Model.Avatar}";
-            <img src="@image_path" class=" img" style="display: block; margin: 0 auto; width:500px;max-width:100%" />
-        }
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
+    <div class="container emp-profile">
+        <h4>My page</h4>
+        <br />
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        @if (!String.IsNullOrEmpty(Model.Avatar))
+                        {
+                            var image_path = $"/Image/{Model.Avatar}";
+                            <img src="@image_path" class=" img" style="display: block; margin: 0 auto; width:500px;max-width:100%" />
+                        }
+                        else
+                        {
+                            <img src="https://cdn4.iconfinder.com/data/icons/social-communication/142/add_photo-512.png" alt="" style="display: block; margin: 0 auto; width:500px;max-width:100%" />
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                        <h5>
+                            @Html.DisplayFor(model => model.Name)
+                        </h5>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            @if (User.IsInRole("User"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My orders</a>
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                            </li>
 
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Users" asp-route-Id="@Model.Id">
+                        Edit
+                    </a>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LastName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.DateOfRegister)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.DateOfRegister)
-        </dd>
-
-    </dl>
-</div>
-<table class="table">
-    <tr>
-            <th>
-                @Html.DisplayName("Orders Id")
-            </th>
-            <th>
-                @Html.DisplayName("Time of order")
-            </th>
-            <th></th>
-    </tr>
-    @foreach (var item in Model.Orders)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TimeOfOrder)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", "Orders", new { id = item.OrderId }) |
-                @Html.ActionLink("Details", "Details", "Orders", new { id = item.OrderId }) |
-                @Html.ActionLink("Delete", "Delete", "Orders", new { id = item.OrderId })
-            </td>
-        </tr>
-    }
-
-</table>
-<p>
-    <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Users" asp-route-Id="@Model.Id">
-        Edit
-    </a>
-
-</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active card" id="home" role="tabpanel" aria-labelledby="home-tab" style="margin-top: 25px">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </div>
+                                <div class="col-md-6">
+                                    @Html.DisplayFor(model => model.Name)
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    @Html.DisplayNameFor(model => model.LastName)
+                                </div>
+                                <div class="col-md-6">
+                                    @Html.DisplayFor(model => model.LastName)
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    @Html.DisplayNameFor(model => model.Email)
+                                </div>
+                                <div class="col-md-6">
+                                    @Html.DisplayFor(model => model.Email)
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    @Html.DisplayNameFor(model => model.DateOfRegister)
+                                </div>
+                                <div class="col-md-6">
+                                    @Html.DisplayFor(model => model.DateOfRegister)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <table class="table">
+                                <tr>
+                                    <th>
+                                        @Html.DisplayName("Orders Id")
+                                    </th>
+                                    <th>
+                                        @Html.DisplayName("Time of order")
+                                    </th>
+                                    <th></th>
+                                </tr>
+                                @foreach (var item in Model.Orders)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.OrderId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TimeOfOrder)
+                                        </td>
+                                        <td>
+                                            @Html.ActionLink("Edit", "Edit", "Orders", new { id = item.OrderId }) |
+                                            @Html.ActionLink("Details", "Details", "Orders", new { id = item.OrderId }) |
+                                            @Html.ActionLink("Delete", "Delete", "Orders", new { id = item.OrderId })
+                                        </td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>

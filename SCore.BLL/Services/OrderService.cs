@@ -28,8 +28,7 @@ namespace SCore.BLL.Services
             {
                 UserId = orderVM.UserId,
                 TimeOfOrder = DateTime.Now,
-                Sum = 0
-               
+                Sum=0
             };
 
             var orderproduct = new ProductOrder
@@ -38,8 +37,10 @@ namespace SCore.BLL.Services
                 Amount = orderVM.Amount,
             };
             order.ProductOrders.Add(orderproduct);
+            Product product = db.Products.Get(orderproduct.ProductId);
+            order.Sum += product.ProductId * orderproduct.Amount;
             db.Orders.Create(order);
-            db.Save();
+             db.Save();
 
         }
 

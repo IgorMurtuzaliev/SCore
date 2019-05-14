@@ -58,7 +58,7 @@ namespace SCore.WEB.Controllers
                 OrderId = orderVM.OrderId,
                 ProductId = orderVM.ProductId,
                 TimeOfOrder = orderVM.TimeOfOrder,
-                UserId = userManager.GetUserId(User)
+                UserId = userManager.GetUserId(User),
             };
             if (ModelState.IsValid)
             {

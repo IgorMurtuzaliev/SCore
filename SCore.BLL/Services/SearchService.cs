@@ -36,8 +36,17 @@ namespace SCore.BLL.Services
         {
             return context.Orders.Where(p => p.User.Name.Contains(search) || p.User.LastName.Contains(search) || p.User.UserName.Contains(search)).ToList();
         }
+        public List<Order> FindByAll(string search, DateTime? from, DateTime? to)
+        {
+            return context.Orders.Where(p => p.User.Name.Contains(search) || p.User.LastName.Contains(search) || p.User.UserName.Contains(search)).Where(c => c.TimeOfOrder > from && c.TimeOfOrder < to).ToList();
+        }
         public List<Order> Search(DateTime? from, DateTime? to, string search)
         {
+            if ((from != null || to != null) && search != null)
+            {
+                var orders = FindByAll(search, from, to);
+                return orders;
+            }
             if (from != null || to != null)
             {
                 var orders = FindByDate(from,to);
@@ -48,6 +57,7 @@ namespace SCore.BLL.Services
                 var orders = FindByUser(search);
                 return orders;
             }
+            
             return orderService.GetAll().ToList();
         }
 
@@ -78,6 +88,10 @@ namespace SCore.BLL.Services
             {
 
                 sheet.Cell(2, 1).Value = $"Report of orders by search: {search}";
+            }
+            else if((from != null && to != null&& search!= null))
+             {
+                sheet.Cell(2, 1).Value = $"Report of orders by search: {search} by date: with {from} to {to}";
             }
             else sheet.Cell(2, 1).Value = "Report of total orders";
             var tableWithData = sheet.Cell(3, 1).InsertTable(dataTable);

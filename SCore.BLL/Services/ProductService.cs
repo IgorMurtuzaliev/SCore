@@ -28,7 +28,7 @@ namespace SCore.BLL.Services
             context = _context;
         }
 
-        public void Create(ProductModel model)
+        public async void Create(ProductModel model)
         {
             Product product = new Product
             {
@@ -45,12 +45,11 @@ namespace SCore.BLL.Services
                 string path = "/Files/" + file.FileName;
                 using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
                 {
-                   file.CopyToAsync(fileStream);
+                  await file.CopyToAsync(fileStream);
                 }
                  FileModel newfile = new FileModel { Name = file.FileName, Path = path, ProductId = product.ProductId};
                 context.Files.Add(newfile);
                 context.SaveChanges();
-
                 product.Files.Add(newfile);
             }         
         }

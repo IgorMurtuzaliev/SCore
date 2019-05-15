@@ -16,6 +16,6 @@ namespace SCore.BLL.Models
         public string Description { get; set; }
 
         public DateTime Date { get; set; } = DateTime.Now;
-        public virtual List<IFormFile> Images { get; set; }
+        public virtual IFormFileCollection Images { get; set; }
     }
 }

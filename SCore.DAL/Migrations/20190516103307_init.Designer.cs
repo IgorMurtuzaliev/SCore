@@ -10,7 +10,7 @@ using SCore.DAL.EF;
 namespace SCore.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190511104507_init")]
+    [Migration("20190516103307_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

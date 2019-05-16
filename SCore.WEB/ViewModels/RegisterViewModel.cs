@@ -1,6 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System;
+using System.ComponentModel.DataAnnotations;
 
-namespace SCore.Models.Models
+namespace SCore.WEB.ViewModels
 {
     public class RegisterViewModel
     {
@@ -20,5 +22,7 @@ namespace SCore.Models.Models
         [Compare("Password", ErrorMessage = "Пароли не совпадают")]
         [DataType(DataType.Password)]
         public string PasswordConfirm { get; set; }
+        public string CurrentAvatar { get; set; }
+        public IFormFile Avatar { get; set; } 
     }
 }

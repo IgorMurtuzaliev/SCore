@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
+using SCore.Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Serialization;
 
 namespace SCore.Models
@@ -29,6 +31,9 @@ namespace SCore.Models
         [Display(Name = "Date")]
         [DataType(DataType.DateTime)]
         public DateTime Date { get; set; } = DateTime.Now;
+
+        [JsonIgnore]
+        public virtual List<FileModel> Files { get; set; }
         [XmlIgnore]
         [JsonIgnore]
         public virtual ICollection<ProductOrder> ProductOrders { get; set; }

@@ -44,7 +44,8 @@ namespace SCore.DAL.Migrations
                     AccessFailedCount = table.Column<int>(nullable: false),
                     Name = table.Column<string>(nullable: false),
                     LastName = table.Column<string>(nullable: false),
-                    DateOfRegister = table.Column<DateTime>(nullable: false)
+                    DateOfRegister = table.Column<DateTime>(nullable: false),
+                    Avatar = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -180,7 +181,8 @@ namespace SCore.DAL.Migrations
                     OrderId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     TimeOfOrder = table.Column<DateTime>(nullable: false),
-                    UserId = table.Column<string>(nullable: true)
+                    UserId = table.Column<string>(nullable: true),
+                    Sum = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -194,30 +196,24 @@ namespace SCore.DAL.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Lines",
+                name: "Files",
                 columns: table => new
                 {
-                    CartLineId = table.Column<int>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    ProductId = table.Column<int>(nullable: true),
-                    Quantity = table.Column<int>(nullable: false),
-                    OrderId = table.Column<int>(nullable: true)
+                    Name = table.Column<string>(nullable: true),
+                    Path = table.Column<string>(nullable: true),
+                    ProductId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Lines", x => x.CartLineId);
+                    table.PrimaryKey("PK_Files", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Lines_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "OrderId",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Lines_Products_ProductId",
+                        name: "FK_Files_Products_ProductId",
                         column: x => x.ProductId,
                         principalTable: "Products",
                         principalColumn: "ProductId",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -287,13 +283,8 @@ namespace SCore.DAL.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Lines_OrderId",
-                table: "Lines",
-                column: "OrderId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Lines_ProductId",
-                table: "Lines",
+                name: "IX_Files_ProductId",
+                table: "Files",
                 column: "ProductId");
 
             migrationBuilder.CreateIndex(
@@ -330,7 +321,7 @@ namespace SCore.DAL.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Lines");
+                name: "Files");
 
             migrationBuilder.DropTable(
                 name: "ProductOrders");

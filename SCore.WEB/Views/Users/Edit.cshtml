@@ -1,4 +1,4 @@
-﻿@model SCore.Models.User
+﻿@model SCore.WEB.ViewModels.UserViewModel
 
 @{
     ViewBag.Title = "Edit";
@@ -7,14 +7,12 @@
 <h4>Edit users data</h4>
 
 
-@using (Html.BeginForm())
-{
+<form asp-controller="Users" asp-action="Edit" method="post" enctype="multipart/form-data">
     <div class="form-horizontal">
         <h4>User</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.HiddenFor(model => model.Id)
-
+        <input asp-for="Id" type="hidden" />
         <div class="form-group">
             @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -38,7 +36,8 @@
                 @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
             </div>
         </div>
-
+        <input asp-for="CurrentAvatar" type="hidden" />
+        <input asp-for="Avatar" />
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
@@ -46,10 +45,4 @@
             </div>
         </div>
     </div>
-}
-
-<div>
-    <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Users" asp-route-productId="@Model.Id">
-        Back to List
-    </a>
-</div>
+</form>

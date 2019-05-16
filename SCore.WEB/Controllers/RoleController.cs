@@ -15,23 +15,23 @@ namespace SCore.WEB.Controllers
             _rolesService = rolesService;
 
         }
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
             return View(_rolesService.GetAll());
         }
-        [Authorize(Roles = "Admin")]
+       // [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
         }
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+       // [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Create(RoleViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var createRole = new CreateRoleModel { Name = model.Name };
+               var createRole = new CreateRoleModel { Name = model.Name };
                var result = await _rolesService.Create(createRole);
                 if (result.Succeeded)
                 {
@@ -44,14 +44,14 @@ namespace SCore.WEB.Controllers
             }
             return View(model);
         }
-        [Authorize(Roles = "Admin")]
+      //  [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Edit(string id)
         {
             await _rolesService.Edit(id);
             return View();
         }
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<ActionResult> Edit(RoleViewModelEdit model)
         {
             if (ModelState.IsValid)
@@ -69,7 +69,7 @@ namespace SCore.WEB.Controllers
             }
             return View(model);
         }
-        [Authorize(Roles = "Admin")]
+       // [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Delete(string id)
         {
             await _rolesService.Delete(id);

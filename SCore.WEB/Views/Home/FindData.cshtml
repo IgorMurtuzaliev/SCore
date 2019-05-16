@@ -5,21 +5,25 @@
 
 <h4>Report</h4>
 
-<form asp-action="FindData">
+<form  method="post" action="FindData">
     <div class="row input-group">
         <input type="text" name="search" id="search" class="form-control" />
+        <input type="date" value="from" name="from" />
+        <input type="date" value="to" name="to" />
         <div class="input-group-btn">
             <input type="submit" value="Search" class="btn btn-primary" />
         </div>
     </div>
-
-</form>
-<form method="post" action="" style="margin-top:25px">
-    <input type="date" value="from" name="from" />
-    <input type="date" value="to" name="to" />
-    <input type="submit" value="Отправить" />
 </form>
 
+<div style="margin-top:25px">
+    <a class="btn btn-outline-primary" asp-action="ExportToExcel" asp-controller="Home" asp-route-from="@ViewBag.From" asp-route-to="@ViewBag.To" asp-route-search="@ViewBag.Search">
+        Export
+    </a>
+    <a class="btn btn-outline-primary" asp-action="SendEmailAsync" asp-controller="Home" asp-route-from="@ViewBag.From" asp-route-to="@ViewBag.To" asp-route-search="@ViewBag.Search">
+        Send to email
+    </a>
+</div>
 <table class="table">
     <tr>
         <th>
@@ -28,20 +32,27 @@
         <th>
             @Html.DisplayNameFor(model => model.TimeOfOrder)
         </th>
+         <th>
+            @Html.DisplayNameFor(model => model.Sum)
+        </th>
         <th></th>
     </tr>
-
+    
     @foreach (var item in Model)
     {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.UserName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TimeOfOrder)
-            </td>
-            <td></td>
-        </tr>
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.User.UserName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TimeOfOrder)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Sum)
+    </td>
+    <td></td>
+</tr>
     }
-
+    
+   
 </table>

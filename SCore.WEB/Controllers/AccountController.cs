@@ -6,8 +6,10 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.Models;
 using SCore.Models.Models;
+using SCore.WEB.ViewModels;
 
 namespace SCore.WEB.Controllers
 {
@@ -35,16 +37,24 @@ namespace SCore.WEB.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
-        {
-            
+
+        {         
             if (ModelState.IsValid)
             {
-
-                IdentityResult result = await service.Create(model, HttpContext.Request.Host.ToString());
+                var register = new RegisterModel
+                {
+                    Name = model.Name,
+                    LastName = model.LastName,
+                    Avatar = model.Avatar,
+                    CurrentAvatar = model.CurrentAvatar,
+                    Email = model.Email,
+                    Password = model.Password,
+                    PasswordConfirm = model.PasswordConfirm
+                };
+                IdentityResult result = await service.Create(register, HttpContext.Request.Host.ToString());
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
-                    
+                    return RedirectToAction("Index", "Home");                
                 }
             }
             return View(model);
@@ -72,10 +82,10 @@ namespace SCore.WEB.Controllers
         [HttpPost]
         public async Task<IActionResult> LogIn(LoginViewModel model)
         {
+            var login = new LoginModel { Email = model.Email, Password = model.Password };
             if (ModelState.IsValid)
             {
-                var result = await service.LogIn(model);
-
+                var result = await service.LogIn(login);
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index", "Home");
@@ -105,7 +115,6 @@ namespace SCore.WEB.Controllers
         public async Task<IActionResult> HandleExternalLogin()
         {
             var info = await signInManager.GetExternalLoginInfoAsync();
-
             var result = await signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false);
 
             if (!result.Succeeded) //user does not exist yet
@@ -135,13 +144,12 @@ namespace SCore.WEB.Controllers
         }
         public ActionResult GetUsersAccount(string id)
         {
-
             if (id == null)
             {
                 return BadRequest();
             }
             User user = userService.Get(id);
             return View(user);
-        }
+        }     
     }
 }

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.Models;
-using SCore.Models.Models;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
@@ -15,18 +15,23 @@ namespace SCore.BLL.Services
         private readonly UserManager<User> _userManager;
         private readonly IEmailSender _emailSender;
         private readonly SignInManager<User> _signInManager;
-        public AccountService(UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender)
+        private readonly IFileManager _fileManager;
+        public AccountService(UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender, IFileManager fileManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
+            _fileManager = fileManager;
         }
 
-        public async Task<IdentityResult> Create(RegisterViewModel model, string url)
+        public async Task<IdentityResult> Create(RegisterModel model, string url)
         {
-            User user = new User { Email = model.Email, UserName = model.Email,Name = model.Name, LastName = model.LastName};
+            User user = new User { Email = model.Email, UserName = model.Email,Name = model.Name, LastName = model.LastName };
+            if (model.Avatar != null)
+            {
+                user.Avatar = _fileManager.SaveImage(model.Avatar);
+            }
             IdentityResult result = await _userManager.CreateAsync(user, model.Password);
-
             if (result.Succeeded)
             {
                 string code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -34,14 +39,12 @@ namespace SCore.BLL.Services
                 var callbackurl = new StringBuilder("https://").AppendFormat(url).AppendFormat("/Account/ConfirmEmail").AppendFormat($"?userId={user.Id}&code={encode}");
                 await _emailSender.SendEmailAsync(user.Email, "Тема письма", $"Please confirm your account by <a href='{callbackurl}'>clicking here</a>.");
                 await _signInManager.SignInAsync(user, false);
-                await _userManager.AddToRoleAsync( user,"User");
+                await _userManager.AddToRoleAsync( user,"Admin");
             }
             return result;
         }
-
-        
-
-        public async Task<SignInResult> LogIn(LoginViewModel model)
+    
+        public async Task<SignInResult> LogIn(LoginModel model)
         {
             SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, true, false);
             return result;
@@ -58,7 +61,7 @@ namespace SCore.BLL.Services
            return _signInManager.SignOutAsync();
            
         }
-
+        
     }
     
 }

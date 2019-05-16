@@ -11,11 +11,11 @@ namespace SCore.WEB.Controllers
     public class CartController : Controller
     {
 
-        private IProductService repository;
+        private IProductService productService;
 
-        public CartController(IProductService repo)
+        public CartController(IProductService _productService)
         {
-            repository = repo;
+            productService = _productService;
         }
         [Authorize(Roles = "User")]
         public ViewResult Index(string returnUrl)
@@ -29,7 +29,7 @@ namespace SCore.WEB.Controllers
         [Authorize(Roles = "User")]
         public RedirectToActionResult AddToCart(int productId, string returnUrl)
         {
-            Product product = repository.Get(productId);
+            Product product = productService.Get(productId);
             if (product != null)
             {
                 Cart cart = GetCart();
@@ -42,7 +42,7 @@ namespace SCore.WEB.Controllers
         public RedirectToActionResult RemoveFromCart(int productId,
                  string returnUrl)
         {
-            Product product = repository.Get(productId);
+            Product product = productService.Get(productId);
             if (product != null)
             {
                 Cart cart = GetCart();
@@ -67,7 +67,5 @@ namespace SCore.WEB.Controllers
             Cart cart = GetCart();
             return PartialView("~/Views/Cart/_CartSummary.cshtml", cart);
         }
-
-
     }
 }

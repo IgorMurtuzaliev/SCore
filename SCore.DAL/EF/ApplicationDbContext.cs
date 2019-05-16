@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SCore.Models;
 using SCore.Models.Entities;
 
+
 namespace SCore.DAL.EF
 {
     public class ApplicationDbContext : IdentityDbContext<User>
@@ -21,5 +22,6 @@ namespace SCore.DAL.EF
         public DbSet<Order> Orders { get; set; }
         public DbSet<ProductOrder> ProductOrders { get; set; }
         public DbSet<ApplicationRole> ApplicationRoles { get; set; }
+        public DbSet<FileModel> Files { get; set; }
     }
 }

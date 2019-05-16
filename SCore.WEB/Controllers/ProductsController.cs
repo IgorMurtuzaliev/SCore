@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SCore.BLL.Interfaces;
+using SCore.BLL.Models;
 using SCore.Models;
+using SCore.Models.Models;
+using SCore.WEB.ViewModels;
 
 namespace SCore.WEB.Controllers
 {
@@ -36,14 +39,23 @@ namespace SCore.WEB.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public ActionResult Create(Product product)
+        public ActionResult Create(ProductViewModel model)
         {
+            var product = new ProductModel
+            {
+                Date = model.Date,
+                Description = model.Description,
+                Images = model.Images,
+                Name = model.Name,
+                Price = model.Price,
+                ProductId = model.ProductId
+            };
             if (ModelState.IsValid)
             {
                 productService.Create(product);
                 return RedirectToAction("Index");
             }
-            return View(product);
+            return View(model);
         }
 
         public ActionResult Edit(int id)
@@ -52,8 +64,17 @@ namespace SCore.WEB.Controllers
             return View(product);
         }
         [HttpPost]
-        public ActionResult Edit(Product product)
+        public ActionResult Edit(ProductViewModel model)
         {
+            var product = new ProductModel
+            {
+                ProductId = model.ProductId,
+                Date = model.Date,
+                Description = model.Description,
+                Name = model.Name,
+                Price = model.Price,
+
+            };
             if (ModelState.IsValid)
             {
                 productService.Edit(product);

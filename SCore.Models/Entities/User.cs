@@ -19,6 +19,7 @@ namespace SCore.Models
         [Display(Name = "Register date")]
         [DataType(DataType.DateTime)]
         public DateTime DateOfRegister { get; set; } = DateTime.Now;
+        public string Avatar { get; set; }
 
         public virtual ICollection<Order> Orders { get; set; }
         public User()

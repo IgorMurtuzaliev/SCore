@@ -53,7 +53,6 @@ namespace SCore.BLL.Services
                 new EditRoleModel { Id = role.Id, Name = role.Name };
             }
         }
-
         public IEnumerable<ApplicationRole> GetAll()
         {
            var roles = _roleManager.Roles.ToList();

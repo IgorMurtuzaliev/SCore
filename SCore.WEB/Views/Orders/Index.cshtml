@@ -19,6 +19,9 @@
         <th>
             @Html.DisplayNameFor(model => model.TimeOfOrder)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sum)
+        </th>
         <th></th>
     </tr>
 
@@ -26,26 +29,29 @@
     {
         if (item.User.UserName == User.Identity.Name)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.User.UserName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TimeOfOrder)
-                </td>
-                <td>
-                    <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Orders" asp-route-id="@item.OrderId">
-                        Edit
-                    </a>
-                    <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Orders" asp-route-id="@item.OrderId">
-                        Details
-                    </a>
-                    <a class="btn btn-outline-primary" asp-action="Delete" asp-controller="Orders" asp-route-id="@item.OrderId">
-                        Delete
-                    </a>
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.User.UserName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TimeOfOrder)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Sum)
+    </td>
+    <td>
+        <a class="btn btn-outline-primary" asp-action="Edit" asp-controller="Orders" asp-route-id="@item.OrderId">
+            Edit
+        </a>
+        <a class="btn btn-outline-primary" asp-action="Details" asp-controller="Orders" asp-route-id="@item.OrderId">
+            Details
+        </a>
+        <a class="btn btn-outline-primary" asp-action="Delete" asp-controller="Orders" asp-route-id="@item.OrderId">
+            Delete
+        </a>
 
-                </td>
-            </tr>
+    </td>
+</tr>
         }
 
     }

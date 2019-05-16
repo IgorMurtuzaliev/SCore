@@ -42391,3 +42391,51 @@ RequestTime: 05.16.2019 01:28:49.665
   StackTrace: (null) 
   ?essage: (null) 
 ---------------------------------------- 
+RequestTime: 05.16.2019 03:05:54.761  
+ Username: admin@mail.ru 
+ RequestUri: / 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.90dRwd9IQo4=CfDJ8MzGhNABp5NFrfchVuu92EwVUlfo9JT9mQ9R47EdzdkdveJ0TYOQnPSUBcbKmt85C3CSKxrhG0qbxnrnPBmOT2j8_5W79vLdyuO2893WXzq5VzpRettnEK7FtmUR6Th1NT9uogwyudWqvJKhYs40ciQ; .AspNetCore.Session=CfDJ8MzGhNABp5NFrfchVuu92ExGJu31TIf95cbA79EYced1HjxgV63SsSd%2FD4xDjHgEhfB6A3iJ2CjGiofwMhrPXOdPRoTzmg50MtlvfczrfSjLAz%2BIDbiq5JSu2QW%2FzbpV0srDN5g6fNFHo4Gy%2BsDgHgCKBgOU8KpDJw4GE5jnqutn; .AspNetCore.Identity.Application=CfDJ8MzGhNABp5NFrfchVuu92Ezce44tcrYQ_fnPXaFqDK7FFIclz0-elFupGA2G_Yui4UXZLgOfxD4ItlNVpqpsB1VCBslX6330LMCd6z9fPZnmAWdolkmiw1A6l6_MFZTZgIcN3wlttMXtCYchOxpCfZvJv0cx1wnI7IhWstty3oq_S4lggWyd1oM6sGijd9ZWl44R7EJpnOy3z_NZGHN8hXjKVqUwCHo6phpoo62sQoZSBqvRuRimacizba71LtcDssMW1rVZpcvIY8FEzSth-DexY28DVizkgBOz8Wg25ETcM7pxmoT4CCz-fPag2pQsMcaDNU6tbouW4VlT-UONdiYnB4wl0HN1BKa7iHhSEBtFRd5g-5YrHaIOKYrcmnu7w_vi9rZ3lJQelHHNgi_Dc2QbqtN7Jc7nLZSALJmDVKmAIeHPSWCep3n3xtU0IF2rrOBWri3ivUpat76szmGdtVquqzQvCXKAOnJ_F2XKNb91zVIPqalunjWQYXItvZuVbuMDJ0d4tsovQ6HsqutDPT4WbkHerXeJsp1YJxCz6Sxi14RNx4vmdZ_F3qkRtixqyiGdIZ662NadCRtZ72rTGjxhEN2WdJPQxtfDdf9RgTIaKObJHDNMIREPt3XEjlbhhjb916ClLfc9PQEOFFbpeBO39yiWlaluAk2NO4lJbngYfYsdSfE71YwDjNeWBPFpSh8ZOc2lZGmW8dS9oJADZIY], [Host, localhost:44307], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05.16.2019 03:05:54.761  
+ Username: admin@mail.ru 
+ RequestUri: / 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05.16.2019 03:05:54.898  
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05.16.2019 03:05:56.234  
+ Username: admin@mail.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: (null) 
+ Headers: {[Accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3], [Accept-Encoding, gzip, deflate, br], [Accept-Language, ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7], [Connection, close], [Cookie, .AspNet.Consent=yes; .AspNetCore.Antiforgery.90dRwd9IQo4=CfDJ8MzGhNABp5NFrfchVuu92EwVUlfo9JT9mQ9R47EdzdkdveJ0TYOQnPSUBcbKmt85C3CSKxrhG0qbxnrnPBmOT2j8_5W79vLdyuO2893WXzq5VzpRettnEK7FtmUR6Th1NT9uogwyudWqvJKhYs40ciQ; .AspNetCore.Session=CfDJ8MzGhNABp5NFrfchVuu92ExGJu31TIf95cbA79EYced1HjxgV63SsSd%2FD4xDjHgEhfB6A3iJ2CjGiofwMhrPXOdPRoTzmg50MtlvfczrfSjLAz%2BIDbiq5JSu2QW%2FzbpV0srDN5g6fNFHo4Gy%2BsDgHgCKBgOU8KpDJw4GE5jnqutn; .AspNetCore.Identity.Application=CfDJ8MzGhNABp5NFrfchVuu92EysH8_2MIOEm4IOJO-ulCx5fd-_p1Ro6pzpGVKtvU7BQM3irANHa0LYf06XQz3SvHhmSePpy2qfHcmAw09q0DJ4tH_taEOt8MvxOprTx9QkcpsEZA4dq5t_mW85iIUjx7eR1XUsIKBb9ZDRyXw-4SVP_c_xxQquiKk1c0KpwkMjtYScWIdioBoOgZv_5YIXYRTXZ_4LOsnGKQWI-J_RbgeGOmlEJEyczhLGD9Lb2W8m7vrLuUHc1EVEZeGMenHj7H9sFVQY4w9MFn7PA-xGtrGFp_jNwhGSvHu9cqIsy_2mPTBByw8xCCKOaV8od5v-9Uvbu1UJqxdj2dtrP0dIlMoxJQg2wgPfUsAopYopnMeAcNz9TDb8iRnDceA2tlhdm4QnD-NdCvH0gwUMqpuzPiEh6CN4JphgZ1KYU4ZqK_8t864GoU5C6g-xhsYtXdoEjKUptgVOfA9UPU3Q4jfLAsun4KmbN16hDPPWGmx6cQO-nCl2f9xG-heBqmG0vaxjNXIef35cESxyNgB2kfWz35HkUM1Pz_66KAU8H4isOD5QMmq019UoYjdnu6UVgnPmARzfrOw5OSUCNo8K-qcMyjayr73Ha5p480qMnuRWQh5bW_R8F8yS-j7EVjyqq1RxDYtSzft90y830ZTL0FDJc_cYNWqfnY-z3wvlvU5dT7gjO5PJ5BEjM3TuHaRK5tibBtg], [Host, localhost:44307], [Referer, https://localhost:44307/], [User-Agent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36], [upgrade-insecure-requests, 1]} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: (null) 
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 
+RequestTime: 05.16.2019 03:05:56.234  
+ Username: admin@mail.ru 
+ RequestUri: /Home/FindData 
+ StatusCode: 200 
+ Headers: {} 
+ Body: Body 
+ QueryString:  
+  HttpMethod:  
+ ResponseTime: 05.16.2019 03:05:56.333  
+  StackTrace: (null) 
+  ?essage: (null) 
+---------------------------------------- 

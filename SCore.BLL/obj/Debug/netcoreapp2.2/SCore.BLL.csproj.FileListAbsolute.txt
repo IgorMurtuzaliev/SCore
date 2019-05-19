@@ -40,3 +40,6 @@ c:\Users\ingwa\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.As
 c:\Users\ingwa\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.csproj.CopyComplete
 c:\Users\ingwa\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.dll
 c:\Users\ingwa\source\repos\SCore\SCore.BLL\obj\Debug\netcoreapp2.2\SCore.BLL.pdb
+C:\Users\User\source\repos\SCore\SCore.BLL\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\source\repos\SCore\SCore.BLL\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\User\source\repos\SCore\SCore.BLL\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.xml

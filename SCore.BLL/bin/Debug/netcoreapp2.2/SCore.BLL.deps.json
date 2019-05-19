@@ -21,7 +21,8 @@
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "MimeKit": "2.1.4",
           "SCore.DAL": "1.0.0",
-          "SCore.Models": "1.0.0"
+          "SCore.Models": "1.0.0",
+          "Microsoft.IdentityModel.Tokens": "5.3.0.0"
         },
         "runtime": {
           "SCore.BLL.dll": {}
@@ -2591,6 +2592,14 @@
         "runtime": {
           "SCore.Models.dll": {}
         }
+      },
+      "Microsoft.IdentityModel.Tokens/5.3.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          }
+        }
       }
     }
   },
@@ -4098,6 +4107,11 @@
     },
     "SCore.Models/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/5.3.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
